@@ -1,0 +1,23 @@
+analytics: UA-XXXXX-XXXXX-X
+dominio: https://partidodigital.org.uy/
+email_contacto: hola@partidodigital.org.uy
+acceso_url: https://partidodigital.auth0.com/login?client=3yqAXfyeQCu5RcrgSQUsb0M4ojdvif4N
+
+cta:
+  nombre: Dona al Partido Digital
+  link: https://finanzas.partidodigital.org.uy
+
+sass:
+  style: compressed
+  sass_dir: ./assets/styles
+  
+collections:
+  documentos:
+    output: true
+  
+defaults:
+  - scope:
+      path: ""
+      type: documentos
+    values:
+      layout: pagina

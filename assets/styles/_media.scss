@@ -1,0 +1,91 @@
+@media(min-width:768px) {
+  p {
+    margin: 35px 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+
+@media(min-width:992px) {
+  .navbar-custom {
+    padding: 40px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    @include transition(background .5s ease-in-out);
+    @include transition(padding .5s ease-in-out);
+    &.top-nav-collapse {
+      padding: 10px 0;
+      border-bottom: 1px solid #7598bf;
+      background-color: rgba(22, 55, 83, 0.93);
+    }
+  }
+}
+
+@media(max-width: 991px) {
+  .navbar-custom {
+    background-color: rgba(22, 55, 83, 0.93);
+    &.top-nav-collapse {
+      > .navbar-brand {
+        display: inline-block;
+      }
+    }
+    > .navbar-brand {
+      text-align: center;
+      top: 0.5rem;
+      position: fixed;
+      right: 5rem;
+      left: 4rem;
+      display: none;
+    }
+  }
+}
+
+@media(min-width:768px) {
+  .intro {
+    height: 100%;
+    padding: 0;
+    .intro-body {
+      .brand-heading {
+        font-size: 100px;
+      }
+      .intro-text {
+        font-size: 26px;
+      }
+    }
+  }
+
+  .content-section {
+    padding-top: 5rem;
+  }
+
+  .pagina-layout .content-section {
+    padding-top: 0;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    float: left;
+  }
+
+  .navbar-nav .nav-item {
+    float: none;
+    display: inline-block;
+  }
+
+  .content-section {
+    padding-top: 4rem;
+
+    &.separador::after {
+      margin: 3.5rem auto 0 !important;
+    }
+  }
+
+  #preguntas {
+    h4 {
+      font-size: 1.3rem;
+    }
+  }
+}

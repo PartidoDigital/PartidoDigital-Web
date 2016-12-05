@@ -1,0 +1,491 @@
+---
+# Comentario de Front matter para asegurar que Jekyll procese este archivo
+---
+
+@import "variables";
+@import "mixins";
+@import "media";
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+
+    &.pagina-layout {
+        p {
+            padding: 0 10px 10px;
+            margin: 0;
+        }
+
+        .navbar-custom {
+            a {
+                text-decoration: none;
+            }
+        }
+
+        a {
+            text-decoration: underline;
+        }
+
+        h1 {
+            padding: 15px 10px;
+            margin: 0;
+        }
+
+        h2, h3, h4, h5, h6 {
+            padding: 10px;
+            margin: 0;
+        }
+
+        .resaltar {
+            background-color: #f37021;
+            + p {
+                background-color: #f37021;
+            }
+        }
+
+        .content-section.separador::after {
+            margin: 2rem auto 2rem;
+        }
+    }
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 25px 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.alert {
+    &.alert-info{
+        a {
+            color: #f37021;
+        }
+    }
+}
+
+a {
+    color: white;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: #f37021;
+    }
+}
+
+.navbar-nav {
+    font-size: 0.8rem;
+    .nav-item+.nav-item {
+        margin-left: 0;
+    }
+
+    .nav-item:not(:last-child) {
+        margin-right: 1rem;
+    }
+
+    .nav-link svg {
+        width: 25px;
+    }
+}
+
+.navbar-custom {
+    text-transform: uppercase;
+    #acceso svg {
+        width: 28px;
+    }
+    .navbar-brand {
+        float: left;
+        height: 35px;
+        padding: 2px 0 0 10px;
+        margin-right: 0;
+        svg {
+            position: relative;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+    i:hover {
+        cursor: pointer;
+        color: #f37021;
+    }
+    a {
+        color: white;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+        &:hover {
+            svg path, svg rect {
+            fill: #f37021;
+            }
+        }
+    }
+    .navbar-collapse {
+        &.navbar-center {
+            text-align: center;
+            .navbar-nav {
+                float: none;
+                display: inline-block;
+            }
+        }
+    }
+    .nav {
+        a {
+            @include transition(background .3s ease-in-out);
+            font-weight: bold;
+            line-height: 25px;
+            &:hover {
+                color: #f37021;
+                outline: none;
+                background-color: transparent;
+            }
+            &:focus,
+            &:active {
+                outline: none;
+                background-color: transparent;
+            }
+            &.active {
+                color: #f37021;
+            }
+        }
+    }
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+    color: white;
+    background: url(../img/palacio_legislativo.jpg) center 10% no-repeat #000;
+    @include background-size(cover);
+    .intro-body {
+        display: table-cell;
+        vertical-align: middle;
+        background-color: rgba(0,0,0,0.5);
+        svg {
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+        }
+        .brand-heading {
+            font-size: 40px;
+        }
+        .intro-text {
+            font-size: 18px;
+        }
+        .extra {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            color: #5d5d5d;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            a {
+                color: #5d5d5d;
+            }
+
+            .social {
+                font-size: 1.3rem;
+                a {
+                    color: #f37021;
+                    &:not(:last-child) {
+                        margin-right: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    a.btn{
+        border: 2px solid white;
+        &:hover {
+            background-color: white;
+            color: #f37021;
+        }
+    }
+}
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    padding: 5px 13px;
+    border: 2px solid white;
+    border-radius: 100% !important;
+    font-size: 30px;
+    color: white;
+    background: transparent;
+    @include transition(background .3s ease-in-out);
+    &:hover, &:focus {
+        outline: none;
+        color: white;
+    }
+    i.animated {
+        -webkit-transition-property: -webkit-transform;
+        -webkit-transition-duration: 1s;
+        -moz-transition-property: -moz-transform;
+        -moz-transition-duration: 1s;
+    }
+    &:hover {
+        i.animated {
+            -webkit-animation-name: pulse;
+            -moz-animation-name: pulse;
+            -webkit-animation-duration: 1.5s;
+            -moz-animation-duration: 1.5s;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+        }
+    }
+    i {
+        top: -3px;
+        position: relative;
+    }
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.content-section {
+    position: relative;
+
+    &#preguntas {
+        h4 {
+            font-weight: normal;
+        }
+    }
+
+    a.btn {
+        font-size: 20px;
+        border: 2px solid #fbfbfb;
+        font-weight: 600;
+        color: white;
+        white-space: normal;
+        &:hover {
+            color: #f37021;
+            border-color: #f37021;
+        }
+    }
+
+    &.separador::before, &.separador::after {
+        content: '';
+        pointer-events: none;
+    }
+
+    &.separador::after {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        margin: 5rem auto 0;
+        background: #f37021;
+        box-shadow: 30px 0 #f37021, -30px 0 #f37021;
+    }
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: fade(white, 20%);
+}
+
+::selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: fade(white, 20%);
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+body {
+    webkit-tap-highlight-color: fade(white, 20%);
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.tag-pill {
+    &.Logrado {
+        background-color: green;
+    }
+    &.Pendiente {
+        background-color: #e09101;
+    }
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+    color: #ffffff;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+    color: #ffffff;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+    color: #ffffff;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+    color: #ffffff;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+    color: #ffffff;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+    color: #ffffff;
+}
+
+#contactoform {
+    position: relative;
+    width: 100%;
+    margin: 35px auto 55px auto;
+}
+
+input {
+    font-size: 0.875em;
+    width: 100%;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+
+    border: solid 1px #ffffff;
+    border-bottom: none;
+
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea {
+    width: 100%;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+
+    background: transparent;
+    outline: none;
+
+    color: #ffffff;
+    font-size: 0.875em;
+
+    border: solid 1px #ffffff;
+
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+#submit {
+    padding: 0;
+    margin: -7px 0px 0px 0px;
+    font-size: 0.875em;
+    color: #ffffff;
+
+    outline:none;
+    cursor: pointer;
+
+    border: solid 1px #ffffff;
+    border-top: none;
+}

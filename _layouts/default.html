@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head itemscope itemtype="http://schema.org/WebSite">
+	<!-- Cabezal de página -->
+	{% include _cabezal.html %}
+</head>
+<body id="arriba" data-spy="scroll"
+	  data-target=".navbar-fixed-top" class="{% if page.layout == 'pagina' %}pagina-layout{%endif%}">
+	<!-- Barra de navegación -->
+	{% include _navegacion.html %}
+
+	<!-- Contenido principal -->
+	{{ content | replace: "á", "&#225;" | replace: "é", "&#233;" | replace: "í", "&#237;" | replace: "ó", "&#243;" | replace: "ú", "&#250;" }}
+
+	<!-- Scripts -->
+	{% include _scripts.html %}
+</body>
+</html>

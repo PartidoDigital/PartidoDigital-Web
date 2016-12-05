@@ -1,0 +1,18 @@
+<section id="proximosobjetivos" class="container content-section text-xs-center separador">
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+            <h2>Próximos objetivos</h2>
+            <p>Estos son nuestros próximos objetivos a lograr:</p>
+            <ul class="list-group">
+                {% for objetivo in site.data.objetivos %}
+                    <li class="list-group-item">
+                        {{ objetivo.descripcion }}
+                        <span class="tag tag-default tag-pill pull-xs-right {{ objetivo.estado }}">
+                            {{ objetivo.estado }}
+                        </span>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>

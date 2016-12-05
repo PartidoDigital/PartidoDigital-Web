@@ -1,0 +1,21 @@
+.auth0-lock-custom-icon {
+  top: 15px!important;
+}
+
+.auth0-lock-sign-up-terms-agreement input {
+  top: 3px!important;
+}
+
+.auth0-lock-header-bg-blur.auth0-lock-no-grayscale {
+  background: rgba(241,241,241,0.8)!important;
+}
+
+.auth0-lock-header-welcome {
+  color: #f37021;
+  font-family: "Open Sans";
+}
+
+.auth0-lock.auth0-lock .auth0-lock-input-wrap .auth0-lock-input {
+  box-shadow: none;
+  margin-bottom: 0;
+}

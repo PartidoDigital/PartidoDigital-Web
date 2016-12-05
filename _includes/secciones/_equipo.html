@@ -1,0 +1,27 @@
+<section id="equipo" class="container content-section text-xs-center separador">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2>Equipo</h2>
+            <p>
+                El Partido Digital surgió de un grupo de personas jóvenes de distintos ámbitos y de distintas profesiones con ganas de creer más en la política de nuestro país para que éste salga adelante. Estamos convencidos que podemos acercarle la política a los uruguayos de una manera más directa para que la misma empiece a sanar aprovechando las tecnologías de la información y comunicación.
+            </p>
+            <!--<div class="alert alert-info" role="alert">
+                <strong>Aclaración:</strong> Estas personas aquí presentadas son las que están llevando a cabo el Partido Digital en este momento y no necesariamente representan a las personas que integrarán la boleta del Partido Digital. Por más información de quién integrará la boleta refiérase a las <a href="#pregunta-boleta" data-target="#respuesta-boleta" class="alert-link" data-toggle="collapse">preguntas</a>.
+            </div>-->
+        </div>
+        {% for persona in site.data.equipo %}
+            <div class="col-lg-4 col-sm-6 text-center mt-3">
+                <img class="rounded-circle img-responsive img-center"
+                    src="https://s.gravatar.com/avatar/{{ persona.gravatar }}?s=160" alt="">
+                <h4 class="my-1">{{ persona.nombre }} <br/><small>{{ persona.posicion }}</small></h4>
+            </div>
+        {% endfor %}
+        <div class="col-lg-4 col-sm-6 text-center mt-3">
+            <span class="btn-circle p-x-3 p-y-2" style="width: 9rem;height: 9rem;font-size: 5rem;">
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </span>
+            <h4 class="my-1">Vos <br/><small>Donde quieras aportar</small></h4>
+            <p class="m-0">Vos también podés ser parte del cambio. Acercate y ayudanos en donde vos te sientas útil.</p>
+        </div>
+    </div>
+</section>
