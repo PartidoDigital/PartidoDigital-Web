@@ -479,7 +479,7 @@ textarea {
 
 #submit {
     padding: 0;
-    margin: 0px;
+    margin: -7px 0px 0px 0px;
     font-size: 0.875em;
     color: #ffffff;
 
@@ -487,4 +487,5 @@ textarea {
     cursor: pointer;
 
     border: solid 1px #ffffff;
+    border-top: none;
 }
