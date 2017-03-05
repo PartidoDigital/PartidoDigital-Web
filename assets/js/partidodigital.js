@@ -47,21 +47,23 @@ $(function() {
         var defaultSubmitText = $submit.val();
 
         $.ajax({
-            url: '//formspree.io/' + window.pd.email_contacto,
-            method: 'POST',
+            url: $contactForm.attr('action'),
+            method: $contactForm.attr('method'),
             data: $(this).serialize(),
+            cache: false,
+            contentType: "application/json; charset=utf-8",
             dataType: 'json',
             beforeSend: function() {
                 $submit.attr('disabled', true).val('Enviando...');
             },
             success: function(data) {
-                $submit.val('¡Enviado!');
+                $submit.val('¡Gracias por sumarte! Te contactaremos a la brevedad.');
                 setTimeout(function() {
                     $submit.attr('disabled', false).val(defaultSubmitText);
                 }, 5000);
             },
             error: function(err) {
-                $submit.val('Hubo un error, vuelve a intentar luego.');
+                $submit.val('Hubo un error, vuelve a intentar más tarde.');
                 setTimeout(function() {
                     $submit.attr('disabled', false).val(defaultSubmitText);
                 }, 5000);
