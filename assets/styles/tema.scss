@@ -73,6 +73,9 @@ p {
 
 .alert {
     &.alert-info{
+        background-color: #34577c;
+        border-color: #f37021;
+        color: #ffffff;
         a {
             color: #f37021;
         }
@@ -433,9 +436,7 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 }
 
 #contactoform {
-    position: relative;
-    width: 100%;
-    margin: 35px auto 55px auto;
+    margin-bottom: 55px;
 }
 
 input {

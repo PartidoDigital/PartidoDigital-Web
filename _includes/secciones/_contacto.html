@@ -2,19 +2,30 @@
     <div class="row">
         <div class="col-lg-12">
             <h2>Contacto</h2>
-            <p>
-                Comunicate con el Partido Digital para dejarnos tus dudas, sugerencias, comentarios en general.
-            </p>
-            <div class="alert alert-info" role="alert">
-                Para una instancia presencial de contacto, el Partido Digital se está reuniendo todos los primeros
-                lunes de cada mes en Sinergia Cowork (Gonzalo Ramirez 1676). Más información <a target="_blank" href="https://meetup.com/PartidoDigital">acá</a>.
+            <div class="row">
+                <div class="col-md-6">
+                    <span class="btn-circle mb-2 p-1" style="width: 8rem; height: 8rem; font-size: 4rem;">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                    <p>Comunicate con el Partido Digital para dejarnos tus dudas, sugerencias, comentarios en general. Intentaremos responderte a la brevedad.</p>
+                    <form id="contactoform" action="" method="POST">
+                        <input id="name" type="text" placeholder="Nombre" name="nombre">
+                        <input id="email" type="email" placeholder="E-mail" name="email">
+                        <textarea id="message" type="text" placeholder="Mensaje" name="mensaje"></textarea>
+                        <input id="submit" type="submit" value="Enviar">
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <span class="btn-circle mb-2 p-1" style="width: 8rem; height: 8rem; font-size: 4rem;">
+                        <i class="fa fa-comments-o" aria-hidden="true"></i>
+                    </span>
+                    <p>Acércate a alguno de nuestros próximos eventos e interactúa con nosotros. El Partido Digital no solo se trata de instancias online.</p>
+                    <div class="alert alert-info" role="alert">
+                        Reservate el primer Lunes de cada mes, es la instancia presencial abierta a todos. Actualmente es en Sinergia Cowork (Gonzalo Ramirez 1676). Más información <a target="_blank" href="https://meetup.com/PartidoDigital">acá</a>.
+                    </div>
+                    <iframe src="https://calendar.google.com/calendar/embed?title=Partido%20Digital&amp;showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;hl=es_419&amp;bgcolor=%23ffffff&amp;src=pdigitaluy%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FMontevideo" style="border-width:0;" width="100%" frameborder="0" scrolling="no"></iframe>
+                </div>
             </div>
-            <form id="contactoform" action="" method="POST">
-                <input id="name" type="text" placeholder="Nombre" name="nombre">
-                <input id="email" type="email" placeholder="E-mail" name="email">
-                <textarea id="message" type="text" placeholder="Mensaje" name="mensaje"></textarea>
-                <input id="submit" type="submit" value="Enviar">
-            </form>
         </div>
     </div>
 </section>
