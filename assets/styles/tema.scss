@@ -270,6 +270,14 @@ a {
     }
 }
 
+a.MP-common-orange-CDl {
+    background: #f37021;
+    text-decoration: none;
+    &:hover {
+        border: 2px solid #ffffff;
+    }
+}
+
 @-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
