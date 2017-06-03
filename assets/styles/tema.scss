@@ -272,7 +272,8 @@ a {
 
 a.MP-common-orange-CDl {
     background: #f37021;
-    text-decoration: none;
+    text-decoration: none !important;
+    border: 2px solid transparent;
     &:hover {
         border: 2px solid #ffffff;
     }
