@@ -24,7 +24,7 @@ Tener transparencia es una de las bases para poder desarrollar un Uruguay modern
 <b>Dona una vez:</b>
 <a mp-mode="dftl" href="https://www.mercadopago.com/mlu/checkout/start?pref_id=252021089-f8ee89cb-1387-4852-a3a6-51b2379b3c65" name="MP-payButton" class='orange-tr-l-rn-none'>$200</a>
 <a mp-mode="dftl" href="https://www.mercadopago.com/mlu/checkout/start?pref_id=252021089-4a969414-944c-41d6-8a06-b3dea78fa317" name="MP-payButton" class='orange-tr-l-rn-none'>$400</a>
-<a mp-mode="dftl" href="https://www.mercadopago.com/mlu/checkout/start?pref_id=252021089-c8c70ed5-256e-4004-b2a0-c20360213077" name="MP-payButton" class='orange-tr-l-ov-none'>$1000</a>
+<a mp-mode="dftl" href="https://www.mercadopago.com/mlu/checkout/start?pref_id=252021089-c8c70ed5-256e-4004-b2a0-c20360213077" name="MP-payButton" class='orange-tr-l-rn-none'>$1000</a>
 <br>
 <b>Afiliate:</b>
 <a mp-mode="dftl" href="https://www.mercadopago.com/mlu/checkout/start?pref_id=252021089-7f890c57-716c-4be2-b82c-5d4426ae3f1e" name="MP-payButton" class='orange-tr-l-rn-none'>$150 por mes (por un año)</a>
