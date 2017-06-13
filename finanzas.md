@@ -28,6 +28,8 @@ Tener transparencia es una de las bases para poder desarrollar un Uruguay modern
 <br>
 <b>Afiliate:</b>
 <a mp-mode="dftl" href="https://www.mercadopago.com/mlu/checkout/start?pref_id=252021089-7f890c57-716c-4be2-b82c-5d4426ae3f1e" name="MP-payButton" class='orange-tr-l-rn-none'>$150 por mes (por un año)</a>
+<br>
+<a href="https://docs.google.com/spreadsheets/d/1xviAOU4N2Gti8hwCWH82UOdV-QwHlZoyOq7T3eMVfAQ/edit?usp=sharing" target="_blank"><b>Consulta nuestros gastos.</b></a>
 </p>
 
 Tesorera: Ec. Ma. Pía Alonso. Por cualquier consulta sobre los ingresos y gastos del Partido Digital los puedes hacer a
