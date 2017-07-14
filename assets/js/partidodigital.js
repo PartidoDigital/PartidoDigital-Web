@@ -29,11 +29,17 @@ $(function() {
     $('a').bind('click', function(event) {
         var $anchor = $(this);
         if($anchor.attr('href').indexOf('#') === 0) {
+            ga('send', 'event', 'Menu', 'Click', $anchor.attr('href').slice(1));
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top
             }, 1500, 'easeInOutExpo');
             event.preventDefault();
         }
+    });
+    
+    // Detectar qué respuesta se visualiza
+    $('#accordion').on('show.bs.collapse', function (e) {
+        ga('send', 'event', 'Preguntas', 'VerRespuesta', e.target.getAttribute('id'));
     });
 
     hashChange();
