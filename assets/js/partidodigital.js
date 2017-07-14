@@ -27,7 +27,7 @@ $(document).ready(collapseNavbar);
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     // GA tracker name
-    var trackerSend = gtm.getAll()[0].get('name') + '.send';
+    var trackerSend = ga.getAll()[0].get('name') + '.send';
     
     $('a').bind('click', function(event) {
         var $anchor = $(this);
