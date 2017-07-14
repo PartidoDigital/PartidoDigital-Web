@@ -26,10 +26,13 @@ $(document).ready(collapseNavbar);
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
+    // GA tracker name
+    var trackerSend = gtm.getAll()[0].get('name') + '.send';
+    
     $('a').bind('click', function(event) {
         var $anchor = $(this);
         if($anchor.attr('href').indexOf('#') === 0) {
-            ga('send', 'event', 'Menu', 'Click', $anchor.attr('href').slice(1));
+            ga(trackerSend, 'event', 'Menu', 'Click', $anchor.attr('href').slice(1));
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top
             }, 1500, 'easeInOutExpo');
@@ -39,7 +42,7 @@ $(function() {
     
     // Detectar qué respuesta se visualiza
     $('#accordion').on('show.bs.collapse', function (e) {
-        ga('send', 'event', 'Preguntas', 'VerRespuesta', e.target.getAttribute('id'));
+        ga(trackerSend, 'event', 'Preguntas', 'VerRespuesta', e.target.getAttribute('id'));
     });
 
     hashChange();
