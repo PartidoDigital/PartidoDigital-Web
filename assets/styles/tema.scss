@@ -339,6 +339,7 @@ a.MP-common-orange-CDl {
     a.btn {
         font-size: 20px;
         border: 2px solid #fbfbfb;
+        text-decoration: none;
         font-weight: 600;
         color: white;
         white-space: normal;
@@ -360,6 +361,11 @@ a.MP-common-orange-CDl {
         margin: 5rem auto 0;
         background: #f37021;
         box-shadow: 30px 0 #f37021, -30px 0 #f37021;
+    }
+
+    p.pagina-footer {
+        margin-bottom: -30px;
+        text-align: center;
     }
 }
 

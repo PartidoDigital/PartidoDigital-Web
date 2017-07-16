@@ -8,7 +8,8 @@ layout: default
             <h1 {% if page.title_style != nil %}style="{{page.title_style}}"{% endif %}>{{page.title}}</h1>
             {{content}}
             {% if page.date != nil %}
-            <p>
+            <br>
+            <p class="pagina-footer">
                 <i><b>Este documento fue actualizado por última vez el {{ page.date | date: "%d/%m/%Y" }}.</b></i>
             </p>
             {% endif %}
