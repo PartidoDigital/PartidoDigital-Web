@@ -60,15 +60,46 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
+}
+
+h1 {
+    text-transform: uppercase;
 }
 
 p {
     margin: 25px 0 25px;
     font-size: 18px;
     line-height: 1.5;
+}
+
+table {
+    margin: 10px 10px 20px;
+    border: 2px solid white;
+    width: 100%;
+
+    thead tr {
+        border-bottom: 2px solid white;
+    }
+
+    td, th {
+        padding: 0 5px;
+        border-right: 2px solid white;
+    }
+}
+
+blockquote {
+    border-left: 2px solid lightgrey;
+    margin: 0 10px;
+    color: lightgrey;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #f36f21;
+    margin: 0 10px;
 }
 
 .alert {

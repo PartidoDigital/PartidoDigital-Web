@@ -1,4 +1,5 @@
 /* global $ */
+var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Septiembre"];
 
 function collapseNavbar() {
     if(window.pd.layout === "default") {
@@ -18,6 +19,36 @@ function hashChange() {
         $(window.location.hash).addClass('resaltar');
         scrollBy(0, -100)
     }
+}
+
+function primerLunes(month, year){
+  var d = new Date(year, month, 1, 0, 0, 0, 0);
+  var day = 0;
+
+  // check if first of the month is a Sunday, if so set date to the second
+  if (d.getDay() == 0) {
+    day = 2;
+    d = d.setDate(day);
+    d = new Date(d);
+  }
+  // check if first of the month is a Monday, if so return the date, otherwise get to the Monday following the first of the month
+  else if (d.getDay() != 1) {
+    day = 9-(d.getDay());
+    d = d.setDate(day);
+    d = new Date(d);
+  }
+
+  return d;
+}
+
+function proximoPrimerLunes() {
+  var hoy = new Date();
+  var actualPrimerLunes = primerLunes(hoy.getUTCMonth(), hoy.getUTCFullYear());
+  if(hoy.getUTCDate() > actualPrimerLunes.getUTCDate()) {
+    return primerLunes(hoy.getUTCMonth() + 1, hoy.getUTCFullYear());
+  } else {
+    return actualPrimerLunes;
+  }
 }
 
 $(window).on("hashchange", hashChange);
@@ -44,6 +75,9 @@ $(function() {
     $('#accordion').on('show.bs.collapse', function (e) {
         ga(trackerSend, 'event', 'Preguntas', 'VerRespuesta', e.target.getAttribute('id'));
     });
+
+    var proximaReunionMensual = proximoPrimerLunes();
+    $('span.proximaReunion').html(proximaReunionMensual.getUTCDate() + " de " + meses[proximaReunionMensual.getUTCMonth()]);
 
     hashChange();
 
