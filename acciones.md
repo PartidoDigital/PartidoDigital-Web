@@ -28,7 +28,7 @@ Para cualquier caso, te dejamos este texto para ayudarte a explicar qué es el P
 
 > El Partido Digital es un nuevo partido político en Uruguay. Distinto a todos, pero distinto en serio, porque no votás a ningún candidato sino que te votás a vos mismo. Queremos actualizar la Democracia utilzando los últimos avances tecnológicos para dar más participación y transparencia. Las 3 diferencias principales con el resto de los partidos políticos son: cada representante del Partido Digital va a votar siempre de acuerdo a lo que se elige previamente en un sitio web al que pueden acceder todos los uruguayos, sus propuestas se elaborarán de forma colaborativa y abierta donde todos pueden aportar ideas de forma presencial u online y las finanzas del Partido Digital y en los lugares en donde actuemos serán 100% transparentes y disponibles online en cualquier momento. Si querés conocer más y registrate podés hacerlo en la web [https://partidodigital.org.uy][web].
 
-<br>[Descargar hoja para recolectar firmas][pdf]{: .btn}
+<br>[Descargar hoja para recolectar firmas][pdf]{: .action .btn}
 
 ## Actividades
 
@@ -44,7 +44,7 @@ A continuación se encuentran las acciones que puedes hacer para ayudarnos relac
 ---|---|---
 Conectate a la reunión mensual online el próximo <span class="proximaReunion"></span> mediante nuestra página de Facebook [aquí][facebook] | Venir a la reunión mensual el próximo <span class="proximaReunion"></span> | Invitar a 5 personas allegadas y venir juntos a la reunión mensual el próximo <span class="proximaReunion"></span> u organiza una reunión particular con más de 5 personas allegadas
 
-[Enviar correo para pedir una reunión particular][hola@partidodigital.org.uy]{: .btn}
+[Enviar correo para pedir una reunión particular][hola@partidodigital.org.uy]{: .action .btn}
 
 ## Propuestas
 
@@ -56,7 +56,7 @@ A continuación se encuentran las acciones que puedes hacer para ayudarnos relac
 ---|---|---|---
 Registrate en la la herramienta de Debate | Visitá las propuestas de tu tema de interés y selecioná la que te gusta. Enviale un mail a un amigo que le pueda interesar | Selecciona una propuesta de tu interés en nuestra herramienta de debate y aporta un comentario | Rellena información faltante que puedas investigar en alguna propuesta de tu área de experiencia | Subir una propuesta en tu tema de interés o área de experiencia | Subir una propuesta en tu tema de interés o área de experiencia. Mandásela a 3 allegados que pienses que le pueden interesar
 
-[Entrar a la herramienta de Debate][debate]{: .btn}
+[Entrar a la herramienta de Debate][debate]{: .action .btn}
 
 ## Contenido
 
@@ -68,7 +68,7 @@ A continuación se encuentran las acciones que puedes hacer para ayudarnos relac
 ---|---|---
 Compartir con tu propio comentario personal nuestra última publicación de nuestras redes sociales | Compartir con tu propio comentario mencionando amigos que les pueda interesar nuestra última publicación de nuestras redes sociales | Comenta alguna de nuestras últimas publicaciones haciéndonos llegar tu opinión personal sobre el Partido Digital
 
-[Ir a nuestra página de Facebook][facebook]{: .btn}
+[Ir a nuestra página de Facebook][facebook]{: .action .btn}
 
 [web]: https://partidodigital.org.uy
 [principios]: /documentos/programa-de-principios
