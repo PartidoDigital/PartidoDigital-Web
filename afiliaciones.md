@@ -15,14 +15,17 @@ Si tienes problemas para colaborar mes a mes e igualmente deseas afiliarte ¡no 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:transparent; clear:left; font-size:14px; }
-	#mc_embed_signup input { border: 2px solid #FFFFFF; }
-	#mc_embed_signup form { padding: 0 10px; }
-	#mc_embed_signup .mc-field-group.input-group input { height: 15px; margin-right: 10px; }
-	#mc-embedded-subscribe { margin: 0; border-color: #f37021 !important; }
-	#mc-embedded-subscribe:hover { color: #f37021; }
-	#mc_embed_signup input:focus { border-color: #f37021; }
-	#mc_embed_signup .asterisk { color: #f37021; }
+	#mc_embed_signup { background:transparent; clear:left; font-size:14px; }
+    #mc_embed_signup input { border: 2px solid #FFFFFF; }
+    #mc_embed_signup form { padding: 0 10px; }
+    #mc_embed_signup .mc-field-group { width: 100%; }
+    #mc_embed_signup .mc-field-group.input-group input { height: 15px; margin-right: 10px; }
+    #mc-embedded-subscribe { margin: 0; border-color: #f37021 !important; }
+    #mc-embedded-subscribe:hover { color: #f37021; }
+    #mc_embed_signup input:focus { border-color: #f37021; }
+    #mc_embed_signup .asterisk { color: #f37021; }
+    #mc_embed_signup .indicates-required { margin-right: 0; }
+    #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error { background-color: #000000; color: #f37021; }
 </style>
 <div id="mc_embed_signup">
 <form action="//partidodigital.us14.list-manage.com/subscribe/post?u=8e16f7903de2c0600985cf9e2&amp;id=d69798f48c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
@@ -51,7 +54,7 @@ Si tienes problemas para colaborar mes a mes e igualmente deseas afiliarte ¡no 
 <div class="mc-field-group size1of2">
 	<label for="mce-MMERGE5">Celular  <span class="asterisk">*</span>
 </label>
-	<input type="text" name="MMERGE5" class="required" value="" id="mce-MMERGE5">
+	<input type="tel" name="MMERGE5" class="required" value="" id="mce-MMERGE5">
 </div>
 <div class="mc-field-group input-group">
     <strong>¿Cómo vas a donar mensualmente? </strong>
@@ -70,5 +73,5 @@ Si tienes problemas para colaborar mes a mes e igualmente deseas afiliarte ¡no 
     </div>
 </form>
 </div>
-
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/localization/messages_es_AR.js"></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[4]='MMERGE4';ftypes[4]='text';fnames[5]='MMERGE5';ftypes[5]='tel';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
