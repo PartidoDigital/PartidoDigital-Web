@@ -13,7 +13,17 @@
             <div class="col-lg-4 col-sm-6 text-center mt-3">
                 <img class="rounded-circle img-responsive img-center"
                     src="https://s.gravatar.com/avatar/{{ persona.gravatar }}?s=160" alt="">
-                <h4 class="my-1">{{ persona.nombre }} <br/><small>{{ persona.posicion }}</small></h4>
+                <h4 class="my-1">
+                    {{ persona.nombre }}
+                    <br/>
+                    <small>{{ persona.posicion }}</small>
+                    <br/>
+                    {% for network in persona.networks %}
+                        {% for info in network %}
+                            <a href="{{ info[1] }}" target="_blank"><i class="fa fa-{{ info[0] }}-square" aria-hidden="true"></i></a>
+                        {% endfor %}
+                    {% endfor %}
+                </h4>
             </div>
         {% endfor %}
         <div class="col-lg-4 col-sm-6 text-center mt-3">

@@ -1,56 +1,96 @@
 - nombre: Justin Graside
   gravatar: 48a343011e82797193eb899f8e87c1be
-  posicion: Presidente
+  posicion: Co-fundador
+  networks:
+   - twitter: https://twitter.com/justingraside
+   - linkedin: https://linkedin.com/in/justingraside
 
 - nombre: Ec. Ma. Pía Alonso
   gravatar: e9cafc8c784a828cfa21b1ba73e0d722
   posicion: Tesorera
+  networks:
+     - twitter: https://twitter.com/pioji85
+     - linkedin: https://linkedin.com/in/piaalonsoribas
 
 - nombre: Leo Giovanetti
   gravatar: 9b7fd436ad75a169c85874a27e9073f8
-  posicion: Líder IT
+  posicion: Líder Técnico
+  networks:
+     - twitter: https://twitter.com/leog
+     - linkedin: https://linkedin.com/in/leogiovanetti
 
 - nombre: Ma. Luisa Martínez
   gravatar: b3d6633aa3947826d20b86b886cbb0a8
   posicion: Secretaria General
+  networks:
+     - twitter: https://twitter.com/MLMDibarboure
+     - linkedin: https://linkedin.com/in/maluisamartinez
 
 - nombre: Ariel Guevara
   gravatar: 5f92e4a2d8fcf4272ebc9f83be3e755f
   posicion: Programa de Gobierno
+  networks:
+     - twitter: https://twitter.com/Ariel_Guevarin
+     - linkedin: https://linkedin.com/in/ariel-guevara-456a955
 
 - nombre: Ana Laura Spósito
-  gravatar:
+  gravatar: 7a67813f53bc26c80df2f24cb539b87d
   posicion: Comunicación
+  networks:
+     - twitter: https://twitter.com/analaurasposito
+     - linkedin: https://linkedin.com/in/anasposito
 
 - nombre: Daniel Goldman
   gravatar: 242653bbf80c52668752b316e95add42
   posicion: Equipo técnico
+  networks:
+     - twitter: https://twitter.com/Danielinnmentor
+     - linkedin: https://linkedin.com/in/danielgoldmaninnmentor
 
 - nombre: Diego Ventura
   gravatar: 28ad0ef1e5f2da02dca7b6c428e2f263
   posicion: Equipo Técnico
+  networks:
+     - twitter: https://twitter.com/colochef
+     - linkedin: https://linkedin.com/in/diegoventura
 
 - nombre: Federico Masini
-  gravatar:
+  gravatar: b32f21cf22c854d5910fee5852c063c1
   posicion: Comunicación
+  networks:
+     - twitter: https://twitter.com/fedemt87
+     - linkedin: https://linkedin.com/in/fmasini87
 
 - nombre: Federico Steiner
   gravatar: fe79d978d830d836f6b36aa60467271f
   posicion: Equipo Técnico
+  networks:
+     - twitter: https://twitter.com/Federicosteiner
+     - linkedin: https://linkedin.com/in/federicosteiner
 
 - nombre: Javier Villasuso
   gravatar: 563b427cb71a1e7777cef119145c49da
   posicion: Comunicación
+  networks:
+     - facebook: https://www.facebook.com/javier.villasusomultimedia
 
 - nombre: Damián Neira
   gravatar: db4bc00a98c2c91b83a62421f95cf2d6
   posicion: Equipo Técnico
+  networks:
+     - twitter: https://twitter.com/damired
+     - linkedin: https://linkedin.com/in/damian-neira-67063350
   
 - nombre: Andrés Zunini
   gravatar: 5d9007d0cbb1b0b61e6dbacbd42b1207
   posicion: Afiliaciones
+  networks:
+     - twitter: https://twitter.com/zcandres
+     - linkedin: https://linkedin.com/in/andrés-zunini-2a2a1329
   
 - nombre: Facundo Sánchez
   gravatar: 177fa83c3e3520d5a1a437742ef8f672
   posicion: Afiliaciones
+  networks:
+     - twitter: https://twitter.com/facusanbru
   
