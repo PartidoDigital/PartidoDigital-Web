@@ -41,9 +41,9 @@ body {
         }
 
         .resaltar {
-            background-color: #f37021;
+            background-color: $naranja_pd;
             + p {
-                background-color: #f37021;
+                background-color: $naranja_pd;
             }
         }
 
@@ -98,17 +98,17 @@ blockquote {
 .banner {
     display: flex;
     align-items: center;
-    background-color: #f36f21;
+    background-color: $naranja_pd;
     margin: 0 10px;
 }
 
 .alert {
     &.alert-info{
         background-color: #34577c;
-        border-color: #f37021;
+        border-color: $naranja_pd;
         color: #ffffff;
         a {
-            color: #f37021;
+            color: $naranja_pd;
         }
     }
 }
@@ -118,7 +118,7 @@ a {
     &:hover,
     &:focus {
         text-decoration: none;
-        color: #f37021;
+        color: $naranja_pd;
     }
 }
 
@@ -160,7 +160,7 @@ a {
     }
     i:hover {
         cursor: pointer;
-        color: #f37021;
+        color: $naranja_pd;
     }
     a {
         color: white;
@@ -169,7 +169,7 @@ a {
         backface-visibility: hidden;
         &:hover {
             svg path, svg rect {
-            fill: #f37021;
+            fill: $naranja_pd;
             }
         }
     }
@@ -188,7 +188,7 @@ a {
             font-weight: bold;
             line-height: 25px;
             &:hover {
-                color: #f37021;
+                color: $naranja_pd;
                 outline: none;
                 background-color: transparent;
             }
@@ -198,7 +198,7 @@ a {
                 background-color: transparent;
             }
             &.active {
-                color: #f37021;
+                color: $naranja_pd;
             }
         }
     }
@@ -244,7 +244,7 @@ a {
             .social {
                 font-size: 1.3rem;
                 a {
-                    color: #f37021;
+                    color: $naranja_pd;
                     &:not(:last-child) {
                         margin-right: 1.5rem;
                     }
@@ -257,7 +257,7 @@ a {
         border: 2px solid white;
         &:hover {
             background-color: white;
-            color: #f37021;
+            color: $naranja_pd;
         }
     }
 }
@@ -302,7 +302,7 @@ a {
 }
 
 a.MP-common-orange-CDl {
-    background: #f37021;
+    background: $naranja_pd;
     text-decoration: none !important;
     border: 2px solid transparent;
     &:hover {
@@ -344,11 +344,11 @@ a.MP-common-orange-CDl {
         color: white;
         white-space: normal;
         &:hover {
-            color: #f37021;
-            border-color: #f37021;
+            color: $naranja_pd;
+            border-color: $naranja_pd;
         }
         &.action {
-            border-color: #f37021;
+            border-color: $naranja_pd;
         }
     }
 
@@ -362,8 +362,8 @@ a.MP-common-orange-CDl {
         height: 14px;
         border-radius: 50%;
         margin: 5rem auto 0;
-        background: #f37021;
-        box-shadow: 30px 0 #f37021, -30px 0 #f37021;
+        background: $naranja_pd;
+        box-shadow: 30px 0 $naranja_pd, -30px 0 $naranja_pd;
     }
 
     p.pagina-footer {
