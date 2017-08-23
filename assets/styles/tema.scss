@@ -120,6 +120,13 @@ a {
         text-decoration: none;
         color: $naranja_pd;
     }
+
+    .fa {
+        color: $naranja_pd;
+        &:hover {
+            color: white;
+        }
+    }
 }
 
 .navbar-nav {

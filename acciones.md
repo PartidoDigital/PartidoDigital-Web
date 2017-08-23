@@ -74,7 +74,7 @@ date: 2017-08-04
 </ul>
 </div>
 <div class="mc-field-group input-group">
-    <strong>¿Cuánto tiempo le puedes dedicar por semana al Par </strong>
+    <strong>¿Cuánto tiempo le puedes dedicar por semana al Partido Digital?</strong>
     <ul><li><input type="radio" value="4096" name="group[4713]" id="mce-group[4713]-4713-0"><label for="mce-group[4713]-4713-0">15 minutos</label></li>
 <li><input type="radio" value="8192" name="group[4713]" id="mce-group[4713]-4713-1"><label for="mce-group[4713]-4713-1">30 minutos</label></li>
 <li><input type="radio" value="16384" name="group[4713]" id="mce-group[4713]-4713-2"><label for="mce-group[4713]-4713-2">1 hora</label></li>
