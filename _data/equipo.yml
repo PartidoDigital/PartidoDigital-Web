@@ -4,6 +4,7 @@
   networks:
    - twitter: https://twitter.com/justingraside
    - linkedin: https://linkedin.com/in/justingraside
+   - telegram: https://t.me/justingraside
 
 - nombre: Ec. Ma. Pía Alonso
   gravatar: e9cafc8c784a828cfa21b1ba73e0d722
@@ -18,6 +19,7 @@
   networks:
      - twitter: https://twitter.com/leog
      - linkedin: https://linkedin.com/in/leogiovanetti
+     - telegram: https://t.me/leogiovanetti
 
 - nombre: Ma. Luisa Martínez
   gravatar: b3d6633aa3947826d20b86b886cbb0a8
@@ -32,6 +34,7 @@
   networks:
      - twitter: https://twitter.com/Ariel_Guevarin
      - linkedin: https://linkedin.com/in/ariel-guevara-456a955
+     - telegram: https://t.me/ArielGuevara
 
 - nombre: Ana Laura Spósito
   gravatar: 7a67813f53bc26c80df2f24cb539b87d
