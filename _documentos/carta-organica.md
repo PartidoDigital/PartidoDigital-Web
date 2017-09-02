@@ -170,15 +170,14 @@ plataforma online. Esta plataforma mostrará el proyecto de Ley para votar, mate
 opiniones de expertos en el área y de los votantes de la misma que quiera justificar su voto.
 
 ##### Artículo 33 {#articulo-33}
-En aquellas ocasiones en donde se presente una votación para la misma sesión y haya un tiempo para emitir el voto mayor a
-15 minutos, se pondrá la información online y comunicará a los registrados en la plataforma por todas las vías de comunicación
+En aquellas ocasiones en donde se presente una votación para la misma sesión y haya un tiempo para emitir el voto mayor a 15 
+minutos, se pondrá la información online y comunicará a los registrados en la plataforma por todas las vías de comunicación
 posible para tomar la decisión online con la mayor participación posible.
 
 ##### Artículo 34 {#articulo-34}
-Aquellas decisiones en que haya un plazo para emitir el voto menor a quince  por qué 15 minutos? minutos, el legislador digital
-tomará la decisión teniendo en cuenta las ideas definidas en el Programa de Gobierno vigente y/o votaciones ya realizadas en la
-plataforma. Si hay dos posiciones encontradas, tomará la que tiene menor antigüedad. El legislador actuará por su cuenta solo en
-estos casos
+Aquellas decisiones en que haya un plazo para emitir el voto menor a quince minutos, el legislador digital tomará la decisión 
+teniendo en cuenta las ideas definidas en el Programa de Gobierno vigente y/o votaciones ya realizadas en la plataforma. Si 
+hay dos posiciones encontradas, tomará la que tiene menor antigüedad. El legislador actuará por su cuenta solo en estos casos.
 
 ##### Artículo 35 {#articulo-35}
 En estos casos, el legislador luego de emitir su voto, publicará en la plataforma en menos de veinticuatro horas  la información
