@@ -96,5 +96,11 @@
   posicion: Afiliaciones
   networks:
      - twitter: https://twitter.com/facusanbru
-     - linkedin: https://www.linkedin.com/in/facundo-sanchez-59b8433a
+     - linkedin: https://www.linkedin.com/in/facundo-s%C3%A1nchez-brufau-59b8433a
+     
+- nombre: Carolina Nunez
+  gravatar: bcdd3cdb982a4af11e218fb4e71bddbd
+  posicion: Finanzas
+  networks:
+     - linkedin: https://www.linkedin.com/in/carolina-nunes-18319877
   
