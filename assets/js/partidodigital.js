@@ -82,8 +82,34 @@ $(function() {
     hashChange();
 
     $("body").scrollspy({offset:200});
+    $('#registro_web').ajaxChimp({
+        language: 'es',
+        url: "//partidodigital.us14.list-manage.com/subscribe/post?u=8e16f7903de2c0600985cf9e2&amp;id=3e02e25008",
+        ajaxOptions: {
+            beforeSend: function() {
+                $('#submit').attr('disabled', true).val('Enviando...');
+            }
+        },
+        callback: function(resp) {
+            if (resp.result === 'success') {
+                $('#submit').val(resp.msg);
+                setTimeout(function() {
+                    $('#submit').val("Gracias por sumarte, es un placer tenerte");
+                }, 5000);
+            } else {
+                if(resp.msg.indexOf("ya está suscrito")) {
+                    $('#submit').attr('disabled', false).val("Ya te habias sumado, gracias por insistir :)");
+                } else {
+                    $('#submit').attr('disabled', false).val(resp.msg);
+                    setTimeout(function() {
+                        $('#submit').val("Intentalo de nuevo");
+                    }, 5000);
+                }
+            }
+        }
+    });
 
-    var $contactForm = $('#contactoform');
+    /*var $contactForm = $('#contactoform');
     $contactForm.submit(function(e) {
         e.preventDefault();
         var $submit = $('input:submit', $contactForm);
@@ -110,7 +136,7 @@ $(function() {
                 }, 5000);
             }
         });
-    });
+    });*/
 });
 
 // Closes the Responsive Menu on Menu Item Click
