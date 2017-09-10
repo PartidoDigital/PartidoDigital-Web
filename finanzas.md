@@ -28,14 +28,10 @@ Tener transparencia es una de las bases para poder desarrollar un Uruguay modern
 {% include _botones.html %}
 
 <br>
-<a class="action btn" href="https://colectate.com.uy/colecta/participar.php?ID=10242" target="_blank">Dona otra cantidad</a>
-
-<br>
-<b>Consulta nuestros gastos:</b>
-<a class="action btn" href="https://docs.google.com/spreadsheets/d/1xviAOU4N2Gti8hwCWH82UOdV-QwHlZoyOq7T3eMVfAQ/edit?usp=sharing" target="_blank">Ver Gastos e Ingresos</a>
+<a class="action btn" href="https://colectate.com.uy/colecta/participar.php?ID=10242" target="_blank">Dona otra cantidad</a>&nbsp;&nbsp;&nbsp;<a class="action btn" href="https://docs.google.com/spreadsheets/d/1xviAOU4N2Gti8hwCWH82UOdV-QwHlZoyOq7T3eMVfAQ/edit?usp=sharing" target="_blank">Ver Gastos e Ingresos</a>
 
 Tesorera: Ec. Ma. Pía Alonso. Por cualquier consulta sobre los ingresos y gastos del Partido Digital los puedes hacer a
-[transparencia@partidodigital.uy]{:target="_blank"}. Conozca más sobre [Mercado Pago](https://www.mercadopago.com.uy/pagar-compras-online) y de [Colectate](https://www.colectate.com.uy/), nuestros procesadores online de sus donaciones.
+[transparencia@partidodigital.uy]{:target="_blank"}. Conozca más sobre [Mercado Pago](https://www.mercadopago.com.uy/pagar-compras-online) y de [Colectate](https://www.colectate.com.uy/), nuestros procesadores online de donaciones.
 
 [Uruguay entre los peores en transparencia del financiamiento partidario - El Observador]: http://www.elobservador.com.uy/uruguay-los-peores-transparencia-del-financiamiento-partidario-n664255
 [La transparencia, cuando la farsa los une - 180]: http://www.180.com.uy/articulo/62858_la-transparencia-cuando-la-farsa-los-une
