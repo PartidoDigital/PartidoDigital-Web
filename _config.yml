@@ -4,8 +4,8 @@ email_contacto: hola@partidodigital.org.uy
 acceso_url: https://partidodigital.auth0.com/login?client=3yqAXfyeQCu5RcrgSQUsb0M4ojdvif4N
 
 cta:
-  nombre: Registrate
-  link: https://partidodigital.auth0.com/login?client=3yqAXfyeQCu5RcrgSQUsb0M4ojdvif4N
+  nombre: Ayúdanos con tu donación
+  link: /finanzas
 
 sass:
   style: compressed

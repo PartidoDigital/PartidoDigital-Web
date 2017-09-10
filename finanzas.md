@@ -1,7 +1,7 @@
 ---
 layout: pagina
 title: Finanzas
-date: 2017-07-28
+date: 2017-09-10
 ---
 
 El Partido Digital es un partido político que quiera traer **ideas** e **innovación** al sistema político para beneficio de todos los uruguayos. Nuestros gastos e ingresos del Partido Digital se podrán visualizar en cualquier momento de manera online.
@@ -20,22 +20,19 @@ Tener transparencia es una de las bases para poder desarrollar un Uruguay modern
 
 **Si quieres impulsar la transparencia también en Uruguay, hazlo con tu donación.**
 
-<p align="center">
-<b>Dona una vez:</b>
-<a mp-mode="dftl" href="https://www.mercadopago.com/mlu/checkout/start?pref_id=252021089-f8ee89cb-1387-4852-a3a6-51b2379b3c65" name="MP-payButton" class='orange-tr-l-rn-none'>$200</a>
-<a mp-mode="dftl" href="https://www.mercadopago.com/mlu/checkout/start?pref_id=252021089-4a969414-944c-41d6-8a06-b3dea78fa317" name="MP-payButton" class='orange-tr-l-rn-none'>$400</a>
-<a mp-mode="dftl" href="https://www.mercadopago.com/mlu/checkout/start?pref_id=252021089-c8c70ed5-256e-4004-b2a0-c20360213077" name="MP-payButton" class='orange-tr-l-rn-none'>$1000</a>
-<br><br>
-<b>Conviertete en afiliado:</b>
-<a href="/afiliaciones" class='action btn'>Ir a web sobre Afiliaciones</a>
-<br><br>
+[![Afiliate](assets/img/boton_afiliate.png)](/afiliaciones)
+
+<b>Dona por única vez:</b>
+
+<!-- Botones de donación -->
+{% include _botones.html %}
+
+<br>
 <b>Consulta nuestros gastos:</b>
 <a class="action btn" href="https://docs.google.com/spreadsheets/d/1xviAOU4N2Gti8hwCWH82UOdV-QwHlZoyOq7T3eMVfAQ/edit?usp=sharing" target="_blank">Ir a planilla con gastos</a>
-<br><br>
-</p>
 
 Tesorera: Ec. Ma. Pía Alonso. Por cualquier consulta sobre los ingresos y gastos del Partido Digital los puedes hacer a
-[transparencia@partidodigital.uy]{:target="_blank"}. Para conocer Mercado Pago, el procesador online de sus donaciones ingresar [aquí](https://www.mercadopago.com.uy/pagar-compras-online).
+[transparencia@partidodigital.uy]{:target="_blank"}. Conozca más sobre [Mercado Pago](https://www.mercadopago.com.uy/pagar-compras-online) y de [Colectate](https://www.colectate.com.uy/), nuestros procesadores online de sus donaciones.
 
 [Uruguay entre los peores en transparencia del financiamiento partidario - El Observador]: http://www.elobservador.com.uy/uruguay-los-peores-transparencia-del-financiamiento-partidario-n664255
 [La transparencia, cuando la farsa los une - 180]: http://www.180.com.uy/articulo/62858_la-transparencia-cuando-la-farsa-los-une
@@ -44,7 +41,3 @@ Tesorera: Ec. Ma. Pía Alonso. Por cualquier consulta sobre los ingresos y gasto
 [El financiamiento de los partidos políticos - La República]: http://www.republica.com.uy/el-financiamiento-de-los-partidos-politicos/482656/
 [transparencia@partidodigital.uy]: mailto:transparencia@partidodigital.uy
 [donaciones@partidodigital.uy]: mailto:donaciones@partidodigital.uy
-
-<script type="text/javascript">
-(function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
-</script>

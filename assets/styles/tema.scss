@@ -546,3 +546,34 @@ textarea {
     border: solid 1px #ffffff;
     border-top: none;
 }
+
+.boton-donar {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+
+    & .wrapper {
+        display: none;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: rgba(0,0,0,0.8);
+        border-radius: 40px;
+        font-weight: bold;
+        font-size: 15pt;
+    }
+
+    & .content {
+        top: 50%;
+        position: relative;
+        transform: translateY(-50%);
+    }
+
+    &:hover .wrapper {
+        display: inline-block;
+    }
+}
+
+
