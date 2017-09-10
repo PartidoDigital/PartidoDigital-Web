@@ -20,7 +20,7 @@ Tener transparencia es una de las bases para poder desarrollar un Uruguay modern
 
 **Si quieres impulsar la transparencia también en Uruguay, hazlo con tu donación.**
 
-[![Afiliate](assets/img/boton_afiliate.png)](/afiliaciones)
+[![Afiliate](assets/img/boton_afiliate.png){:class="img-fluid"}](/afiliaciones)
 
 <b>Dona por única vez:</b>
 
@@ -28,8 +28,11 @@ Tener transparencia es una de las bases para poder desarrollar un Uruguay modern
 {% include _botones.html %}
 
 <br>
+<a class="action btn" href="https://colectate.com.uy/colecta/participar.php?ID=10242" target="_blank">Dona otra cantidad</a>
+
+<br>
 <b>Consulta nuestros gastos:</b>
-<a class="action btn" href="https://docs.google.com/spreadsheets/d/1xviAOU4N2Gti8hwCWH82UOdV-QwHlZoyOq7T3eMVfAQ/edit?usp=sharing" target="_blank">Ir a planilla con gastos</a>
+<a class="action btn" href="https://docs.google.com/spreadsheets/d/1xviAOU4N2Gti8hwCWH82UOdV-QwHlZoyOq7T3eMVfAQ/edit?usp=sharing" target="_blank">Ver Gastos e Ingresos</a>
 
 Tesorera: Ec. Ma. Pía Alonso. Por cualquier consulta sobre los ingresos y gastos del Partido Digital los puedes hacer a
 [transparencia@partidodigital.uy]{:target="_blank"}. Conozca más sobre [Mercado Pago](https://www.mercadopago.com.uy/pagar-compras-online) y de [Colectate](https://www.colectate.com.uy/), nuestros procesadores online de sus donaciones.

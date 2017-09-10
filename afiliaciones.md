@@ -58,11 +58,44 @@ Si tienes problemas para colaborar mes a mes e igualmente deseas afiliarte ¡no 
 </div>
 <div class="mc-field-group input-group">
     <strong>¿Cómo vas a donar mensualmente? </strong>
-    <ul><li><input type="radio" value="1" name="group[4669]" id="mce-group[4669]-4669-0"><label for="mce-group[4669]-4669-0">Tarjeta de crédito</label></li>
-<li><input type="radio" value="2" name="group[4669]" id="mce-group[4669]-4669-1"><label for="mce-group[4669]-4669-1">Transferencia Bancaria (a BROU)</label></li>
-<li><input type="radio" value="4" name="group[4669]" id="mce-group[4669]-4669-2"><label for="mce-group[4669]-4669-2">Abitab / Red Pagos</label></li>
-<li><input type="radio" value="8" name="group[4669]" id="mce-group[4669]-4669-3"><label for="mce-group[4669]-4669-3">Lo pago en la reunión mensual</label></li>
-</ul>
+    <ul>
+    	<li>
+    		<input type="radio" value="1" name="group[4669]" id="mce-group[4669]-4669-0">
+    		<label for="mce-group[4669]-4669-0">Tarjeta de crédito</label>
+    	</li>
+    	<li>
+    		<input type="radio" value="8" name="group[4669]" id="mce-group[4669]-4669-1">
+    		<label for="mce-group[4669]-4669-1">PayPal</label>
+    	</li>
+    	<li>
+    		<input type="radio" value="2" name="group[4669]" id="mce-group[4669]-4669-2">
+    		<label for="mce-group[4669]-4669-2">BROU</label>
+    	</li>
+    	<li>
+    		<input type="radio" value="16" name="group[4669]" id="mce-group[4669]-4669-3">
+    		<label for="mce-group[4669]-4669-3">Santander</label>
+    	</li>
+    	<li>
+    		<input type="radio" value="32" name="group[4669]" id="mce-group[4669]-4669-4">
+    		<label for="mce-group[4669]-4669-4">Banred</label>
+    	</li>
+    	<li>
+    		<input type="radio" value="64" name="group[4669]" id="mce-group[4669]-4669-5">
+    		<label for="mce-group[4669]-4669-5">BBVA</label>
+    	</li>
+    	<li>
+    		<input type="radio" value="128" name="group[4669]" id="mce-group[4669]-4669-6">
+    		<label for="mce-group[4669]-4669-6">Itaú</label>
+    	</li>
+    	<li>
+    		<input type="radio" value="4" name="group[4669]" id="mce-group[4669]-4669-7">
+    		<label for="mce-group[4669]-4669-7">Abitab / Red Pagos</label>
+    	</li>
+    	<li>
+    		<input type="radio" value="256" name="group[4669]" id="mce-group[4669]-4669-8">
+    		<label for="mce-group[4669]-4669-8">Creditel</label>
+    	</li>
+    </ul>
 </div>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
