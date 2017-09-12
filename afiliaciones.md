@@ -84,10 +84,6 @@ Si tienes problemas para colaborar mes a mes e igualmente deseas afiliarte ¡no 
     		<label for="mce-group[4669]-4669-5">BBVA</label>
     	</li>
     	<li>
-    		<input type="radio" value="128" name="group[4669]" id="mce-group[4669]-4669-6">
-    		<label for="mce-group[4669]-4669-6">Itaú</label>
-    	</li>
-    	<li>
     		<input type="radio" value="4" name="group[4669]" id="mce-group[4669]-4669-7">
     		<label for="mce-group[4669]-4669-7">Abitab / Red Pagos</label>
     	</li>
