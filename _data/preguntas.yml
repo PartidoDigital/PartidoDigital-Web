@@ -1,7 +1,6 @@
-- pregunta: "¿Cuál es su ideología?"
-  respuesta: "Nuestra ideología se basa en dos principios fundamentales: participación y transparencia. Creemos que si la mayor cantidad posible de personas participan del proceso de toma de decisiones públicas, vamos a alcanzar mejores resultados porque más ideas estarán disponbiles y se tendrán en cuentas la necesidades de todos. Transparencia porque para devolverle la confianza al sistema, debemos ser transparentes en todos los procesos y que la gente puede controlar y cuestionar lo que se hace con los recursos públicos. En esto creemos y marca todo nuestro accionar. En particular para las propuestas y el programa de gobierno, estos se crearan de forma colaborativa entre todos los que quieran participar, para lograr aprovechar el conocimiento colectivo de Uruguay y que no queden ideas afuera. Cada persona sabe mucho de algo, ya sea por su experiencia o educación, ese conocimiento de cada uno buscamos aprovecharlo en este proceso que tendrá como resultado las propuestas e ideas del Partido Digital."
-  link: "/documentos/carta-organica"
-  identificador: ideologia
+- pregunta: "¿Son de derecha o de izquierda?"
+  respuesta: "En la actualidad el mundo es mucho más diverso que la simple polarización entre dos posiciones, hay opiniones diversas sobre intervención estatal, justicia social, ambientalismo, consideraciones éticas de las nuevas tecnologías, entre otras. La posición del Partido Digital y sus propuestas para cada tema se definirá de forma colaborativa, y puedes participar ahora mismo. Creemos en un concepto de ideología dinámico que se adapta a las necesidades actuales en el que tu puedes ayudar a construirlo. Las ideas que se construyeron en nuestra plataforma, sean ideas ejecutables en nuestro país y sean las más votadas por los uruguayos, formarán parte de nuestro programa de gobierno. ¿Querés que tus ideas estén reflejada en las ideas del Partido Digital? <a href='https://debate.partidodigital.org.uy'>Participa aquí</a>."
+  identificador: posicion
 
 - pregunta: "¿Porqué \"Digital\"?"
   respuesta: "Hoy en día en la era digital, las tecnologías de la información y comunicación nos permiten estar más conectados que nunca. Sin embargo el ámbito político nunca se vio beneficiado de esto; estar más conectados con el electorado para poder tener la voz de la ciudadanía en su accionar es la esencia de la política. El Partido Digital es el primer partido político enfocado en traer la era digital al ámbito político de Uruguay para llevarle la voz de nuevo al ciudadano de manera que las opiniones no queden solamente siendo parte de un muro de actividades de una red social en un círculo de personas allegadas, sino que puedan construir un mejor país entre todos para todos. Vale la pena aclarar que el carácter \"digital\" del partído político no es el fin de por sí, sino el medio para conseguit nuestros objetivos: mayor participación y transparencia. Y por cierto, no nos limitamos al medio digital para lograr que todas las necesidades e ideas sean escuchadas."
@@ -11,6 +10,11 @@
   respuesta: "El contenido del Programa de Gobierno del Partido Digital será decidido colaborativamente mediante un conjunto de instancias a definir."
   link: "/documentos/carta-organica#articulo-69"
   identificador: programa
+
+- pregunta: "En las elecciones, ¿no voy a votar ideas predefinidas, sino la promesa de que van actuar siempre según lo que diga la gente?"
+  respuesta: "No, eso es incorrecto. En las próximas elecciones tendrás la opción de votar por ideas que se definieron previamente en un proceso abierto y colaborativa, que regirán el accionar del Partido Digital. Lo distinto es que puede participar activamente en la construcción de esas ideas que formará nuestro Programa de Gobierno. Para las próximas elecciones se realizará un nuevo proceso colaborativo donde se plantearán nuevos desafíos y soluciones. Siempre dices que en Uruguay se debe hacer tal cosa o la otra? Ahora tienes la oportunidades de proponerlo y que sea una de las ideas fundamentales de un partido político en Uruguay, el Partido Digital."
+  link: "/participacion"
+  identificador: ideas
 
 - pregunta: "¿Cuál es la principal diferencia sobre los partidos políticos actuales?"
   respuesta: "Cada representante electo por el Partido Digital votará de acuerdo a lo que se votó previamente en una
@@ -57,7 +61,6 @@
   ejecutivo, el Partido Digital se apoyará en el programa de gobierno que será construido colaborativamente entre todos
   mediante nuestras herramientas tomando ideas de todos, siempre y cuando sean construidas responsablemente siguiendo un
   proceso estipulado por el Partido Digital basado en guías oficiales."
-  link:
   identificador: proceder
 
 - pregunta: "¿Quiénes van a ser las personas que van a formar parte de la boleta del Partido Digital en las próximas

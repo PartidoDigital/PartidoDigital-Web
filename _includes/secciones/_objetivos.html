@@ -1,18 +1,37 @@
-<section id="proximosobjetivos" class="container content-section text-xs-center separador">
-    <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-            <h2>Próximos objetivos</h2>
-            <p>Estos son nuestros próximos objetivos a lograr:</p>
-            <ul class="list-group">
-                {% for objetivo in site.data.objetivos %}
-                    <li class="list-group-item">
-                        {{ objetivo.descripcion }}
-                        <span class="tag tag-default tag-pill pull-xs-right {{ objetivo.estado }}">
-                            {{ objetivo.estado }}
-                        </span>
-                    </li>
-                {% endfor %}
-            </ul>
-        </div>
+<section id="objetivos" class="container content-section text-xs-center separador">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2">
+      <h2>Objetivos</h2>
+      <p>Estos son nuestros próximos objetivos. Te necesitamos para poder lograrlos, así que no dudes en contribuir y si
+        tenés alguna duda contáctanos a <a href="#contacto">nuestro correo electrónico</a></p>
     </div>
+    <div class="col-md-6 mb-3" itemscope="" itemtype="http://www.schema.org/SiteNavigationElement">
+      <a href="https://recursos.partidodigital.org.uy/assets/pdf/hoja_firma.pdf" target="_blank" itemprop="url" title="Imprime y firma">
+        <span class="btn-circle mb-2 p-1">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+        </span>
+      </a>
+      <h3>Oficializar el partido</h3>
+      <p>Necesitamos de tu ayuda para recolectar 1310 firmas para inscribirnos como partido político oficial en la Corte
+        Electoral. Tu firma solo significa que estás de acuerdo que exista el partido, no hay ningún compromiso
+        detrás.</p>
+      <a href="https://recursos.partidodigital.org.uy/assets/pdf/hoja_firma.pdf" target="_blank" itemprop="url"
+         class="btn">Imprime y firma</a>
+      <a href="mailto:hola@partidodigital.org.uy?subject=Quiero%20entregar%20mi%20firma" target="_blank" itemprop="url"
+         class="btn">Entreganos tu firma</a>
+    </div>
+    <div class="col-md-6 mb-3" itemscope="" itemtype="http://www.schema.org/SiteNavigationElement">
+      <a href="/plataforma" itemprop="url" title="Propone tus ideas">
+        <span class="btn-circle mb-2 p-1">
+            <i class="fa fa-book" aria-hidden="true"></i>
+        </span>
+      </a>
+      <h3>Construir el Programa de Gobierno</h3>
+      <p>Es de vital importancia que construyamos un Programa de Gobierno completo, colaborativo y responsable que
+        abarque lo que le preocupa al ciudadano uruguayo actualmente para el 2019 para generar un impacto sustantivo ya
+        desde 2020.</p>
+      <a href="/participacion#construccion-del-programa-de-gobierno" itemprop="url" class="btn">¿Porqué colaborativo?</a>
+      <a href="https://debate.partidodigital.org.uy" itemprop="url" class="btn">Propone tus ideas</a>
+    </div>
+  </div>
 </section>

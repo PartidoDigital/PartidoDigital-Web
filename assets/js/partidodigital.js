@@ -2,26 +2,27 @@
 var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Septiembre"];
 
 function collapseNavbar() {
-    if(window.pd.layout === "default") {
-        if ($(".navbar-fixed-top").offset().top > 50) {
-            $(".navbar-fixed-top").addClass("top-nav-collapse");
-            $(".navbar-brand").removeClass("hidden-md-up");
-        } else {
-            $(".navbar-fixed-top").removeClass("top-nav-collapse");
-            $(".navbar-brand").addClass("hidden-md-up");
-        }
+  if (window.pd.layout.indexOf("default") >= 0) {
+    if ($(window).scrollTop() > 50) {
+      $(".navbar-fixed-top").addClass("top-nav-collapse");
+      $(".navbar-brand").removeClass("hidden-md-up");
+    } else {
+      $(".navbar-fixed-top").removeClass("top-nav-collapse");
+      $(".navbar-brand").addClass("hidden-md-up");
     }
+  }
 }
 
 function hashChange() {
-    if(window.location.hash) {
-        $('body .resaltar').removeClass('resaltar');
-        $(window.location.hash).addClass('resaltar');
-        scrollBy(0, -100)
-    }
+  if (window.location.hash) {
+    $('body .resaltar').removeClass('resaltar');
+    $(window.location.hash).addClass('resaltar');
+    $(window.location.hash).nextUntil($(window.location.hash)[0].nodeName + ', .pagina-footer').addClass('resaltar');
+    scrollBy(0, -100);
+  }
 }
 
-function primerLunes(month, year){
+function primerLunes(month, year) {
   var d = new Date(year, month, 1, 0, 0, 0, 0);
   var day = 0;
 
@@ -33,7 +34,7 @@ function primerLunes(month, year){
   }
   // check if first of the month is a Monday, if so return the date, otherwise get to the Monday following the first of the month
   else if (d.getDay() != 1) {
-    day = 9-(d.getDay());
+    day = 9 - (d.getDay());
     d = d.setDate(day);
     d = new Date(d);
   }
@@ -44,7 +45,7 @@ function primerLunes(month, year){
 function proximoPrimerLunes() {
   var hoy = new Date();
   var actualPrimerLunes = primerLunes(hoy.getUTCMonth(), hoy.getUTCFullYear());
-  if(hoy.getUTCDate() > actualPrimerLunes.getUTCDate()) {
+  if (hoy.getUTCDate() > actualPrimerLunes.getUTCDate()) {
     return primerLunes(hoy.getUTCMonth() + 1, hoy.getUTCFullYear());
   } else {
     return actualPrimerLunes;
@@ -56,90 +57,91 @@ $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    // GA tracker name
-    var trackerSend = ga.getAll()[0].get('name') + '.send';
-    
-    $('a').bind('click', function(event) {
-        var $anchor = $(this);
-        if($anchor.attr('href').indexOf('#') === 0) {
-            ga(trackerSend, 'event', 'Menu', 'Click', $anchor.attr('href').slice(1));
-            $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top
-            }, 1500, 'easeInOutExpo');
-            event.preventDefault();
+$(function () {
+  $("body").scrollspy({offset: 100});
+
+  // GA tracker name
+  var trackerSend = ga.getAll()[0].get('name') + '.send';
+
+  $('a').bind('click', function (event) {
+    var $anchor = $(this);
+    if ($anchor.attr('href').indexOf('#') === 0 && $anchor.data("toggle") !== "collapse") {
+      ga(trackerSend, 'event', 'Link', 'Click', $anchor.attr('href').slice(1));
+      $('html, body').stop().animate({
+        scrollTop: $($anchor.attr('href')).offset().top - 90
+      }, 1500, 'easeInOutExpo');
+      $($anchor.attr('href')).addClass('resaltar');
+      $($anchor.attr('href')).nextUntil($($anchor.attr('href'))[0].nodeName + ', .pagina-footer').addClass('resaltar');
+      event.preventDefault();
+    }
+  });
+
+  // Detectar qué respuesta se visualiza
+  $('#accordion').on('show.bs.collapse', function (e) {
+    ga(trackerSend, 'event', 'Preguntas', 'VerRespuesta', e.target.getAttribute('id'));
+  });
+
+  var proximaReunionMensual = proximoPrimerLunes();
+  $('span.proximaReunion').html(proximaReunionMensual.getUTCDate() + " de " + meses[proximaReunionMensual.getUTCMonth()]);
+
+  hashChange();
+
+  $('#registro_web').ajaxChimp({
+    language: 'es',
+    url: "//partidodigital.us14.list-manage.com/subscribe/post?u=8e16f7903de2c0600985cf9e2&amp;id=3e02e25008",
+    ajaxOptions: {
+      beforeSend: function () {
+        $('#submit').attr('disabled', true).val('Enviando...');
+      }
+    },
+    callback: function (resp) {
+      if (resp.result === 'success') {
+        $('#submit').val(resp.msg);
+        setTimeout(function () {
+          $('#submit').val("Gracias por sumarte, es un placer tenerte");
+        }, 5000);
+      } else {
+        if (resp.msg.indexOf("ya está suscrito")) {
+          $('#submit').attr('disabled', false).val("Ya te habias sumado, gracias por insistir :)");
+        } else {
+          $('#submit').attr('disabled', false).val(resp.msg);
+          setTimeout(function () {
+            $('#submit').val("Intentalo de nuevo");
+          }, 5000);
         }
+      }
+    }
+  });
+
+  var RSSParserOptions = {
+    customFields: {
+      item: ['dc:creator', 'category']
+    }
+  };
+
+  RSSParser.parseURL('https://debate.partidodigital.org.uy/c/ideas.rss', RSSParserOptions, function (err, parsed) {
+    if (err) {
+      console.log(err);
+      return;
+    }
+    for (var i = 0; i <= 4; i++) {
+      var e = parsed.feed.entries[i];
+      var title = '"' + e.title + '"';
+      var autor = e["dc:creator"].split(" ");
+      $('#slider').append("<p>" + "<img class='rounded-circle autor' title='" + autor[1] + "' src='https://debate.partidodigital.org.uy/user_avatar/debate.partidodigital.org.uy/" + autor[0].substr(1) + "/30/1.png'/><a target='_blank' href='" + e.link + "'>" + title + "</a> en " + e.category + "</p>");
+    }
+    $('#debate-rss').show();
+    $('#slider').slick({
+      vertical: true,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      speed: 300,
+      arrows: false
     });
-    
-    // Detectar qué respuesta se visualiza
-    $('#accordion').on('show.bs.collapse', function (e) {
-        ga(trackerSend, 'event', 'Preguntas', 'VerRespuesta', e.target.getAttribute('id'));
-    });
+  });
 
-    var proximaReunionMensual = proximoPrimerLunes();
-    $('span.proximaReunion').html(proximaReunionMensual.getUTCDate() + " de " + meses[proximaReunionMensual.getUTCMonth()]);
-
-    hashChange();
-
-    $("body").scrollspy({offset:200});
-    $('#registro_web').ajaxChimp({
-        language: 'es',
-        url: "//partidodigital.us14.list-manage.com/subscribe/post?u=8e16f7903de2c0600985cf9e2&amp;id=3e02e25008",
-        ajaxOptions: {
-            beforeSend: function() {
-                $('#submit').attr('disabled', true).val('Enviando...');
-            }
-        },
-        callback: function(resp) {
-            if (resp.result === 'success') {
-                $('#submit').val(resp.msg);
-                setTimeout(function() {
-                    $('#submit').val("Gracias por sumarte, es un placer tenerte");
-                }, 5000);
-            } else {
-                if(resp.msg.indexOf("ya está suscrito")) {
-                    $('#submit').attr('disabled', false).val("Ya te habias sumado, gracias por insistir :)");
-                } else {
-                    $('#submit').attr('disabled', false).val(resp.msg);
-                    setTimeout(function() {
-                        $('#submit').val("Intentalo de nuevo");
-                    }, 5000);
-                }
-            }
-        }
-    });
-
-    /*var $contactForm = $('#contactoform');
-    $contactForm.submit(function(e) {
-        e.preventDefault();
-        var $submit = $('input:submit', $contactForm);
-        var defaultSubmitText = $submit.val();
-
-        $.ajax({
-            url: '//formspree.io/' + window.pd.email_contacto,
-            method: 'POST',
-            data: $(this).serialize(),
-            dataType: 'json',
-            beforeSend: function() {
-                $submit.attr('disabled', true).val('Enviando...');
-            },
-            success: function(data) {
-                $submit.val('¡Enviado!');
-                setTimeout(function() {
-                    $submit.attr('disabled', false).val(defaultSubmitText);
-                }, 5000);
-            },
-            error: function(err) {
-                $submit.val('Hubo un error, vuelve a intentar luego.');
-                setTimeout(function() {
-                    $submit.attr('disabled', false).val(defaultSubmitText);
-                }, 5000);
-            }
-        });
-    });*/
-});
-
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-toggleable-md ul li a').click(function() {
+  // Closes the Responsive Menu on Menu Item Click
+  $('.navbar-toggleable-md ul li a').click(function () {
     $(".navbar-toggleable-md").collapse('hide');
+  });
 });

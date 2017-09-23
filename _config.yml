@@ -1,7 +1,11 @@
 tagmanager: GTM-WPDQFCR
 dominio: https://partidodigital.org.uy/
-email_contacto: hola@partidodigital.org.uy
 acceso_url: https://partidodigital.auth0.com/login?client=3yqAXfyeQCu5RcrgSQUsb0M4ojdvif4N
+
+plugins:
+  - jekyll-sitemap
+
+exclude: [CNAME, README.md, Gemfile, Gemfile.lock]
 
 sass:
   style: compressed
