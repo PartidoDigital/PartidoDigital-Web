@@ -177,8 +177,13 @@ a {
         margin-right: 1rem;
     }
 
-    .nav-link svg {
-        width: 25px;
+    .nav-link {
+        &.cta {
+            text-decoration: underline;
+        }
+        svg {
+            width: 25px;
+        }
     }
 }
 
