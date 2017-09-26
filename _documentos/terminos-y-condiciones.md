@@ -4,7 +4,7 @@ date: 2016-12-04 18:12:58 -0300
 ---
 
 Los siguientes términos y condiciones rigen el uso de los sitios webs y herramientas bajo el
-dominio partidodigital.org.uy y todo su contenido ("Plataforma").
+dominio partidodigital.org.uy y todo su contenido ("}").
 La Plataforma es propiedad y son operados por el Partido Digital ("el Partido Digital"). El uso
 de los mismos implica la aceptación sin excepciones de todos los términos y condiciones
 contenidos en este documento y todas las demás reglas de operación, políticas y procedimientos
@@ -109,8 +109,8 @@ Usted manifiesta y garantiza que:
  2. su uso de la Plataforma no viole o se apropie indebidamente de los derechos de propiedad intelectual de terceros.
 
 ## Contacto {#contacto}
-Para cualquier sugerencia o propuesta de colaboración, las personas interesadas podrán dirigirse a [plataforma@partidodigital.org.uy]{:target="_blank"}.
+Para cualquier sugerencia o propuesta de colaboración, las personas interesadas podrán dirigirse a [hola@partidodigital.org.uy]{:target="_blank"}.
 
 [https://debate.partidodigital.org.uy/c/contenido-censurado]: https://debate.partidodigital.org.uy/c/contenido-censurado
-[plataforma@partidodigital.org.uy]: mailto:plataforma@partidodigital.org.uy
+[hola@partidodigital.org.uy]: mailto:hola@partidodigital.org.uy
 [https://partidodigital.org.uy/documentacion]: https://partidodigital.org.uy/documentacion
