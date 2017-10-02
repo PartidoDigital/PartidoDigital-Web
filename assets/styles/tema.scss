@@ -303,11 +303,43 @@ a {
             }
         }
     }
+}
 
-    a.btn{
-        border: 2px solid white;
-        &:hover {
-            background-color: white;
+a.btn{
+    border: 2px solid white;
+    &:hover {
+        background-color: white;
+        color: $naranja_pd;
+    }
+}
+
+#popup {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding: 0.5rem 0;
+    color: #fff;
+    background-color: #f36f21;
+    display: none;
+
+    p {
+        display: inline-block;
+        margin: 0;
+    }
+
+    #hide-popup {
+        opacity: 1;
+        text-shadow: none;
+        padding: 0 0.5rem;
+    }
+
+    a {
+        .fa {
+            color: #fff;
+        }
+
+        &:hover .fa {
             color: $naranja_pd;
         }
     }

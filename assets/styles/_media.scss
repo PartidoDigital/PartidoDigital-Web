@@ -1,8 +1,26 @@
 @media(min-width:768px) {
   p {
     margin: 35px 0 35px;
-    font-size: 20px;
+    font-size: 1rem;
     line-height: 1.6;
+  }
+
+  .intro {
+    height: 100%;
+    padding: 0;
+    .intro-body {
+      .brand-heading {
+        font-size: 100px;
+      }
+      .intro-text {
+        font-size: 26px;
+      }
+    }
+  }
+
+  .pagina-layout .content-section {
+    padding-top: 0;
+    margin-top: 60px;
   }
 }
 
@@ -43,29 +61,7 @@
   .content-section a.btn + a.btn {
     margin-top: 1rem;
   }
-}
 
-@media(min-width:768px) {
-  .intro {
-    height: 100%;
-    padding: 0;
-    .intro-body {
-      .brand-heading {
-        font-size: 100px;
-      }
-      .intro-text {
-        font-size: 26px;
-      }
-    }
-  }
-
-  .pagina-layout .content-section {
-    padding-top: 0;
-    margin-top: 60px;
-  }
-}
-
-@media (max-width: 991px) {
   .navbar-nav {
     float: left;
   }
@@ -86,6 +82,20 @@
   #preguntas {
     h4 {
       font-size: 1.3rem;
+    }
+  }
+
+  #popup {
+    p {
+      display: block !important;
+    }
+
+    .btn {
+      padding: 0.2rem 0.5rem;
+
+      .fa {
+        display: none;
+      }
     }
   }
 }

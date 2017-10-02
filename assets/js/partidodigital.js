@@ -6,9 +6,11 @@ function collapseNavbar() {
     if ($(window).scrollTop() > 50) {
       $(".navbar-fixed-top").addClass("top-nav-collapse");
       $(".navbar-brand").removeClass("hidden-md-up");
+      $("#popup").slideDown('slow');
     } else {
       $(".navbar-fixed-top").removeClass("top-nav-collapse");
       $(".navbar-brand").addClass("hidden-md-up");
+      $("#popup").slideUp('slow');
     }
   }
 }
@@ -65,7 +67,7 @@ $(function () {
 
   $('a').bind('click', function (event) {
     var $anchor = $(this);
-    if ($anchor.attr('href').indexOf('#') === 0 && $anchor.data("toggle") !== "collapse") {
+    if ($anchor.attr('href').indexOf('#') === 0 && $anchor.data("toggle") !== "collapse" && !$anchor.hasClass('close')) {
       ga(trackerSend, 'event', 'Link', 'Click', $anchor.attr('href').slice(1));
       $('html, body').stop().animate({
         scrollTop: $($anchor.attr('href')).offset().top - 90
