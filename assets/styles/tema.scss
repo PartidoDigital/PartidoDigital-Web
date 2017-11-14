@@ -34,7 +34,7 @@ body {
             text-decoration: underline;
         }
 
-        h1 {
+        h1:not(.plain) {
             padding: 1rem 2.5rem;
             margin: 0;
 

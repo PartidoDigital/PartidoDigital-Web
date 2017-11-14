@@ -72,6 +72,10 @@ Si tienes problemas para colaborar mes a mes e igualmente deseas afiliarte ¡no 
     		<label for="mce-group[4669]-4669-2">BROU</label>
     	</li>
     	<li>
+            <input type="radio" value="128" name="group[4669]" id="mce-group[4669]-4669-6">
+            <label for="mce-group[4669]-4669-6">Itaú</label>
+        </li>
+    	<li>
     		<input type="radio" value="16" name="group[4669]" id="mce-group[4669]-4669-3">
     		<label for="mce-group[4669]-4669-3">Santander</label>
     	</li>
@@ -93,14 +97,11 @@ Si tienes problemas para colaborar mes a mes e igualmente deseas afiliarte ¡no 
     	</li>
     </ul>
 </div>
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8e16f7903de2c0600985cf9e2_d69798f48c" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Afiliarme al Partido Digital" name="subscribe" id="mc-embedded-subscribe" class="action btn"></div>
+    <div class="clear"><input id="submit" type="submit" value="Afiliarme al Partido Digital" name="subscribe" class="action btn"></div>
     </div>
 </form>
 </div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/localization/messages_es_AR.js"></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[4]='MMERGE4';ftypes[4]='text';fnames[5]='MMERGE5';ftypes[5]='tel';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.js" crossorigin="anonymous"></script>
+<script type='text/javascript' src='assets/js/afiliaciones.js'></script>
 <!--End mc_embed_signup-->
