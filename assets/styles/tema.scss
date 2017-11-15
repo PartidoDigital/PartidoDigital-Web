@@ -651,8 +651,14 @@ textarea {
     outline:none;
     cursor: pointer;
 
-    border: solid 1px #ffffff;
+    border: 1px solid #ffffff;
     border-top: none;
+}
+
+.inverted-background #submit {
+    border-top: 1px solid #ffffff;
+    background-color: $background_blue;
+    font-size: 1em;
 }
 
 .boton-donar {
