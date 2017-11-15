@@ -8,16 +8,7 @@
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                     </span>
                     <p>¡Sumate al Partido Digital! Te estaremos enviando información de eventos, reuniones y distintas formas de participar.</p>
-                    <!-- Begin MailChimp Signup Form -->
-                    <div id="mc_embed_signup" class="mb-2">
-                        <form id="registro_web" name="mc-embedded-subscribe-form" class="validate" novalidate>
-                                <input type="email" value="" placeholder="Correo electrónico" name="EMAIL" class="required email">
-                                <input type="text" value="" placeholder="Nombre completo" name="NOMBRE" class="" id="mce-NOMBRE">
-                                <input type="text" value="" placeholder="Ciudad" name="CIUDAD" class="" id="mce-CIUDAD" style="border-bottom: 1px solid;">
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8e16f7903de2c0600985cf9e2_3e02e25008" tabindex="-1" value=""></div>
-                                <input type="submit" value="¡Sumarme!" name="subscribe" id="submit" class="button">
-                        </form>
-                    </div>
+                    {% include _sumate_form.html %}
 
                     <div class="alert alert-info mb-3" role="alert">
                         Comunicate con nosotros al correo <a href="mailto:hola@partidodigital.org.uy">hola@partidodigital.org.uy</a> para dejarnos tus dudas, sugerencias, comentarios en general.

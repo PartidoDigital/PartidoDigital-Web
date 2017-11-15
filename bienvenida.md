@@ -17,7 +17,7 @@ body_class: "inverted-background"
 
 <p class="display-3 font-weight-bold text-primary pt-2">+ PARTICIPACIÓN</p>
 
-<p class="h2">Cada reresentante del Partido Digital votará de acuerdo al resultado que salga en una herramienta online, al que pueden acceder todos los uruguayos habilitados para votar.</p>
+<p class="h2">Cada representante del Partido Digital votará de acuerdo al resultado que salga en una herramienta online, al que pueden acceder todos los uruguayos habilitados para votar.</p>
 
 <p class="display-3 font-weight-bold text-primary">+ TRANSPARENCIA</p>
 <p class="display-3 font-weight-bold text-primary">- CORRUPCIÓN</p>
@@ -27,3 +27,7 @@ body_class: "inverted-background"
 <p class="display-3 font-weight-bold text-primary">+ POLÍTICA AL SERVICIO DE TODOS</p>
 
 <p class="h2">Nuestro Programa de Gobierno se está construyendo con las ideas de todos en <a href="http://debate.uy">debate.uy</a> en un proceso colaborativo y transparente.</p>
+
+<p class="display-3 font-weight-bold text-primary">SUMATE</p>
+
+{% include _sumate_form.html %}
