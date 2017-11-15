@@ -14,6 +14,11 @@ body {
     background-image: url(../img/bg.jpg);
     background-size: cover;
 
+    &.inverted-background {
+        background-image: none;
+        background-color: $naranja_pd;
+    }
+
     &.pagina-layout {
         p {
             padding: 0 0 1rem;
@@ -110,6 +115,18 @@ p {
     margin: 25px 0 25px;
     font-size: 18px;
     line-height: 1.5;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-primary {
+    color: $background_blue!important;;
+}
+
+.text-secondary {
+    color: $naranja_pd!important;
 }
 
 table {
@@ -321,6 +338,7 @@ a.btn{
     padding: 0.5rem 0;
     color: #fff;
     background-color: #f36f21;
+    z-index: 9;
     display: none;
 
     p {
@@ -452,11 +470,16 @@ a.MP-common-orange-CDl {
         margin: 2rem auto 3rem;
         background: $naranja_pd;
         box-shadow: 30px 0 $naranja_pd, -30px 0 $naranja_pd;
+
+        .inverted-background & {
+            background: $background_blue;
+            box-shadow: 30px 0 $background_blue, -30px 0 $background_blue;
+        }
     }
 }
 
-.pagina-footer {
-    margin-bottom: 30px;
+footer {
+    margin-bottom: 4em;
     text-align: center;
 
     i, b {

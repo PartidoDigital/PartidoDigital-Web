@@ -98,10 +98,7 @@ $(function () {
     },
     callback: function (resp) {
       if (resp.result === 'success') {
-        $('#submit').val(resp.msg);
-        setTimeout(function () {
-          $('#submit').val("Gracias por sumarte, es un placer tenerte");
-        }, 5000);
+        window.location.href = '/sumate';
       } else {
         if (resp.msg.indexOf("ya está suscrito")) {
           $('#submit').attr('disabled', false).val("Ya te habias sumado, gracias por insistir :)");
