@@ -4,15 +4,15 @@ title: Afiliación
 date: 2017-11-13
 ---
 
-## Tarjeta de crédito
+## Abitab / Red Pagos
 
 ### ¡Te damos la bienvenida al Partido Digital!
 
-Para configurar tu donación mensual por un año haz lo siguiente:
+Para configurar tu donación mensual haz lo siguiente:
 
 1. Haz clic en el siguiente botón:
 
-    [CONFIGURAR AFILIACIÓN](http://mpago.la/t1ID){:class="btn"}
+    [CONFIGURAR DATOS](http://mpago.la/t1ID){:class="btn"}
 
 2. Ingresa los datos solicitados.
 3. Haz clic en 'Pagar'.
