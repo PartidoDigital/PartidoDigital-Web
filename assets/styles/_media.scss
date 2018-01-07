@@ -121,10 +121,10 @@
   }
   
   h1:not(.plain) {
-    padding: 1rem 1.8rem;
-    margin: 0;
-    :after {
-      margin-left: 0rem;
+    padding: 1rem 1.8rem !important;
+    margin: 0 !important;
+    &:after {
+      margin-left: 0rem !important;
     }
   }
 
