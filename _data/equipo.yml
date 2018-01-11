@@ -19,6 +19,7 @@
   networks:
      - twitter: https://twitter.com/leog
      - linkedin: https://linkedin.com/in/leogiovanetti
+     - github: https://github.com/leog
      - telegram: https://t.me/leogiovanetti
 
 - nombre: Ma. Luisa Martínez
@@ -89,6 +90,13 @@
   posicion: Finanzas
   networks:
      - linkedin: https://www.linkedin.com/in/carolina-nunes-18319877
+
+- nombre: Sebastián Ventura
+  gravatar: a421ba465ea846dea4026abccd902a9a
+  posicion: Equipo técnico
+  networks:
+     - github: https://github.com/lomegor
+     - telegram: https://t.me/lomegor
      
 - nombre: Florencia Montibeller
   gravatar: df2a50e94637c93602fff5a47c7100b3
@@ -97,3 +105,9 @@
      - twitter: https://twitter.com/flomontibeller
      - linkedin: https://www.linkedin.com/in/florenciamontibeller
   
+- nombre: Richard Perez
+  gravatar: 51f965737a09297f5ecd9f9b50c0b101
+  posicion: Coord. Treita y Tres
+  networks:
+     - twitter: https://twitter.com/Ixphinx
+     - linkedin: https://www.linkedin.com/in/richard-adrian-perez-pereira-17836982
