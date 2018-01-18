@@ -9,6 +9,7 @@ Estas son las tareas en las que estamos trabajando en la plataforma del Partido 
 
 ## Remover el ingreso de credencial cívica
 > Completado Octubre 2017
+
 En una primera instancia, el formulario de registro de usuario nuevos para acceder a la plataforma del Partido Digital requería el ingreso de la credencial cívica. Esto era para poder cerciorarnos que una persona física era la que en un futuro era capaz de votar en la [herramienta de voto](/plataforma#herramienta-de-voto). 
 
 Esto luego se removió ya que la instancia de votación iba a ser más adelante y no tenía sentido demorar el registro de usuarios nuevos hasta que la persona tenga a disposición su número de credencial para ingresar al momento de registrarse.
