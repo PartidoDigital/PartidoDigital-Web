@@ -54,10 +54,10 @@
 										<div style="position: relative;">
 											<div class="auth0-lock-body-content">
 												<div class="auth0-lock-content">
-													<p style="margin-top:0; text-align: center;">
+													<p style="margin-top:0; text-align: center;" id="mensaje">
 														Necesitamos tu nombre completo para ayudar a identificarte.
 													</p>
-													<div class="auth0-lock-form">
+													<div class="auth0-lock-form" id="form_container">
 														<div>
 															<div>
 																<div class="auth0-lock-input-block auth0-lock-input-email">
@@ -73,7 +73,7 @@
 															</div>
 														</div>
 													</div>
-													<p class="auth0-lock-alternative" style="text-align: center; margin-bottom: 0;">
+													<p class="auth0-lock-alternative" style="text-align: center; margin-bottom: 0;" id="mas_info">
 														<a href="https://partidodigital.org.uy/plataforma/tareas#completar-nombre-completo" target="_blank" style="color: grey; font-size: 0.8em;">Más información</a>
 													</p>
 												</div>
@@ -129,12 +129,6 @@
 				}
 			}
 		});
-		/*fullNameField.addEventListener('keydown', function() {
-			if(!tippyIn) {
-				tippyIn = true;
-				fullNameField._tippy.show();
-			}
-		});*/
 		function checkRules(val, rules) {
 			document.getElementById("largo").className = rules.largo ? "regla" : "regla notok"; 
 			document.getElementById("completo").className = rules.completo ? "regla" : "regla notok"; 
@@ -167,7 +161,16 @@
 			stateField.setAttribute("value", query.state);
 			var form = document.getElementById("add_full_name");
 			form.setAttribute("action", "https://pdigital.uy/wt-hello-leog_me-0/handle-user-metadata/add-full-name?token=" + query.token);
-		} catch(e) {}
+		} catch(e) {
+			document.getElementById("form_container").remove();
+			document.getElementById("submit_form").remove();
+			document.getElementById("mas_info").remove();
+			var msj = document.getElementById("mensaje");
+			msj.innerHTML = "No es posible ejecutar esta tarea sin un contexto. Escribinos a <a href='mailto:plataforma@partidodigital.org.uy'>plataforma@partidodigital.org.uy</a> <br>si tienes alguna duda.";
+			msj.setAttribute("style", "margin: 0; text-align: center;");
+			var avatar = document.getElementById("user_avatar");
+			avatar.setAttribute("src", "https://recursos.partidodigital.org.uy/assets/img/halt.png");
+		}
     </script>
 </body>
 
