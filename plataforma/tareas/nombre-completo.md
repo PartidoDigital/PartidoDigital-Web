@@ -1,4 +1,5 @@
 ---
+layout: null
 date: 2018-01-22
 ---
 
