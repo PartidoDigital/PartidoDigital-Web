@@ -111,3 +111,9 @@
   networks:
      - twitter: https://twitter.com/Ixphinx
      - linkedin: https://www.linkedin.com/in/richard-adrian-perez-pereira-17836982
+
+- nombre: Pablo Nuñez
+  gravatar: be3586fdb09645abbb1ddf997bcef2df
+  posicion: Coord. Rocha
+  networks:
+     - telegram: https://t.me/PabloNNC
