@@ -1,6 +1,60 @@
-<footer>
+<footer id="myFooter">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-3">
+              <h2 class="logo"><img class="img-fluid" src="https://recursos.partidodigital.org.uy/assets/img/logo_original.svg" width="150" alt="" /></h2>
+          </div>
+          <div class="col-sm-2">
+              <ul>
+                  <li><a href="/acciones">Acciones</a></li>
+                  <li><a href="/afiliaciones">Afiliaciones</a></li>
+                  <li><a href="/equipo">Equipo</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-2">
+              <ul>
+                  <li><a href="/hoja.pdf">Hoja de firma</a></li>
+                  <li><a href="/entregar-firma">Entregar firma</a></li>
+                  <li><a href="/ideas">Ideas</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-2">
+              <ul>
+                  <li><a href="/participacion">Participación</a></li>
+                  <li><a href="/plataforma">Plataforma</a></li>
+                  <li><a href="/finanzas">Finanzas</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-3">
+              <div class="social-networks">
+                    <a itemprop="sameAs" href="https://www.facebook.com/PDigitalUy" target="_blank" title="Facebook">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a itemprop="sameAs" href="https://www.twitter.com/PDigitalUY" target="_blank" title="Twitter">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a itemprop="sameAs" href="https://www.instagram.com/PDigitalUy" target="_blank" title="Instagram">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a itemprop="sameAs" href="https://www.youtube.com/channel/UCuqFyel1qh0E9w_1vFXBk0Q" target="_blank" title="YouTube">
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                    </a><br>
+                    <a itemprop="sameAs" href="https://www.linkedin.com/company/partido-digital" target="_blank" title="LinkedIn">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a itemprop="sameAs" href="https://t.me/PartidoDigital" target="_blank" title="Canal de Telegram">
+                        <i class="fa fa-telegram" aria-hidden="true"></i>
+                    </a>
+                    <a itemprop="sameAs" href="https://github.com/PartidoDigital" target="_blank" title="GitHub">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+              </div>
+          </div>
+      </div>
+  </div>
   {% if page.date != nil %}
-  <i><b>Este contenido fue actualizado por última vez el {{ page.date | date: "%d/%m/%Y" }}.</b></i>
+  <div class="footer-footer">    
+    <i><b>Este contenido fue actualizado por última vez el {{ page.date | date: "%d/%m/%Y" }}.</b></i>
+  </div>
   {% endif %}
-  <sub>¿Alguna corrección? Edita el contenido en el <a href="/plataforma#servicio-de-alojamiento-de-codigo">servicio de alojamiento de código fuente</a> <a href="https://github.com/PartidoDigital/PartidoDigital-Web/{{page.path}}" target="_blank">aquí</a></sub>
 </footer>

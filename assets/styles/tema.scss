@@ -154,8 +154,9 @@ blockquote {
 .banner {
     display: flex;
     align-items: center;
-    background-color: $naranja_pd;
-    margin: 0 10px;
+    background-color: grey;
+    color: white;
+    margin: 0 0.5em;
 }
 
 .alert {
@@ -480,13 +481,87 @@ a.MP-common-orange-CDl {
     }
 }
 
-footer {
-    margin-bottom: 4em;
-    text-align: center;
+#myFooter {
+    background-color: $azul_pd;
+    color: white;
+    padding-top: 1.5em;
+}
 
-    i, b {
-        display: block;
+#myFooter .footer-footer {
+    background-color: darken($azul_pd, 20%);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+#myFooter .row {
+    margin-bottom: 1em;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 0.7em;
+    height: 1.1em;
+}
+
+#myFooter .footer-copyright p {
+    margin: 0.5em;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+}
+
+#myFooter .social-networks a {
+    font-size: 2em;
+    padding: 0.2em;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
     }
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
 }
 
 ::-moz-selection {
