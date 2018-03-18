@@ -2,8 +2,8 @@
   respuesta: "En la actualidad el mundo es mucho más diverso que la simple polarización entre dos posiciones; hay opiniones diversas sobre intervención estatal, justicia social, ambientalismo, consideraciones éticas de las nuevas tecnologías, entre otras. La posición del Partido Digital y sus propuestas para cada tema se definirá de forma colaborativa, y puedes participar ahora mismo. <a href='https://debate.partidodigital.org.uy'>Participa aquí</a>."
   identificador: posicion
 
-- pregunta: "Pero si las propuestas sales de la gente, ¿significa que el Partido Digital no tiene ideología?"
-  respuesta: "La ideología del Partido Digital escapa al espectro político que tiene más de 200 años ya que acuña una ideología transparentista. Ninguna propuesta del Partido Digital puede tener componentes que no hayan sido elegidos por los ciudadanos. Además nuestro funcionamiento es totalmente transparente, de código abierto y totalmente replicable por los partidos con ideologías tradicionales. Es hora de ajustarnos a lo que la gente necesita, empoderando a todos como debe ser, y como fué previo a que sea necesario un mecanismo de representación en base a confianza. El Partido Digital establece un canal directo entre el representante y el representado, ya no es necesario un voto de confianza, solo es necesario participar."
+- pregunta: "Pero si las propuestas salen de la gente, ¿significa que el Partido Digital no tiene ideología?"
+  respuesta: "La ideología del Partido Digital escapa al espectro político actual que tiene más de 200 años. El Partido Digital es transparentista. Ninguna propuesta del Partido Digital puede tener componentes que no hayan sido elegidos por los ciudadanos. Además nuestro funcionamiento es totalmente transparente, de código abierto y totalmente replicable por los partidos con ideologías tradicionales. Es hora de ajustarnos a lo que la gente necesita, empoderando a todos como debe ser, y como fue previo a que sea necesario un mecanismo de representación en base a confianza. El Partido Digital establece un canal directo entre el representante y el representado, ya no es necesario un voto de confianza, solo es necesario participar."
   identificador: ideologia
 
 - pregunta: "¿Porqué \"Digital\"?"
@@ -81,8 +81,8 @@
 - pregunta: "¿Puede el Partido Digital actuar en alguna instancia sin el involucramiento de los ciudadanos?"
   respuesta: "Hay ciertas instancias en las cuales el Partido Digital debe actuar por cuenta propia. En primer lugar
   cuando haya que defender el espíritu del Partido establecido en su Programa de Principios, no pudiendo tolerar el uso
-  indebido de las herramientas que pone a disposición. Por otro lado, hay algunas leyes que por distintas circunsancias
+  indebido de las herramientas que pone a disposición. Por otro lado, hay algunas leyes que por distintas circunstancias
   no se podrán discutir y decidir en tiempo real por Internet, como lo establece nuestra Carta Orgánica. En estas
-  situaciones, el o los representantes del Partido Digital expondrán y justificar su actuación a posterior."
+  situaciones, el o los representantes del Partido Digital expondrán y justificarán su actuación a posterior."
   link: "/documentos/carta-organica#articulo-34"
   identificador: actuacion
