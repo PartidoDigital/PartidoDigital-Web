@@ -88,28 +88,42 @@ $(function () {
 
   hashChange();
 
-  $('#registro_web').ajaxChimp({
-    language: 'es',
-    url: "//partidodigital.us14.list-manage.com/subscribe/post?u=8e16f7903de2c0600985cf9e2&amp;id=3e02e25008",
-    ajaxOptions: {
+  $('#registro_web').submit(function(e) {
+    e.preventDefault();
+    $.ajax({
+      method: 'post',
+      url: "https://mautic.tecytal.com/form/submit?formId=1",
+      dataType: 'json',
+      data: $.param({
+        'mauticform[nombre]': $("[name=nombre]").val(),
+        'mauticform[apellido]': $("[name=apellido]").val(),
+        'mauticform[email]': $("[name=email]").val(),
+        'mauticform[telefono]': $("[name=telefono]").val(),
+        'mauticform[formId]': 1,
+        'mauticform[formName]': "partidodigitalfirma",
+        'mauticform[return]': "",
+      }),
       beforeSend: function () {
+        if($("[name=nombre]").val() === "" || $("[name=apellido]").val() === "" 
+            || $("[name=email]").val() === "" || $("[name=telefono]").val() === "") {
+              setTimeout(function () {
+                $('#submit').val("Algún campo está vacío. Intentalo de nuevo.");
+              }, 5000);
+              return false;
+            }
         $('#submit').attr('disabled', true).val('Enviando...');
+      },
+      error: function () {    
+        $("[name=nombre]").val("");
+        $("[name=apellido]").val("");
+        $("[name=email]").val("");
+        $("[name=telefono]").val("");
+        $('#submit').val("¡Listo! Gracias por sumarte, recibirás un correo electrónico pronto.");  
+        setTimeout(function () {
+          $('#submit').val("¡Sumarme!");
+        }, 5000);
       }
-    },
-    callback: function (resp) {
-      if (resp.result === 'success') {
-        window.location.href = '/sumate';
-      } else {
-        if (resp.msg.indexOf("ya está suscrito")) {
-          $('#submit').attr('disabled', false).val("Ya te habias sumado, gracias por insistir :)");
-        } else {
-          $('#submit').attr('disabled', false).val(resp.msg);
-          setTimeout(function () {
-            $('#submit').val("Intentalo de nuevo");
-          }, 5000);
-        }
-      }
-    }
+    });
   });
 
   var $videoSrc;
