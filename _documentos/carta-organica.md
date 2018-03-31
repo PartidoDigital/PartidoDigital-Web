@@ -18,29 +18,29 @@ por y para todos.
 #### De las autoridades del Partido Digital
 
 ##### Artículo 2 {#articulo-2}
-El Directorio del Partido Digital estará compuesto por cinco integrantes con voz y voto: Presidente, Vicepresidente, Secretario General y dos Vocales. Además lo integrarán una persona de cada equipo de trabajo, con voz y sin voto, encargada de coordinar esfuerzos y demostrar avances en su equipo de trabajo (de ahora en más "líderes").
+El Directorio del Partido Digital estará compuesto por cinco integrantes con voz y voto: Presidente, Vicepresidente, Secretario General y dos Vocales. Además lo integrarán una persona de cada equipo de trabajo, con voz y sin voto, encargada de coordinar esfuerzos y demostrar avances en su equipo de trabajo (de ahora en más "Líderes").
 
 ##### Artículo 3 {#articulo-3}
-Se elegirán líderes de cada equipo de trabajo: Técnico, Legislación, Finanzas, Proyectos, Afiliaciones y
+Se elegirán Líderes de cada equipo de trabajo: Técnico, Legislación, Finanzas, Proyectos, Afiliaciones y
 Comunicación.
 
 ##### Artículo 4 {#articulo-4}
-Para elegir a estas personas, quienes están al día con la cuota partidaria y hayan aceptado respetar y defender el Programa de Principios del Partido Digital (de ahora en más "digitales") podrán postularse para la función de líderes de los equipos de trabajo y el Directorio analizará los méritos de los postulantes para dejar habilitados a los más capaces para el puesto.
+Para elegir a estas personas, quienes están al día con la cuota partidaria y hayan aceptado respetar y defender el Programa de Principios del Partido Digital (de ahora en más "Digitales") podrán postularse para la función de Líderes de los equipos de trabajo y el Directorio analizará los méritos de los postulantes para dejar habilitados a los más capaces para el puesto.
 
 ##### Artículo 5 {#articulo-5}
-Dentro de estos candidatos habilitados para ser líderes de los equipos de trabajo, los digitales podrán escoger a sus preferidos en las respectivas áreas.
+Dentro de estos candidatos habilitados para ser Líderes de los equipos de trabajo, los Digitales podrán escoger a sus preferidos en las respectivas áreas.
 
 ##### Artículo 6 {#articulo-6}
-Los líderes se mantendrán en funciones durante el mismo periodo que el Directorio.
+Los Líderes se mantendrán en funciones durante el mismo periodo que el Directorio.
 
 ##### Artículo 7 {#articulo-7}
-Un Digital no puede ser parte del Directorio y ser líder de una de las áreas antes mencionadas.
+Un Digital no puede ser parte del Directorio y ser Líder de una de las áreas antes mencionadas.
 
 ##### Artículo 8 {#articulo-8}
-Los digitales que pueden desempeñarse como autoridades del Partido Digital deben ser parte del mismo como mínimo durante dos años.
+Los Digitales que pueden desempeñarse como autoridades del Partido Digital deben ser parte del mismo como mínimo durante dos años.
 
 ##### Artículo 9 {#articulo-9}
-Se elegirán tres digitales para el Comité de Ética.
+Se elegirán tres Digitales para el Comité de Ética.
 
 #### De los equipos de trabajo
 
@@ -51,7 +51,7 @@ Se constituirán equipos de trabajo temático para fomentar el trabajo de person
 Los equipos de trabajo que se plantean en la fundación del Partido Digital son los siguientes: Técnico, Legislación, Finanzas, Proyectos, Comunicación. No obstante, se podrán crear más equipos de trabajo, previa decisión del directorio del Partido Digital.
 
 ##### Artículo 12 {#articulo-12}
-El Equipo Técnico tendrá la función de resolver las cuestiones tecnológicas correspondientes al Partido Digital, incluyendo el conjunto de herramientas online necesarias para llevar a cabo todas las iniciativas vinculadas al Partido Digital (de ahora en más la "plataforma").
+El Equipo Técnico tendrá la función de resolver las cuestiones tecnológicas correspondientes al Partido Digital, incluyendo el conjunto de herramientas online necesarias para llevar a cabo todas las iniciativas vinculadas al Partido Digital (de ahora en más la "Plataforma").
 
 ##### Artículo 13 {#articulo-13}
 El Equipo de Legislación tendrá la función de asesorar sobre el marco legal existente respecto a la actuación
@@ -72,13 +72,13 @@ El Directorio del Partido Digital podrá determinar la creación de nuevos equip
 #### Del Comité de Ética {#del-comite-de-etica}
 
 ##### Artículo 18 {#articulo-18}
-La función del Comité de Ética es la de hacer cumplir el Código de Ética, que regula el comportamiento de los digitales.
+La función del Comité de Ética es la de hacer cumplir el Código de Ética, que regula el comportamiento de los Digitales.
 
 ##### Artículo 19 {#articulo-19}
 El Comité de Ética tendrá la potestad de advertir, sancionar o expulsar del Partido Digital a las personas que explícitamente violen el Código de Ética.
 
 ##### Artículo 20 {#articulo-20}
-El Comité de Ética estará compuesto por tres digitales.
+El Comité de Ética estará compuesto por tres Digitales.
 
 ##### Artículo 21 {#articulo-21}
 Los integrantes del Comité de Ética serán electos en una elección interna por los convencionales.
@@ -146,25 +146,25 @@ Aquellas personas del Partido Digital que integren el Poder Ejecutivo en una pos
 Los representantes del Partido Digital en cualquier órgano legislativo deben actuar de acuerdo a lo que se decida en una herramienta online. Esta herramienta mostrará el proyecto de Ley para votar, material adicional para conocer sobre el tema, opiniones de expertos en el área y de los votantes de la misma que quiera justificar su voto.
 
 ##### Artículo 33 {#articulo-33}
-En aquellas ocasiones en donde se presente una votación para la misma sesión y haya un tiempo para emitir el voto mayor a 15 minutos, se pondrá la información online y comunicará a los registrados en la plataforma por todas las vías de comunicación posible para tomar la decisión online con la mayor participación posible.
+En aquellas ocasiones en donde se presente una votación para la misma sesión y haya un tiempo para emitir el voto mayor a 15 minutos, se pondrá la información online y comunicará a los registrados en la Plataforma por todas las vías de comunicación posible para tomar la decisión online con la mayor participación posible.
 
 ##### Artículo 34 {#articulo-34}
-Aquellas decisiones en que haya un plazo para emitir el voto menor a quince minutos, el legislador digital tomará la decisión teniendo en cuenta las ideas definidas en el Programa de Gobierno vigente y/o votaciones ya realizadas en la plataforma. Si hay dos posiciones encontradas, tomará la que tiene menor antigüedad. El legislador actuará por su cuenta solo en estos casos.
+Aquellas decisiones en que haya un plazo para emitir el voto menor a quince minutos, el legislador digital tomará la decisión teniendo en cuenta las ideas definidas en el Programa de Gobierno vigente y/o votaciones ya realizadas en la Plataforma. Si hay dos posiciones encontradas, tomará la que tiene menor antigüedad. El legislador actuará por su cuenta solo en estos casos.
 
 ##### Artículo 35 {#articulo-35}
-En estos casos, el legislador luego de emitir su voto, publicará en la plataforma en menos de veinticuatro horas la información al respecto y la justificación.
+En estos casos, el legislador luego de emitir su voto, publicará en la Plataforma en menos de veinticuatro horas la información al respecto y la justificación.
 
 ##### Artículo 36 {#articulo-36}
-Si lo digitales encuentran que su decisión no respetó una decisión colectiva previamente tomada, como está definida en los artículos anteriores, podrá votar para destituir al representante digital. Si se llega al resultado en que los digitales registrados en la plataforma en la que se votan las leyes, decidan destituir al representante digital, se convocará una sesión urgente del directorio, dentro de las setenta y dos horas siguientes, quienes decidirán si el representante continúa o no en su puesto.
+Si lo Digitales encuentran que su decisión no respetó una decisión colectiva previamente tomada, como está definida en los artículos anteriores, podrá votar para destituir al representante digital. Si se llega al resultado en que los Digitales registrados en la Plataforma en la que se votan las leyes, decidan destituir al representante digital, se convocará una sesión urgente del directorio, dentro de las setenta y dos horas siguientes, quienes decidirán si el representante continúa o no en su puesto.
 
 ##### Artículo 37 {#articulo-37}
 En la votación del Directorio para decidir la destitución del representante según lo establecido en el [ARTÍCULO 35](#articulo-35), si el representante en funciones integra el Directorio, estará excluido de votar cuando se decida su destitución o no.
 
 ##### Artículo 38 {#articulo-38}
-Si llega a ocurrir un empate en la votación establecida en el [ARTÍCULO 36](#articulo-36), la decisión será la elegida en la plataforma por todos los digitales.
+Si llega a ocurrir un empate en la votación establecida en el [ARTÍCULO 36](#articulo-36), la decisión será la elegida en la Plataforma por todos los Digitales.
 
 ##### Artículo 39 {#articulo-39}
-En caso de que el legislador digital vote explícitamente en contra de lo que se decidió en la plataforma, el mismo deberá dejar el cargo.
+En caso de que el legislador digital vote explícitamente en contra de lo que se decidió en la Plataforma, el mismo deberá dejar el cargo.
 
 ##### Artículo 40 {#articulo-40}
 En caso de suceder esto, quien ocupe su lugar será el siguiente legislador en la lista de candidatos presentada en las últimas elecciones.
@@ -176,7 +176,7 @@ Los representantes del Partido Digital en el órgano Legislativo deberán concur
 Además deberá concurrir por lo menos una vez al año a todas las ciudades de Uruguay desde dónde lo solicite un grupo mayor a 20 personas.
 
 ##### Artículo 43 {#articulo-43}
-Cada vez que se presenta un proyecto de Ley, el Legislador, con ayuda de equipo de asesores asignados a colaborar en la tarea del legislador, deberá subirlo a la plataforma en un plazo menor a veinticuatro horas a partir de que el mismo esté en posesión del representante, con su correspondiente resumen.
+Cada vez que se presenta un proyecto de Ley, el Legislador, con ayuda de equipo de asesores asignados a colaborar en la tarea del legislador, deberá subirlo a la Plataforma en un plazo menor a veinticuatro horas a partir de que el mismo esté en posesión del representante, con su correspondiente resumen.
 
 ##### Artículo 44 {#articulo-44}
 El resumen del proyecto de Ley debe ser objetivo, sin expresión de opinión propia.
@@ -185,36 +185,36 @@ El resumen del proyecto de Ley debe ser objetivo, sin expresión de opinión pro
 Si hay propuestas de nuevos resúmenes del proyecto de Ley en cuestión se deberá analizar y se podrá publicar para ponerlo a disposición de la comunidad del Partido Digital.
 
 ##### Artículo 46 {#articulo-46}
-El representante también tendrá la tarea de invitar a expertos en el área del proyecto de Ley a opinar y comunicar su posición sobre el mismo, en la plataforma.
+El representante también tendrá la tarea de invitar a expertos en el área del proyecto de Ley a opinar y comunicar su posición sobre el mismo, en la Plataforma.
 
 ##### Artículo 47 {#articulo-47}
-El representante y su equipo deben contactar por lo menos a 5 expertos distintos en el área del proyecto de Ley a votar y que estén identificados con distintas ideologías. Estos expertos deben estar registrados en la plataforma para expresar su posición.
+El representante y su equipo deben contactar por lo menos a 5 expertos distintos en el área del proyecto de Ley a votar y que estén identificados con distintas ideologías. Estos expertos deben estar registrados en la Plataforma para expresar su posición.
 
 ##### Artículo 48 {#articulo-48}
-Así mismo el representante debe estar disponible para contestar las preguntas que se realicen en la plataforma sobre el proyecto de Ley.
+Así mismo el representante debe estar disponible para contestar las preguntas que se realicen en la Plataforma sobre el proyecto de Ley.
 
 ##### Artículo 49 {#articulo-49}
 El representante del Partido Digital con colaboración del Equipo Técnico, deben trabajar para que cada proyecto de Ley tenga la mayor participación posible y hacer todo lo que esté a su alcance para lograrlo, siguiendo estrictamente lo permitido por el Código de Ética y las herramientas a disposición.
 
 ##### Artículo 50 {#articulo-50}
-El representante podrá emitir su opinión en la plataforma sobre un proyecto de Ley, esta opinión será tratada como la de cualquier otro participante.
+El representante podrá emitir su opinión en la Plataforma sobre un proyecto de Ley, esta opinión será tratada como la de cualquier otro participante.
 
 ##### Artículo 51 {#articulo-51}
-El representante deberá estar disponible de manera online una hora semanal como mínimo, para responder preguntas de los digitales. Esta hora deberá comunicarse por los medios de comunicación disponibles por el Partido Digital con un mínimo de cuarenta y ocho horas de anticipación.
+El representante deberá estar disponible de manera online una hora semanal como mínimo, para responder preguntas de los Digitales. Esta hora deberá comunicarse por los medios de comunicación disponibles por el Partido Digital con un mínimo de cuarenta y ocho horas de anticipación.
 
 #### De la votación de las leyes {#de-la-votacion-de-las-leyes}
 
 ##### Artículo 52 {#articulo-52}
-La herramienta online perteneciente a la plataforma en la que se puede votar los proyectos de Ley y determinar la actuación de los representantes legislativos deberá ser accesible a todos los uruguayos habilitados para votar.
+La herramienta online perteneciente a la Plataforma en la que se puede votar los proyectos de Ley y determinar la actuación de los representantes legislativos deberá ser accesible a todos los uruguayos habilitados para votar.
 
 ##### Artículo 53 {#articulo-53}
 Se publicará junto con un resumen del mismo, links a artículos y material que permitan entender en profundidad el mismo y opiniones de expertos en la materia, presentadas estas últimas de manera diferencial al resto de las opiniones.
 
 ##### Artículo 54 {#articulo-54}
-Todo el material compartido en la plataforma será neutral, sin favorecer ninguna de las posiciones en cuestión.
+Todo el material compartido en la Plataforma será neutral, sin favorecer ninguna de las posiciones en cuestión.
 
 ##### Artículo 55 {#articulo-55}
-Los registrados en la plataforma podrán proponer proyectos de Ley en la misma herramienta online utilizada para generar el Programa de Gobierno, siguiendo los mismos pasos para la presentación de propuestas que lo integren.
+Los registrados en la Plataforma podrán proponer proyectos de Ley en la misma herramienta online utilizada para generar el Programa de Gobierno, siguiendo los mismos pasos para la presentación de propuestas que lo integren.
 
 ##### Artículo 56 {#articulo-56}
 Estos proyectos de Ley deberán cumplir con los requisitos para que sean ejecutables en el período de gobierno actual.
@@ -240,10 +240,10 @@ Cada año se realizará un balance de la gestión que se presentará de manera o
 Su actuación estará determinada por las ideas y lineamientos planteados en el Programa de Gobierno.
 
 ##### Artículo 63 {#articulo-63}
-Aquellas situaciones que tienen un tiempo de ejecución mayor a noventa días y no están relacionadas con ninguna idea o propuesta del Programa de Gobierno, se pondrán a votación en la plataforma.
+Aquellas situaciones que tienen un tiempo de ejecución mayor a noventa días y no están relacionadas con ninguna idea o propuesta del Programa de Gobierno, se pondrán a votación en la Plataforma.
 
 ##### Artículo 64 {#articulo-64}
-Los representantes del Partido Digital que acceden al Poder Ejecutivo deberán hacer su trabajo lo más participativo y transparente posible, mientras no atente con la ejecución de las ideas del Programa de Gobierno y lo permita su autoridad. Al finalizar cada año se deberá comunicar las acciones que fueron puestas a votación en la plataforma y la justificación correspondiente de las que no.
+Los representantes del Partido Digital que acceden al Poder Ejecutivo deberán hacer su trabajo lo más participativo y transparente posible, mientras no atente con la ejecución de las ideas del Programa de Gobierno y lo permita su autoridad. Al finalizar cada año se deberá comunicar las acciones que fueron puestas a votación en la Plataforma y la justificación correspondiente de las que no.
 
 ## Sección 5 {#seccion-5}
 
@@ -269,10 +269,10 @@ Todas las donaciones y aportes que se reciban en el Partido Digital serán nomin
 El Programa de Gobierno del Partido Digital será elaborado de forma colaborativa en el que todo los uruguayos podrán aportar ideas.
 
 ##### Artículo 70 {#articulo-70}
-El proceso de elaboración del programa de gobierno estará compuesto por tres pasos: recepción propuestas, enriquecimiento colectivo y votación. Este proceso se dará en la plataforma a dispoición por el Equipo Técnico.
+El proceso de elaboración del programa de gobierno estará compuesto por tres pasos: recepción propuestas, enriquecimiento colectivo y votación. Este proceso se dará en la Plataforma a dispoición por el Equipo Técnico.
 
 ##### Artículo 71 {#articulo-71}
-En el primer paso (recepción de propuestas), de los tres establecidos en el [ARTÍCULO 70](#articulo-70), los uruguayos podrán proponer ideas que creen positivas aplicar a nivel país, a través de la plataforma mencionada, en la que deberán tener en cuenta todos los factores necesarios para que la misma sea ejecutable en el próximo periodo de Gobierno.
+En el primer paso (recepción de propuestas), de los tres establecidos en el [ARTÍCULO 70](#articulo-70), los uruguayos podrán proponer ideas que creen positivas aplicar a nivel país, a través de la Plataforma mencionada, en la que deberán tener en cuenta todos los factores necesarios para que la misma sea ejecutable en el próximo periodo de Gobierno.
 
 ##### Artículo 72 {#articulo-72}
 Aquellas propuestas que no sigan los factores definidos, no podrán pasar al paso de votación.
@@ -290,10 +290,10 @@ Luego del período de enriquecimiento colectivo, se pondrán las propuestas a vo
 Las cinco propuestas más votadas del área integrarán el Programa de Gobierno.
 
 ##### Artículo 77 {#articulo-77}
-Las áreas que integran el Programa de Gobierno serán decididas por el Directorio, entre todas las sugerencias que se encuentren en la plataforma.
+Las áreas que integran el Programa de Gobierno serán decididas por el Directorio, entre todas las sugerencias que se encuentren en la Plataforma.
 
 ##### Artículo 78 {#articulo-78}
-Todas las decisiones que no estén contempladas en estos estatutos, serán decidas por el Directorio, teniendo en cuenta la opinión de todos los participantes de la plataforma.
+Todas las decisiones que no estén contempladas en estos estatutos, serán decidas por el Directorio, teniendo en cuenta la opinión de todos los participantes de la Plataforma.
 
 ##### Artículo 79 {#articulo-79}
 Lo actuado en situaciones especiales no contempladas en esta Carta Orgánica, se integrarán a la misma para que se contemplen en futuras ocasiones.
@@ -308,7 +308,7 @@ Lo actuado en situaciones especiales no contempladas en esta Carta Orgánica, se
 Las herramientas online a utilizar por el Partido Digital deberán ser de código abierto, para que sea transparente su desarrollo y funcionamiento.
 
 ##### Artículo 81 {#articulo-81}
-El Equipo Técnico podrá tener herramientas en desarrollo o experimentales en calidad de pruebas de concepto de forma cerrada por el tiempo que sea necesario. Si se comprueba que estas herramientas mejoran procesos y/o resultados, se incluirán en la plataforma, para que sean accesibles públicamente.
+El Equipo Técnico podrá tener herramientas en desarrollo o experimentales en calidad de pruebas de concepto de forma cerrada por el tiempo que sea necesario. Si se comprueba que estas herramientas mejoran procesos y/o resultados, se incluirán en la Plataforma, para que sean accesibles públicamente.
 
 ##### Artículo 82 {#articulo-82}
 Las herramientas a utilizar serán elegidas por el Director del Partido Digital teniendo presente las recomendaciones del Líder del Equipo Técnico.
@@ -334,7 +334,7 @@ Se implementarán todas las medias necesarias, al alcance y disponibles por el P
 #### De las agrupaciones
 
 ##### Artículo 87 {#articulo-87}
-Las agrupaciones Digitales que deseen constituirse como tal, deberán presentar la firma de al menos cien digitales habilitados para votar para su habilitación.
+Las agrupaciones Digitales que deseen constituirse como tal, deberán presentar la firma de al menos cien Digitales habilitados para votar para su habilitación.
 
 ##### Artículo 88 {#articulo-88}
 Los candidatos de las agrupaciones Digitales deberán cumplir los requisitos expuestos anteriormente para los candidatos del Partido Digital.
