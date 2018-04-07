@@ -34,4 +34,4 @@ body_class: "inverted-background"
 
 <p class="display-3 font-weight-bold text-primary">+ POLÍTICA AL SERVICIO DE TODOS</p>
 
-<p class="h2">Nuestro Programa de Gobierno se está construyendo con las ideas de todos en <a href="http://debate.uy">debate.uy</a> en un proceso colaborativo y transparente.</p>
+<p class="h2">Nuestro Programa de Gobierno se está construyendo con las ideas de todos en <a href="http://mivoz.uy">mivoz.uy</a> en un proceso colaborativo y transparente.</p>
