@@ -1,6 +1,6 @@
 ---
 titulo: Carta orgánica
-date: 2016-11-29 5:34:12 -0300
+date: 2018-04-09 14:39:59 -0300
 ---
 
 ## Sección 1 {#seccion-1}
@@ -128,7 +128,7 @@ Los integrantes de las listas del Partido Digital para la elección interna debe
 Para integrar la lista de candidatos a posiciones legislativas por el Partido Digital, los candidatos deberán tener una antigüedad en el Partido Digital de por lo menos dos años.
 
 ##### Artículo 29 {#articulo-29}
-Los candidatos por el Partido Digital al área Ejecutiva deberán tener una antigüedad en el partido de por lo menos dos años y contar con cinco propuestas aprobadas en el Programa de Gobierno.
+Los candidatos por el Partido Digital al área Ejecutiva deberán tener una antigüedad en el partido de por lo menos dos años y contar con cinco propuestas completas en el Programa de Gobierno.
 
 ##### Artículo 30 {#articulo-30}
 Los requisitos antes mencionados se pueden modificar solo por ⅘ (80%) de los votos del Directorio.
@@ -214,7 +214,7 @@ Se publicará junto con un resumen del mismo, links a artículos y material que 
 Todo el material compartido en la Plataforma será neutral, sin favorecer ninguna de las posiciones en cuestión.
 
 ##### Artículo 55 {#articulo-55}
-Los registrados en la Plataforma podrán proponer proyectos de Ley en la misma herramienta online utilizada para generar el Programa de Gobierno, siguiendo los mismos pasos para la presentación de propuestas que lo integren.
+Todos los uruguayos podrán proponer proyectos de Ley en la misma herramienta online utilizada para generar el Programa de Gobierno, siguiendo los mismos pasos para la presentación de propuestas que lo integren.
 
 ##### Artículo 56 {#articulo-56}
 Estos proyectos de Ley deberán cumplir con los requisitos para que sean ejecutables en el período de gobierno actual.
@@ -269,7 +269,7 @@ Todas las donaciones y aportes que se reciban en el Partido Digital serán nomin
 El Programa de Gobierno del Partido Digital será elaborado de forma colaborativa en el que todo los uruguayos podrán aportar ideas.
 
 ##### Artículo 70 {#articulo-70}
-El proceso de elaboración del programa de gobierno estará compuesto por tres pasos: recepción propuestas, enriquecimiento colectivo y votación. Este proceso se dará en la Plataforma a dispoición por el Equipo Técnico.
+El proceso de elaboración del programa de gobierno estará compuesto por tres pasos: recepción propuestas, enriquecimiento colectivo y votación.
 
 ##### Artículo 71 {#articulo-71}
 En el primer paso (recepción de propuestas), de los tres establecidos en el [ARTÍCULO 70](#articulo-70), los uruguayos podrán proponer ideas que creen positivas aplicar a nivel país, a través de la Plataforma mencionada, en la que deberán tener en cuenta todos los factores necesarios para que la misma sea ejecutable en el próximo periodo de Gobierno.
@@ -318,33 +318,38 @@ Todas las elecciones con sus correspondientes justificaciones e información est
 
 #### De la seguridad
 
-##### Artículo 84 {#articulo-84}
+#### Artículo 84 {#articulo-84}
+Si el Equipo Técnico identifica que para resolver una necesidad técnica del Partido Digital debemos recurrir a una herramienta de terceros para optimizar recursos o cubrir una necesidad de mejor manera que haciéndolo con los recursos existentes internamente, el Equipo Técnico evaluará la mejor opción y presentará su sugerencia que deberá ser discutida y aprobada por mayoría simple por el Directorio. 
+
+El Equipo Técnico evaluará la solución según aquellos criterios que aseguren que funciona de acuerdo a las prácticas que fomentamos desde el Partido Digital: software de código abierto, manejo seguro de la información y privacidad de los datos. De forma periódica se harán análisis para constatar que la herramienta mantenga sus estándares analizados al momento de su elección. Se realizarán acciones de hacking ético por lo menos una vez al año para asegurar que el maneja de la información cumple con los más altos estándares de seguridad.
+
+##### Artículo 85 {#articulo-85}
 Se implementarán todas las medidas disponibles para asegurar la información vertida por las personas participantes de las distintas instancias del Partido Digital.
 
 #### De la protección de la privacidad {#de-la-proteccion-de-la-privacidad}
 
-##### Artículo 85 {#articulo-85}
+##### Artículo 86 {#articulo-86}
 Todos los datos vertidos por los participantes de las distintas instancias del Partido Digital serán privados, excepto que la persona especifique lo contrario.
 
-##### Artículo 86 {#articulo-86}
+##### Artículo 87 {#articulo-87}
 Se implementarán todas las medias necesarias, al alcance y disponibles por el Partido Digital para asegurar esto.
 
 ## Sección 8 {#seccion-8}
 
 #### De las agrupaciones
 
-##### Artículo 87 {#articulo-87}
+##### Artículo 88 {#articulo-88}
 Las agrupaciones Digitales que deseen constituirse como tal, deberán presentar la firma de al menos cien Digitales habilitados para votar para su habilitación.
 
-##### Artículo 88 {#articulo-88}
+##### Artículo 89 {#articulo-89}
 Los candidatos de las agrupaciones Digitales deberán cumplir los requisitos expuestos anteriormente para los candidatos del Partido Digital.
 
-##### Artículo 89 {#articulo-89}
+##### Artículo 90 {#articulo-90}
 Luego de presentadas las firmas, el nombre de la agrupación y la información requerida por Ley, el Directorio se expedirá sobre su aprobación en un plazo no mayor a 30 días.
 
 ## Sección 9 {#seccion-9}
 
 #### De la modificación de esta Carta Orgánica {#de-la-modificacion-de-esta-carta-organica}
 
-##### Artículo 90 {#articulo-90}
+##### Artículo 91 {#articulo-91}
 La modificación parcial o total de esta Carta Orgánica la podrá realizar el Directorio con la aprobación de todos sus integrantes.
