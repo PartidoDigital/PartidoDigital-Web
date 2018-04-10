@@ -332,6 +332,16 @@ a.btn{
     }
 }
 
+.intro .btn {
+    border: 2px solid $naranja_pd;
+    background-color: $naranja_pd;
+    color: white;
+
+    &:hover{
+        border: 2px solid $azul_pd;
+    } 
+}
+
 #popup {
     position: fixed;
     width: 100%;
