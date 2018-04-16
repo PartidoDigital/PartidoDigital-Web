@@ -117,3 +117,9 @@
   posicion: Coord. Rocha
   networks:
      - telegram: https://t.me/PabloNNC
+     
+- nombre: Alejandro Ferrer
+  gravatar: 22e2d332eba5a797f387eee77d5da35c
+  posicion: Plan de Gobierno
+  networks:
+    - twitter: https://twitter.com/ferrer227
