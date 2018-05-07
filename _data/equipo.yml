@@ -22,13 +22,6 @@
      - github: https://github.com/leog
      - telegram: https://t.me/leogiovanetti
 
-- nombre: Ma. Luisa Martínez
-  gravatar: b3d6633aa3947826d20b86b886cbb0a8
-  posicion: Secretaria general
-  networks:
-     - twitter: https://twitter.com/MLMDibarboure
-     - linkedin: https://linkedin.com/in/maluisamartinez
-
 - nombre: Ariel Guevara
   gravatar: 5f92e4a2d8fcf4272ebc9f83be3e755f
   posicion: Programa de gobierno
@@ -36,13 +29,6 @@
      - twitter: https://twitter.com/Ariel_Guevarin
      - linkedin: https://linkedin.com/in/ariel-guevara-456a955
      - telegram: https://t.me/ArielGuevara
-
-- nombre: Ana Laura Spósito
-  gravatar: 7a67813f53bc26c80df2f24cb539b87d
-  posicion: Comunicación
-  networks:
-     - twitter: https://twitter.com/analaurasposito
-     - linkedin: https://linkedin.com/in/anasposito
 
 - nombre: Daniel Goldman
   gravatar: 242653bbf80c52668752b316e95add42
