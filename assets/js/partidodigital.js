@@ -92,7 +92,7 @@ $(function() {
         e.preventDefault();
         $.ajax({
             method: 'post',
-            url: "https://mautic.tecytal.com/form/submit?formId=1",
+            url: "https://info.partidodigital.org.uy/form/submit?formId=2",
             dataType: 'json',
             data: $.param({
                 'mauticform[nombre]': $("[name=nombre]").val(),
@@ -150,7 +150,7 @@ $(function() {
         }
     };
 
-    RSSParser.parseURL('https://debate.partidodigital.org.uy/c/ideas.rss', RSSParserOptions, function(err, parsed) {
+    /*RSSParser.parseURL('https://debate.partidodigital.org.uy/c/ideas.rss', RSSParserOptions, function(err, parsed) {
         if (err) {
             console.log(err);
             return;
@@ -169,7 +169,7 @@ $(function() {
             speed: 300,
             arrows: false
         });
-    });
+    });*/
 
     // Closes the Responsive Menu on Menu Item Click
     $('.navbar-toggleable-md ul li a').click(function() {
