@@ -1,7 +1,7 @@
 ---
 layout: pagina
 title: Participación
-date: 2017-09-23
+date: 2018-06-01
 ---
 
 Como unos de los pilares del Partido Digital es la participación, esta característica se encuentra en muchos ámbitos que hacen a un partido político.
@@ -43,4 +43,4 @@ Todo el material compartido en la plataforma será neutral, sin favorecer ningun
 
 Si cumplen con estos requisitos serán presentados en la plataforma y difundidos para que los usuarios puedan votar. Si el proyecto de Ley obtiene más de dos tercios de los votos de los usuarios registrados, será propuesto por un representante Digital en el órgano legislativo correspondiente. Todos los representantes legislativos digitales votarán a favor del proyecto de Ley cuando se presente.
 
-[Conocer más sobre las herramienta utilizadas](/plataforma#herramientas){:class="btn"}
+[Conocer más sobre las herramientas utilizadas](/plataforma#herramientas){:class="btn"}
