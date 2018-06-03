@@ -43,5 +43,4 @@ Todo el material compartido en la plataforma será neutral, sin favorecer ningun
 
 Si cumplen con estos requisitos serán presentados en la plataforma y difundidos para que los usuarios puedan votar. Si el proyecto de Ley obtiene más de dos tercios de los votos de los usuarios registrados, será propuesto por un representante Digital en el órgano legislativo correspondiente. Todos los representantes legislativos digitales votarán a favor del proyecto de Ley cuando se presente.
 
-[Conocer más sobre la herramienta de debate](/plataforma#herramienta-de-debate){:class="btn"}
-[Conocer más sobre la herramienta de voto](/plataforma#herramienta-de-voto){:class="btn"}
+[Conocer más sobre las herramienta utilizadas](/plataforma#herramientas){:class="btn"}
