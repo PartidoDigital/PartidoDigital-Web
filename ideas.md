@@ -35,8 +35,4 @@ Toda la información utilizada de otras fuentes debe ser referenciada. Esto no s
 
 En muchos casos el pensar en todos los puntos definidos complejiza el planteo de ideas, a su vez, permite que colaborativamente podamos pensar propuestas realizables y efectivas. Se debe tener en cuenta que las diferentes partes de la propuestas se encuentra fuertemente interrelacionadas, por ejemplo, la institucionalidad puede implicar cierto financiamiento. A su vez diferentes personas pueden aportar en diferentes aspectos de la propuesta, permitiendo enriquecer la misma aprovechando los conocimientos y experiencia de cada uno.
 
-### Estas son algunas de las propuestas en nuestra [herramienta de debate](https://debate.partidodigital.org.uy)
-
-<div id="debate-rss">
-    <div id="slider" class="mt-1"></div>
-</div>
+### Infórmate más sobre como participar [aquí](https://partidodigital.org.uy/#participacion)
