@@ -89,17 +89,8 @@ body {
         }
 
         .resaltar {
-            background-color: $naranja_pd;
+            background-color: rgba($naranja_pd, 0.3);
             padding-left: 1rem;
-
-            a {
-                color: white;
-
-                &:hover {
-                    color: $azul_pd;
-                    border-color: $azul_pd;
-                }
-            }
         }
     }
 }
