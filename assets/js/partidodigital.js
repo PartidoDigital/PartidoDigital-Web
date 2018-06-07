@@ -99,7 +99,7 @@ $(function() {
                 'mauticform[apellido]': $("[name=apellido]").val(),
                 'mauticform[email]': $("[name=email]").val(),
                 'mauticform[telefono]': $("[name=telefono]").val(),
-                'mauticform[formId]': 1,
+                'mauticform[formId]': 2,
                 'mauticform[formName]': "partidodigitalfirma",
                 'mauticform[return]': "",
             }),
