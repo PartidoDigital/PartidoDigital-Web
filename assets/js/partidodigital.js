@@ -115,6 +115,7 @@ $(function() {
             },
             error: function() {
                 if (fbq !== null) fbq('track', 'CompleteRegistration');
+                ga(trackerSend, 'event', 'Formulario', 'Enviado', 'Firmas');
                 $("[name=nombre]").val("");
                 $("[name=apellido]").val("");
                 $("[name=email]").val("");
