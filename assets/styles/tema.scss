@@ -682,6 +682,16 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
     margin-bottom: 55px;
 }
 
+#registro_web {
+    label.btn {
+        width: 50%;
+        border-radius: 0;
+        border-top: none;
+        border-right: 0;
+        margin-bottom: 0;
+    }
+}
+
 input {
     font-size: 0.875em;
     width: 100%;
