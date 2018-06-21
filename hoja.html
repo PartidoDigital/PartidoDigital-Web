@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<style>
+		html,body{ height:297mm; width:210mm; margin: 20mm; }
+		.center { text-align: center }
+		img { -webkit-filter: grayscale(100%); filter: grayscale(100%); } 
+		span { width: 150mm; display: inline-block; border-bottom: 1px solid #000; text-align: center; }
+		p { text-align: justify; text-justify: inter-word; margin: 0; }
+	</style>
+	<script src="https://cdn.jsdelivr.net/npm/url-polyfill@1.0.13/url-polyfill.min.js"></script>
+</head>
+<body>
+	<img width="200px" src="https://recursos.partidodigital.org.uy/assets/img/logo_original.png">
+	<p>Por la presente, <span id="nombre_apellido"></span>,</p>
+	<p>titular de la Credencial Cívica: <span id="credencial"></span> y con dirección</p>
+	<p>de email: <span id="email"></span> expreso mi adhesión al</p>
+	<p>Partido Digital y su programa de principios.</p>
+	<br>
+	<br>
+	<p class="center">______________</p>
+	<p class="center">Firma</p>	
+	
+	<script>
+		var url = new URL(document.location.href);
+		document.getElementById('nombre_apellido').innerHTML = url.searchParams.get("nombre") + ' ' + url.searchParams.get("apellido");
+	</script>
+</body>

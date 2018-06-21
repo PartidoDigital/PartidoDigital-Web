@@ -99,13 +99,16 @@ $(function() {
                 'mauticform[apellido]': $("[name=apellido]").val(),
                 'mauticform[email]': $("[name=email]").val(),
                 'mauticform[telefono]': $("[name=telefono]").val(),
+                'mauticform[credencial_civica1]': $("[name=credencial]").val(),
+				'mauticform[metodo]': $( 'input[name=metodo]:checked' ).val(),
                 'mauticform[formId]': 2,
                 'mauticform[formName]': "partidodigitalfirma",
                 'mauticform[return]': "",
             }),
             beforeSend: function() {
                 if ($("[name=nombre]").val() === "" || $("[name=apellido]").val() === "" ||
-                    $("[name=email]").val() === "" || $("[name=telefono]").val() === "") {
+                    $("[name=email]").val() === "" || $("[name=telefono]").val() === "" ||
+					$("[name=credencial]").val() === "") {
                     setTimeout(function() {
                         $('#submit').val("Algún campo está vacío. Intentalo de nuevo.");
                     }, 5000);
@@ -120,9 +123,10 @@ $(function() {
                 $("[name=apellido]").val("");
                 $("[name=email]").val("");
                 $("[name=telefono]").val("");
+                $("[name=credencial]").val("");
                 $('#submit').val("¡Listo! Gracias por sumarte, recibirás un correo electrónico pronto.");
                 setTimeout(function() {
-                    $('#submit').val("¡Sumarme!");
+                    $('#submit').attr('disabled', false).val("¡Sumarme!");
                 }, 5000);
             }
         });
