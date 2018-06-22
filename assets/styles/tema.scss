@@ -682,6 +682,41 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
     margin-bottom: 55px;
 }
 
+#registro_web {
+    label.btn {
+        width: 50%;
+        border-radius: 0;
+        border-top: none;
+        margin-bottom: 0;
+		outline: none;
+		
+		input {
+			width: 1px;
+		}
+		
+		&:first-child {
+			border-right: 0;
+		}
+		
+		&:last-child {
+			border-left: 0;
+		}
+    }
+	
+	.btn-primary {
+		color: #000;
+		background-color: transparent;
+		border-color: #040404;
+
+		&.active, &:active, .open>&.dropdown-toggle {
+			color: #fff;
+			background-color: $naranja_pd;
+			border-color: darken($naranja_pd, 20%);
+			background-image: none;
+		}
+	}
+}
+
 input {
     font-size: 0.875em;
     width: 100%;
