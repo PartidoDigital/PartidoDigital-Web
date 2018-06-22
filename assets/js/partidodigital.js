@@ -125,7 +125,7 @@ $(function() {
 
   hashChange();
 
-  $("#registro_web").submit(function(e) {
+  $(".registro_web").submit(function(e) {
     e.preventDefault();
     $.ajax({
       method: "post",

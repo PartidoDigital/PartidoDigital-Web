@@ -213,7 +213,7 @@ a {
     .navbar-brand {
         float: left;
         height: 35px;
-        padding: 2px 0 0 10px;
+        padding: 2px 0 0 0;
         margin-right: 0;
         svg {
             position: relative;
@@ -688,7 +688,8 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
         border-radius: 0;
         border-top: none;
         margin-bottom: 0;
-		outline: none;
+        outline: none;
+        white-space: normal;
 		
 		input {
 			width: 1px;
@@ -709,12 +710,27 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 		border-color: #040404;
 
 		&.active, &:active, .open>&.dropdown-toggle {
-			color: #fff;
-			background-color: $naranja_pd;
-			border-color: darken($naranja_pd, 20%);
+			color: #000;
+			background-color: lighten($azul_pd, 30%) !important;
+			border-color: darken($azul_pd, 20%) !important;
 			background-image: none;
 		}
-	}
+    }
+
+    .intro & {
+        label.btn {
+            display: table-cell;
+        }
+        .btn {
+            border-width: 1px;
+        }
+        .btn-primary {
+            background-color: #fff;
+        }
+        input[type="text"], input[type="email"], input[type="tel"] {
+            background-color: #fff;
+        }
+    }
 }
 
 input {
@@ -729,11 +745,20 @@ input {
 
     border: solid 1px #000;
     border-bottom: none;
+    border-radius: 0;
 
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    &:first-child {
+        border-radius: 5px 5px 0 0;
+    }
 }
 
 textarea {
@@ -758,15 +783,19 @@ textarea {
 
 #submit {
     padding: 0;
-    margin: -7px 0px 0px 0px;
+    margin: 0;
     font-size: 0.875em;
-    color: #000;
+    color: #fff;
 
     outline:none;
     cursor: pointer;
 
     border: 1px solid #000;
     border-top: none;
+
+   background-color: $naranja_pd;
+
+   border-radius: 0 0 5px 5px;
 }
 
 .inverted-background #submit {
