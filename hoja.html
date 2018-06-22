@@ -1,28 +1,66 @@
+---
+date: 2018-06-21
+---
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
 	<style>
-		html,body{ height:297mm; width:210mm; margin: 20mm; }
-		.center { text-align: center }
-		img { -webkit-filter: grayscale(100%); filter: grayscale(100%); } 
-		span { width: 150mm; display: inline-block; border-bottom: 1px solid #000; text-align: center; }
-		p { text-align: justify; text-justify: inter-word; margin: 0; }
+		html, body { width:210mm; font-family: Arial; font-size: 18px; }
+		img { width: 70mm; margin-left: -35mm; margin-bottom: 50mm; -webkit-filter: grayscale(100%); filter: grayscale(100%); left: 50%; position: relative; } 
+		span { display: inline-block; border-bottom: 1px solid #000; text-align: center; }
+		p { text-align: justify; margin: 0 0 15mm 0; }
+		#instrucciones { margin: 5mm; border-radius: 2mm; border: 2px dashed darkorange; text-align: center; padding: 3mm; }
+		#instrucciones span { border: none; }
+		#instrucciones ul { text-align: left; }
+		button { border: 2px solid darkorange; color: darkorange; font-size: 20px; }
+		#llevo, #entrego { display: none; }
+	</style>
+	<style media="print">
+		#instrucciones { display: none; }
 	</style>
 	<script src="https://cdn.jsdelivr.net/npm/url-polyfill@1.0.13/url-polyfill.min.js"></script>
 </head>
 <body>
-	<img width="200px" src="https://recursos.partidodigital.org.uy/assets/img/logo_original.png">
-	<p>Por la presente, <span id="nombre_apellido"></span>,</p>
-	<p>titular de la Credencial Cívica: <span id="credencial"></span> y con dirección</p>
-	<p>de email: <span id="email"></span> expreso mi adhesión al</p>
-	<p>Partido Digital y su programa de principios.</p>
-	<br>
-	<br>
-	<p class="center">______________</p>
-	<p class="center">Firma</p>	
-	
+	<div id="instrucciones">
+		<div>Imprime esta hoja, fírmala y <span id="llevo">llévala a alguno de los siguientes puntos para entregarla: {% include _ubicaciones.html %}</span><span id="entrego">coordina para entregarsela a alguien del Partido Digital que te contactará a la brevedad.</span></div>
+		<br>
+		<div>Recuerda que "adhesión" es el término que la Corte Electoral exige poner el las hojas firmadas. No implica nada más que hacer que el Partido Digital exista y que pueda presentarse en las próximas elecciones.</div>
+		<br>
+		<div>Y no te preocupes, esta sección no será impresa :)</div>
+		<br>
+		<button id="boton_imprimir" onclick="javascript: window.print();">Imprimir</button>
+	</div>
+	<div style="margin-top: 20mm; text-align: center;">
+		<div style="display: inline-block;text-align: left;">
+			<img src="https://recursos.partidodigital.org.uy/assets/img/logo_original.png">
+			<p>Por la presente, <span style="width: 159mm;" id="nombre_apellido">null null</span>,</p>
+			<p>titular de la Credencial Cívica: <span style="width: 98mm;" id="credencial"></span> y con dirección</p>
+			<p>de email: <span style="width: 121mm;" id="email"></span> expreso mi adhesión al</p>
+			<p>Partido Digital y su programa de principios.</p>
+		</div>
+		<div style="display: inline-block; text-align: center; margin-top: 50mm;">
+			<p style="margin-bottom: 5mm">________________________________</p>
+			<p style="text-align: center;">Firma</p>
+		</div>
+	</div>
 	<script>
 		var url = new URL(document.location.href);
-		document.getElementById('nombre_apellido').innerHTML = url.searchParams.get("nombre") + ' ' + url.searchParams.get("apellido");
+		document.getElementById('nombre_apellido').innerHTML = url.searchParams.get("nombre") && url.searchParams.get("apellido") ? url.searchParams.get("nombre") + ' ' + url.searchParams.get("apellido") : '';
+		document.getElementById('credencial').innerHTML = url.searchParams.get("credencial") ? url.searchParams.get("credencial") : ''; 
+		document.getElementById('email').innerHTML = url.searchParams.get("email") ? url.searchParams.get("email") : '';
+		if(url.searchParams.get('metodo') === "llevo") { 
+			document.getElementById('llevo').style.display = 'inline';
+		} else if(url.searchParams.get('metodo') === "entrego") {
+			document.getElementById('entrego').style.display = 'inline';
+		} else {
+			document.getElementById('llevo').style.display = 'inline';
+		}
+
+		setInterval(function() {
+			var boton = document.getElementById('boton_imprimir');
+			boton.style.backgroundColor = boton.style.backgroundColor === '' ? 'darkorange' : '';
+			boton.style.color = boton.style.backgroundColor === '' ? 'darkorange' : 'white';
+		},1000);
 	</script>
 </body>
