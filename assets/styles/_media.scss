@@ -134,10 +134,16 @@
   .intro .intro-body .extra {
     font-size: 0.7em;
   }
+
+  .registro_form {
+    label.btn {
+      display: table-cell;
+    }
+  }
 }
 
 @media(max-width: 321px) {
-  #registro_web {
+  .registro_form {
     input {
       height: 2.5em;
       padding: 0px 1em 0px 1em;
