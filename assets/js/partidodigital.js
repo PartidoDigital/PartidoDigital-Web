@@ -125,7 +125,7 @@ $(function() {
 
   hashChange();
 
-  $(".registro_web").submit(function(e) {
+  $(".registro_form").bind("submit", function(e) {
     e.preventDefault();
     $.ajax({
       method: "post",
@@ -150,8 +150,32 @@ $(function() {
           $("[name=telefono]").val() === "" ||
           $("[name=credencial]").val() === ""
         ) {
+          $("#submit")
+            .attr("disabled", true)
+            .addClass("error")
+            .val("Algún campo está vacío. Intentalo de nuevo.");
           setTimeout(function() {
-            $("#submit").val("Algún campo está vacío. Intentalo de nuevo.");
+            $("#submit")
+              .attr("disabled", false)
+              .removeClass("error")
+              .val("Enviar información");
+          }, 5000);
+          return false;
+        }
+        if (
+          $("[name=apellido]")
+            .val()
+            .split(" ").length !== 2
+        ) {
+          $("#submit")
+            .attr("disabled", true)
+            .addClass("error")
+            .val("Es necesario ingresar nombres y apellidos completos.");
+          setTimeout(function() {
+            $("#submit")
+              .attr("disabled", false)
+              .removeClass("error")
+              .val("Enviar información");
           }, 5000);
           return false;
         }
@@ -171,19 +195,6 @@ $(function() {
             credencial: $("[name=credencial]").val(),
             metodo: $("input[name=metodo]:checked").val()
           });
-        $("[name=nombre]").val("");
-        $("[name=apellido]").val("");
-        $("[name=email]").val("");
-        $("[name=telefono]").val("");
-        $("[name=credencial]").val("");
-        $("#submit").val(
-          "¡Listo! Gracias por sumarte, recibirás un correo electrónico pronto."
-        );
-        setTimeout(function() {
-          $("#submit")
-            .attr("disabled", false)
-            .val("¡Sumarme!");
-        }, 10000);
       }
     });
   });

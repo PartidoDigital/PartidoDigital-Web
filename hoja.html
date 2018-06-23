@@ -9,7 +9,7 @@ date: 2018-06-21
 	<style>
 		html, body { width:210mm; font-family: Arial; font-size: 18px; }
 		img { width: 70mm; margin-left: -35mm; margin-bottom: 50mm; -webkit-filter: grayscale(100%); filter: grayscale(100%); left: 50%; position: relative; } 
-		span { display: inline-block; border-bottom: 1px solid #000; text-align: center; }
+		input { display: inline-block; border-bottom: 1px solid #000; text-align: center; border-top: 0; border-left: 0; border-right: 0; }
 		p { text-align: justify; margin: 0 0 15mm 0; }
 		#instrucciones { margin: 5mm; border-radius: 2mm; border: 2px dashed darkorange; text-align: center; padding: 3mm; }
 		#instrucciones span { border: none; }
@@ -28,6 +28,8 @@ date: 2018-06-21
 	<div id="instrucciones">
 		<div>Imprime esta hoja, fírmala y <span id="llevo">llévala a alguno de los siguientes puntos para entregarla: {% include _ubicaciones.html %}</span><span id="entrego">coordina para entregarsela a alguien del Partido Digital que te contactará a la brevedad.</span></div>
 		<br>
+		<div>Puedes cambiar la información si lo necesitas, recuerda que debes poner el nombre completo (dos apellidos y dos nombres si tienes).</div>
+		<br>
 		<div>Recuerda que "adhesión" es el término que la Corte Electoral exige poner el las hojas firmadas. No implica nada más que hacer que el Partido Digital exista y que pueda presentarse en las próximas elecciones.</div>
 		<br>
 		<div>Y no te preocupes, esta sección no será impresa :)</div>
@@ -37,9 +39,9 @@ date: 2018-06-21
 	<div style="margin-top: 20mm; text-align: center;">
 		<div style="display: inline-block;text-align: left;">
 			<img src="https://recursos.partidodigital.org.uy/assets/img/logo_original.png">
-			<p>Por la presente, <span style="width: 159mm;" id="nombre_apellido">null null</span>,</p>
-			<p>titular de la Credencial Cívica: <span style="width: 98mm;" id="credencial"></span> y con dirección</p>
-			<p>de email: <span style="width: 121mm;" id="email"></span> expreso mi adhesión al</p>
+			<p>Por la presente, <input style="width: 159mm;" id="nombre_apellido">,</p>
+			<p>titular de la Credencial Cívica: <input style="width: 98mm;" id="credencial"> y con dirección</p>
+			<p>de email: <input style="width: 121mm;" id="email"> expreso mi adhesión al</p>
 			<p>Partido Digital y su programa de principios.</p>
 		</div>
 		<div style="display: inline-block; text-align: center; margin-top: 50mm;">
@@ -49,9 +51,9 @@ date: 2018-06-21
 	</div>
 	<script>
 		var url = new URL(document.location.href);
-		document.getElementById('nombre_apellido').innerHTML = url.searchParams.get("nombre") && url.searchParams.get("apellido") ? url.searchParams.get("nombre") + ' ' + url.searchParams.get("apellido") : '';
-		document.getElementById('credencial').innerHTML = url.searchParams.get("credencial") ? url.searchParams.get("credencial") : ''; 
-		document.getElementById('email').innerHTML = url.searchParams.get("email") ? url.searchParams.get("email") : '';
+		document.getElementById('nombre_apellido').value = url.searchParams.get("nombre") && url.searchParams.get("apellido") ? url.searchParams.get("nombre") + ' ' + url.searchParams.get("apellido") : '';
+		document.getElementById('credencial').value = url.searchParams.get("credencial") ? url.searchParams.get("credencial") : ''; 
+		document.getElementById('email').value = url.searchParams.get("email") ? url.searchParams.get("email") : '';
 		if(url.searchParams.get('metodo') === "llevo") { 
 			document.getElementById('llevo').style.display = 'inline';
 		} else if(url.searchParams.get('metodo') === "entrego") {
