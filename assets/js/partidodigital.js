@@ -165,7 +165,7 @@ $(function() {
         if (
           $("[name=apellido]")
             .val()
-            .split(" ").length !== 2
+            .split(" ").length < 2
         ) {
           $("#submit")
             .attr("disabled", true)
