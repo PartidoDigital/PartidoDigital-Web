@@ -55,6 +55,7 @@
       position: fixed;
       right: 5rem;
       left: 4rem;
+      display: none;
     }
   }
   .content-section a.btn + a.btn {
@@ -133,12 +134,6 @@
 
   .intro .intro-body .extra {
     font-size: 0.7em;
-  }
-
-  .registro_form {
-    label.btn {
-      display: table-cell;
-    }
   }
 }
 

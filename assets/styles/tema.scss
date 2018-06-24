@@ -11,8 +11,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: grey;
     background-color: #ececec;
-    /*background-image: url(../img/bg.jpg);
-    background-size: cover;*/
 
     &.inverted-background {
         background-image: none;
@@ -279,9 +277,12 @@ a {
     padding: 0;
     text-align: center;
     color: white;
-    margin-bottom: 4rem;
     background: url(../img/palacio_legislativo.jpg) center 10% no-repeat #000;
     @include background-size(cover);
+    &.firma {
+        margin-bottom: 4em;
+        background: url(../img/portada2.jpg) center 10% no-repeat #000;
+    }
     .intro-body {
         display: table-cell;
         vertical-align: middle;
@@ -690,6 +691,7 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
         margin-bottom: 0;
         outline: none;
         white-space: normal;
+        display: table-cell;
 		
 		input {
 			width: 1px;
@@ -717,10 +719,7 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 		}
     }
 
-    .intro & {
-        label.btn {
-            display: table-cell;
-        }
+    .firma & {
         .btn {
             border-width: 1px;
         }

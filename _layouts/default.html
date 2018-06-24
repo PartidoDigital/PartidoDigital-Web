@@ -5,7 +5,7 @@
 	{% include _header.html %}
 </head>
 <body id="arriba" data-spy="scroll"
-	  data-target=".navbar-fixed-top" class="{% if page.layout == 'pagina' %}pagina-layout{%endif%} {% if page.body_class != nil %}{{page.body_class}}{% endif %}">
+	  data-target=".nav.navbar-nav" class="{% if page.layout == 'pagina' %}pagina-layout{%endif%} {% if page.body_class != nil %}{{page.body_class}}{% endif %}">
 	<!-- Barra de navegación -->
 	{% if page.title != nil %}
 	{% include _navegacion.html %}
