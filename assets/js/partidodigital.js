@@ -125,37 +125,38 @@ $(function() {
 
   hashChange();
 
-  $(".registro_form").bind("submit", function(e) {
-    e.preventDefault();
+  $(".registro_form #submit").bind("click", function() {
+    var that = $(this).parent('form');
     $.ajax({
       method: "post",
-      url: "https://info.partidodigital.org.uy/form/submit?formId=2",
+      url: "https://info.partidodigital.org.uy/form/submit?formId=4",
       dataType: "json",
       data: $.param({
-        "mauticform[nombre]": $("[name=nombre]").val(),
-        "mauticform[apellido]": $("[name=apellido]").val(),
-        "mauticform[email]": $("[name=email]").val(),
-        "mauticform[telefono]": $("[name=telefono]").val(),
-        "mauticform[credencial_civica1]": $("[name=credencial]").val(),
-        "mauticform[metodo]": $("input[name=metodo]:checked").val(),
+        "mauticform[nombre]": $("[name=nombre]", that).val(),
+        "mauticform[apellido]": $("[name=apellido]", that).val(),
+        "mauticform[email]": $("[name=email]", that).val(),
+        "mauticform[telefono]": $("[name=telefono]", that).val(),
+        "mauticform[credencial_civica1]": $("[name=credencial]", that).val(),
+        "mauticform[metodo]": $("input[name=metodo]:checked", that).val(),
+        "mauticform[submit]": 1,
         "mauticform[formId]": 2,
         "mauticform[formName]": "partidodigitalfirma",
         "mauticform[return]": ""
       }),
       beforeSend: function() {
         if (
-          $("[name=nombre]").val() === "" ||
-          $("[name=apellido]").val() === "" ||
-          $("[name=email]").val() === "" ||
-          $("[name=telefono]").val() === "" ||
-          $("[name=credencial]").val() === ""
+          $("[name=nombre]", that).val() === "" ||
+          $("[name=apellido]", that).val() === "" ||
+          $("[name=email]", that).val() === "" ||
+          $("[name=telefono]", that).val() === "" ||
+          $("[name=credencial]", that).val() === ""
         ) {
-          $("#submit")
+          $("#submit", that)
             .attr("disabled", true)
             .addClass("error")
             .val("Algún campo está vacío. Intentalo de nuevo.");
           setTimeout(function() {
-            $("#submit")
+            $("#submit", that)
               .attr("disabled", false)
               .removeClass("error")
               .val("Enviar información");
@@ -163,23 +164,23 @@ $(function() {
           return false;
         }
         if (
-          $("[name=apellido]")
+          $("[name=apellido]", that)
             .val()
             .split(" ").length < 2
         ) {
-          $("#submit")
+          $("#submit", that)
             .attr("disabled", true)
             .addClass("error")
             .val("Es necesario ingresar nombres y apellidos completos.");
           setTimeout(function() {
-            $("#submit")
+            $("#submit", that)
               .attr("disabled", false)
               .removeClass("error")
               .val("Enviar información");
           }, 5000);
           return false;
         }
-        $("#submit")
+        $("#submit", that)
           .attr("disabled", true)
           .val("Enviando...");
       },
@@ -189,11 +190,11 @@ $(function() {
         window.location.href =
           "/hoja?" +
           $.param({
-            nombre: $("[name=nombre]").val(),
-            apellido: $("[name=apellido]").val(),
-            email: $("[name=email]").val(),
-            credencial: $("[name=credencial]").val(),
-            metodo: $("input[name=metodo]:checked").val()
+            nombre: $("[name=nombre]", that).val(),
+            apellido: $("[name=apellido]", that).val(),
+            email: $("[name=email]", that).val(),
+            credencial: $("[name=credencial]", that).val(),
+            metodo: $("input[name=metodo]:checked", that).val()
           });
       }
     });

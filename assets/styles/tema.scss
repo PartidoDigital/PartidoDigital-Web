@@ -569,14 +569,11 @@ a.MP-common-orange-CDl {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: fade(white, 20%);
+    background: $naranja_pd;
 }
 
 ::selection {
-    text-shadow: none;
-    background: #fcfcfc;
-    background: fade(white, 20%);
+    background: $naranja_pd;
 }
 
 img::selection {
@@ -588,7 +585,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: fade(white, 20%);
+    webkit-tap-highlight-color: $naranja_pd;
 }
 
 .list-group-item {
