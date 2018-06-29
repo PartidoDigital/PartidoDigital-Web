@@ -1,39 +1,37 @@
 $(function () {
-    $('#mc-embedded-subscribe-form').ajaxChimp({
-        language: 'es',
-        url: "//partidodigital.us14.list-manage.com/subscribe/post?u=8e16f7903de2c0600985cf9e2&amp;id=d69798f48c",
-        ajaxOptions: {
-            beforeSend: function () {
-                $('#submit').attr('disabled', true).val('Enviando...');
-            }
-        },
-        callback: function (resp) {
-            if (resp.result === 'success') {
-                $('#submit').val("Gracias por afiliarte. Vas a ser redirigido a una página donde debes seguir unos pasos para concretar la afiliación.");
-                setTimeout(function () {
-                    var op = $('input[name="group[4669]"]:checked', '#mc-embedded-subscribe-form').val();
-                    switch(parseInt(op)) {
-                        case 1: window.location.href = '/afiliacion/tarjeta-de-credito'; break;
-                        case 8: window.location.href = '/afiliacion/paypal'; break;
-                        case 2: window.location.href = '/afiliacion/brou'; break;
-                        case 16: window.location.href = '/afiliacion/santander'; break;
-                        case 32: window.location.href = '/afiliacion/banred'; break;
-                        case 64: window.location.href = '/afiliacion/bbva'; break;
-                        case 4: window.location.href = '/afiliacion/abitab-red-pagos'; break;
-                        case 256: window.location.href = '/afiliacion/creditel'; break;
-                        case 128: window.location.href = '/afiliacion/itau'; break;
-                    }
-                }, 2000);
-            } else {
-                if (resp.msg.indexOf("ya está suscrito")) {
-                    $('#submit').attr('disabled', false).val("Ya te habias afiliado, gracias por insistir :)");
-                } else {
-                    $('#submit').attr('disabled', false).val(resp.msg);
-                    setTimeout(function () {
-                        $('#submit').val("Intentalo de nuevo");
-                    }, 5000);
-                }
-            }
-        }
-    });
+    $("#afiliarme").bind("click", function() {
+		$.ajax({
+			method: "post",
+			url: "https://info.partidodigital.org.uy/form/submit?formId=5",
+			dataType: "json",
+			data: $.param({
+				"mauticform[email]": $("[name=email]").val(),
+				"mauticform[nombre]": $("[name=nombre]").val(),
+				"mauticform[apellido]": $("[name=apellido]").val(),
+				"mauticform[ciudad]": $("[name=ciudad]").val(),
+				"mauticform[telefono]": $("[name=telefono]").val(),
+				"mauticform[metodo_de_afiliacion]": $("[name=metodo]").val(),
+				"mauticform[submit]": 1,
+				"mauticform[formId]": 5,
+				"mauticform[formName]": "afiliaciones",
+				"mauticform[return]": ""
+			}),
+			beforeSend: function() {
+				if ( $("[name=email]").val() === "" || $("[name=nombre]").val() === "" ||
+					$("[name=apellido]").val() === "" || $("[name=ciudad]").val() === "" ||
+					$("[name=telefono]").val() === "" || $("[name=metodo]").val() === "") {
+					$("#afiliarme").attr("disabled", true).addClass("error").val("Queda algún campo por llenar. Intentalo de nuevo.");
+					setTimeout(function() {
+						$("#afiliarme").attr("disabled", false).removeClass("error").val("Afiliarme al Partido Digital");
+					}, 5000);
+					return false;
+				}
+				$("#afiliarme").attr("disabled", true).val("Enviando...");
+			},
+			error: function() {
+				ga(trackerSend, "event", "Formulario", "Enviado", "Afiliación");
+				window.location.href = "/afiliacion/" + $("[name=metodo]").val();
+			}
+		});
+	});
 });
