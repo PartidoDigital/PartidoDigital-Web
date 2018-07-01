@@ -1,7 +1,7 @@
 ---
 layout: pagina
 title: Afiliaciones
-date: 2017-07-28
+date: 2018-06-30
 ---
 
 Completa el formulario siguiente para hacer efectiva tu afiliación al Partido Digital.
@@ -63,12 +63,12 @@ Si tienes problemas para colaborar mes a mes e igualmente deseas afiliarte ¡no 
 				<input type="text" value="" name="ciudad" class="required" id="mce-MMERGE4">
 			</div>
 			<div class="mc-field-group size1of2">
-				<label for="mce-MMERGE5">Celular  <span class="asterisk">*</span></label>
-				<input type="tel" name="celular" class="required" value="" id="mce-MMERGE5">
+				<label for="mce-MMERGE5">Teléfono  <span class="asterisk">*</span></label>
+				<input type="tel" name="telefono" class="required" value="" id="mce-MMERGE5">
 			</div>
 			<div class="mc-field-group input-group">
 				<label for="mce-MMERGE5">¿Cómo vas a donar mensualmente?  <span class="asterisk">*</span></label>
-				<select name="metodo" value="" class="mauticform-selectbox">
+				<select name="afiliacion" value="" class="mauticform-selectbox">
                     <option value="">Elige una opción</option>
                     <option value="tarjeta-de-credito">Tarjeta de crédito</option>
                     <option value="paypal">Paypal</option>
