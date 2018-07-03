@@ -4,7 +4,7 @@ date: 2016-12-04 18:12:58 -0300
 ---
 
 Los siguientes términos y condiciones rigen el uso de los sitios webs y herramientas bajo el
-dominio partidodigital.org.uy y todo su contenido ("}").
+dominio partidodigital.org.uy y todo su contenido ("plataforma").
 La Plataforma es propiedad y son operados por el Partido Digital ("el Partido Digital"). El uso
 de los mismos implica la aceptación sin excepciones de todos los términos y condiciones
 contenidos en este documento y todas las demás reglas de operación, políticas y procedimientos
