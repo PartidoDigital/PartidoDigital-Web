@@ -152,12 +152,12 @@ $(function() {
           $("[name=telefono]", that).val() === "" ||
           $("[name=credencial]", that).val() === ""
         ) {
-          $("#submit", that)
+          $(".enviar_info", that)
             .attr("disabled", true)
             .addClass("error")
             .val("Algún campo está vacío. Intentalo de nuevo.");
           setTimeout(function() {
-            $("#submit", that)
+            $(".enviar_info", that)
               .attr("disabled", false)
               .removeClass("error")
               .val("Enviar información");
@@ -169,19 +169,19 @@ $(function() {
             .val()
             .split(" ").length < 2
         ) {
-          $("#submit", that)
+          $(".enviar_info", that)
             .attr("disabled", true)
             .addClass("error")
             .val("Es necesario ingresar nombres y apellidos completos.");
           setTimeout(function() {
-            $("#submit", that)
+            $(".enviar_info", that)
               .attr("disabled", false)
               .removeClass("error")
               .val("Enviar información");
           }, 5000);
           return false;
         }
-        $("#submit", that)
+        $(".enviar_info", that)
           .attr("disabled", true)
           .val("Enviando...");
       },
