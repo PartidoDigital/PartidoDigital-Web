@@ -126,7 +126,7 @@ $(function() {
 
   hashChange();
 
-  $(".registro_form #submit").bind("click", function() {
+  $(".registro_form .enviar_info").bind("click", function() {
     var that = $(this).parent('form');
     $.ajax({
       method: "post",
