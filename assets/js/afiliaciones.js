@@ -29,7 +29,7 @@ $(function () {
 				$("#afiliarme").attr("disabled", true).val("Enviando...");
 			},
 			error: function () {
-				ga(trackerSend, "event", "Formulario", "Enviado", "Afiliación");
+				ga("send", "event", "Formulario", "Enviado", "Afiliación");
 				window.location.href = "/afiliacion/" + $("[name=afiliacion]").val();
 			}
 		});
