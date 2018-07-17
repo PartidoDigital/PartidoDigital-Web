@@ -777,7 +777,7 @@ textarea {
     -ms-transition: all 0.3s ease-in-out;
 }
 
-#submit {
+#submit, .enviar_info {
     padding: 0;
     margin: 0;
     font-size: 0.875em;
@@ -794,10 +794,12 @@ textarea {
    border-radius: 0 0 5px 5px;
 }
 
-.inverted-background #submit {
-    border-top: 1px solid #ffffff;
-    background-color: $azul_pd;
-    font-size: 1em;
+.inverted-background {
+	#submit, .enviar_info  {
+    		border-top: 1px solid #ffffff;
+    		background-color: $azul_pd;
+    		font-size: 1em;
+	}
 }
 
 .boton-donar {
