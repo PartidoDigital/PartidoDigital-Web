@@ -13,7 +13,6 @@ var meses = [
   "Noviembre",
   "Septiembre"
 ];
-var trackerSend = null;
 
 function collapseNavbar() {
   if (window.pd.layout.indexOf("default") >= 0) {
@@ -78,9 +77,6 @@ $(document).ready(collapseNavbar);
 $(function() {
   $("body").scrollspy({ offset: 100 });
 
-  // GA tracker name
-  trackerSend = ga.getAll()[0].get("name") + ".send";
-
   $("a").bind("click", function(event) {
     var $anchor = $(this);
     if (
@@ -88,7 +84,7 @@ $(function() {
       $anchor.data("toggle") !== "collapse" &&
       !$anchor.hasClass("close")
     ) {
-      ga(trackerSend, "event", "Link", "Click", $anchor.attr("href").slice(1));
+      ga("send", "event", "Link", "Click", $anchor.attr("href").slice(1));
       $("html, body")
         .stop()
         .animate(
@@ -109,7 +105,7 @@ $(function() {
   // Detectar qué respuesta se visualiza
   $("#accordion").on("show.bs.collapse", function(e) {
     ga(
-      trackerSend,
+      "send",
       "event",
       "Preguntas",
       "VerRespuesta",
@@ -187,7 +183,7 @@ $(function() {
       },
       error: function() {
         if (fbq !== null) fbq("track", "CompleteRegistration");
-        ga(trackerSend, "event", "Formulario", "Enviado", "Firmas");
+        ga("send", "event", "Formulario", "Enviado", "Firmas");
         window.location.href =
           "/hoja?" +
           $.param({
