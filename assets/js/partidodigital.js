@@ -13,7 +13,6 @@ var meses = [
   "Noviembre",
   "Septiembre"
 ];
-var trackerSend = null;
 
 function collapseNavbar() {
   if (window.pd.layout.indexOf("default") >= 0) {
@@ -77,9 +76,6 @@ $(document).ready(collapseNavbar);
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
   $("body").scrollspy({ offset: 100 });
-
-  // GA tracker name
-  trackerSend = ga.getAll()[0].get("name") + ".send";
 
   $("a").bind("click", function(event) {
     var $anchor = $(this);
