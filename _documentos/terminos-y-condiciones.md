@@ -109,8 +109,8 @@ Usted manifiesta y garantiza que:
  2. su uso de la Plataforma no viole o se apropie indebidamente de los derechos de propiedad intelectual de terceros.
 
 ## Contacto {#contacto}
-Para cualquier sugerencia o propuesta de colaboración, las personas interesadas podrán dirigirse a [hola@partidodigital.org.uy]{:target="_blank"}.
+Para cualquier sugerencia o propuesta de colaboración, las personas interesadas podrán dirigirse a [contacto@partidodigital.org.uy]{:target="_blank"}.
 
 [https://debate.partidodigital.org.uy/c/contenido-censurado]: https://debate.partidodigital.org.uy/c/contenido-censurado
-[hola@partidodigital.org.uy]: mailto:hola@partidodigital.org.uy
+[contacto@partidodigital.org.uy]: mailto:contacto@partidodigital.org.uy
 [https://partidodigital.org.uy/documentacion]: https://partidodigital.org.uy/documentacion
