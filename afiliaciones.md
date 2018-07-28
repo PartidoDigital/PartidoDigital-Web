@@ -10,7 +10,7 @@ Queremos que el soporte del Partido Digital sean todas las personas que creen en
 
 Recuerda que siempre puedes ver los gastos del Partido Digital y consultar al respecto en [https://partidodigital.org.uy/finanzas](https://partidodigital.org.uy/finanzas).
 
-Si tienes problemas para colaborar mes a mes e igualmente deseas afiliarte ¡no hay problema!, escribinos a [hola@partidodigital.org.uy](mailto:hola@partidodigital.org.uy)
+Si tienes problemas para colaborar mes a mes e igualmente deseas afiliarte ¡no hay problema!, escribinos a [contacto@partidodigital.org.uy](mailto:contacto@partidodigital.org.uy)
 
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
