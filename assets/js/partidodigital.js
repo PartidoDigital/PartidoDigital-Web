@@ -133,8 +133,9 @@ $(function() {
         "mauticform[apellido]": $("[name=apellido]", that).val(),
         "mauticform[email]": $("[name=email]", that).val(),
         "mauticform[telefono]": $("[name=telefono]", that).val(),
-        "mauticform[credencial_civica1]": $("[name=credencial]", that).val(),
-        "mauticform[metodo]": $("input[name=metodo]:checked", that).val(),
+        "mauticform[horario]": $("[name=horario]", that).val(),
+        "mauticform[ciudad]": $("[name=ciudad]", that).val(),
+        "mauticform[direccion]": $("[name=direccion]", that).val(),
         "mauticform[submit]": 1,
         "mauticform[formId]": 2,
         "mauticform[formName]": "partidodigitalfirma",
@@ -146,7 +147,9 @@ $(function() {
           $("[name=apellido]", that).val() === "" ||
           $("[name=email]", that).val() === "" ||
           $("[name=telefono]", that).val() === "" ||
-          $("[name=credencial]", that).val() === ""
+          $("[name=horario]", that).val() === "" ||
+          $("[name=ciudad]", that).val() === "" ||
+          $("[name=direccion]", that).val() === ""
         ) {
           $(".enviar_info", that)
             .attr("disabled", true)
@@ -182,17 +185,15 @@ $(function() {
           .val("Enviando...");
       },
       error: function() {
-        if (fbq !== null) fbq("track", "CompleteRegistration");
-        ga("send", "event", "Formulario", "Enviado", "Firmas");
-        window.location.href =
-          "/hoja?" +
-          $.param({
-            nombre: $("[name=nombre]", that).val(),
-            apellido: $("[name=apellido]", that).val(),
-            email: $("[name=email]", that).val(),
-            credencial: $("[name=credencial]", that).val(),
-            metodo: $("input[name=metodo]:checked", that).val()
-          });
+        $(".enviar_info", that)
+            .attr("disabled", true)
+            .val("Datos enviados. ¡Gracias!");
+          setTimeout(function() {
+            that.trigger("reset");
+            $(".enviar_info", that)
+              .attr("disabled", false)
+              .val("Enviar información");
+          }, 5000);
       }
     });
   });
