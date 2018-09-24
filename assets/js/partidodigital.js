@@ -180,11 +180,11 @@ $(function() {
             .val("Enviar información");
         }, 5000);
       },
-      error: function() {
-        fbq('track', 'CompleteRegistration');
+      error: function(jqXHR, textStatus, errorThrown) {
+        ga("send", "event", "Error", "Formulario", errorThrown);
         $(".enviar_info", that)
             .attr("disabled", true)
-            .val("Datos enviados. ¡Gracias!");
+            .val("Hubo un error al enviar tus datos. Prueba de nuevo.");
         setTimeout(function() {
           that.trigger("reset");
           $(".enviar_info", that)
