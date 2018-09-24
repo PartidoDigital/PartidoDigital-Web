@@ -2,7 +2,7 @@ $(function () {
 	$("#afiliarme").bind("click", function () {
 		$.ajax({
 			method: "post",
-			url: "https://info.partidodigital.org.uy/form/submit?formId=5",
+			url: "https://info.partidodigital.org.uy/form/submit?formId=5&ajax=true",
 			dataType: "json",
 			data: $.param({
 				"mauticform[email]": $("[name=email]").val(),
@@ -28,9 +28,16 @@ $(function () {
 				}
 				$("#afiliarme").attr("disabled", true).val("Enviando...");
 			},
-			error: function () {
+			success: function() {
 				ga("send", "event", "Formulario", "Enviado", "Afiliación");
 				window.location.href = "/afiliacion/" + $("[name=afiliacion]").val();
+			},
+			error: function (jqXHR, textStatus, errorThrown) {
+				ga("send", "event", "Formulario", "Error", errorThrown);
+				$("#afiliarme").attr("disabled", true).addClass("error").val("Hubo un error al enviar tus datos. Prueba de nuevo.");
+				setTimeout(function () {
+					$("#afiliarme").attr("disabled", false).removeClass("error").val("Afiliarme al Partido Digital");
+				}, 5000);
 			}
 		});
 	});
