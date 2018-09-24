@@ -126,7 +126,7 @@ $(function() {
     var that = $(this).parent('form');
     $.ajax({
       method: "post",
-      url: "https://info.partidodigital.org.uy/form/submit?formId=4",
+      url: "https://info.partidodigital.org.uy/form/submit?formId=2",
       dataType: "json",
       data: $.param({
         "mauticform[nombre]": $("[name=nombre]", that).val(),
@@ -185,6 +185,7 @@ $(function() {
           .val("Enviando...");
       },
       error: function() {
+        fbq('track', 'CompleteRegistration');
         $(".enviar_info", that)
             .attr("disabled", true)
             .val("Datos enviados. ¡Gracias!");
