@@ -126,7 +126,8 @@ $(function() {
     var that = $(this).parent('form');
     $.ajax({
       method: "post",
-      url: "https://info.partidodigital.org.uy/form/submit?formId=2",
+      url: "https://info.partidodigital.org.uy/form/submit?formId=2&ajax=true",
+      headers: {'X-Requested-With': 'XMLHttpRequest'},
       dataType: "json",
       data: $.param({
         "mauticform[nombre]": $("[name=nombre]", that).val(),
@@ -167,17 +168,29 @@ $(function() {
           .attr("disabled", true)
           .val("Enviando...");
       },
+      success: function() {
+        fbq('track', 'CompleteRegistration');
+        $(".enviar_info", that)
+            .attr("disabled", true)
+            .val("Datos enviados. ¡Gracias!");
+        setTimeout(function() {
+          that.trigger("reset");
+          $(".enviar_info", that)
+            .attr("disabled", false)
+            .val("Enviar información");
+        }, 5000);
+      },
       error: function() {
         fbq('track', 'CompleteRegistration');
         $(".enviar_info", that)
             .attr("disabled", true)
             .val("Datos enviados. ¡Gracias!");
-          setTimeout(function() {
-            that.trigger("reset");
-            $(".enviar_info", that)
-              .attr("disabled", false)
-              .val("Enviar información");
-          }, 5000);
+        setTimeout(function() {
+          that.trigger("reset");
+          $(".enviar_info", that)
+            .attr("disabled", false)
+            .val("Enviar información");
+        }, 5000);
       }
     });
   });
