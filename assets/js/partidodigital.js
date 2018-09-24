@@ -163,23 +163,6 @@ $(function() {
           }, 5000);
           return false;
         }
-        if (
-          $("[name=apellido]", that)
-            .val()
-            .split(" ").length < 2
-        ) {
-          $(".enviar_info", that)
-            .attr("disabled", true)
-            .addClass("error")
-            .val("Es necesario ingresar nombres y apellidos completos.");
-          setTimeout(function() {
-            $(".enviar_info", that)
-              .attr("disabled", false)
-              .removeClass("error")
-              .val("Enviar información");
-          }, 5000);
-          return false;
-        }
         $(".enviar_info", that)
           .attr("disabled", true)
           .val("Enviando...");
