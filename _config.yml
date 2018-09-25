@@ -2,7 +2,7 @@ tagmanager: GTM-WPDQFCR
 ga: UA-64073239-3
 dominio: https://partidodigital.org.uy/
 acceso_url: https://partidodigital.auth0.com/login?client=3yqAXfyeQCu5RcrgSQUsb0M4ojdvif4N
-firmas: 910
+firmas: 930
 
 plugins:
   - jekyll-sitemap
