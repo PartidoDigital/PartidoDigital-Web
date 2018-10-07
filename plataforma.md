@@ -26,10 +26,12 @@ MercadoPago nos habilita poder crear un pago simil a lo que sería un pago recur
 
 [Conocer las tarifas de MercadoPago](https://www.mercadopago.com.uy/ayuda/recibir-pagos-costos_220){:class="btn" target="_blank"}
 
+{% comment %} 
 #### Colectate
 Colectate nos facilita la posibilidad de ofrecer el pago mediante los bancos de plaza, de esta forma puedes hacer una transferencia desde la comodidad de tu celular con la aplicación del banco que gustes.
 
 [Conocer las tarifas de Colectate](https://www.colectate.com.uy/generales/tarifas.php){:class="btn" target="_blank"}
+{% endcomment %}
 
 #### Paypal
 Paypal se a transformado en una vía de pago electrónico muy popular en los últimos tiempos posibilitando variados mecanismos para efectivizar un aporte.

@@ -72,13 +72,13 @@ Si tienes problemas para colaborar mes a mes e igualmente deseas afiliarte ¡no 
                     <option value="">Elige una opción</option>
                     <option value="tarjeta-de-credito">Tarjeta de crédito</option>
                     <option value="paypal">Paypal</option>
-                    <option value="brou">BROU</option>
-                    <option value="santander">Santander</option>
-                    <option value="banred">Banred</option>
-                    <option value="bbva">BBVA</option>
+                    <!--<option value="brou">BROU</option>-->
+                    <!--<option value="santander">Santander</option>-->
+                    <!--<option value="banred">Banred</option>-->
+                    <!--<option value="bbva">BBVA</option>-->
                     <option value="abitab-red-pagos">Abitab / Red Pagos</option>
-                    <option value="creditel">Creditel</option>
-                    <option value="itau">Itaú</option>
+                    <!--<option value="creditel">Creditel</option>-->
+                    <!--<option value="itau">Itaú</option>-->
                 </select>
 			</div>
 			<div class="clear">

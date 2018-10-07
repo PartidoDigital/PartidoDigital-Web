@@ -74,10 +74,10 @@ $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
+$(function () {
   $("body").scrollspy({ offset: 100 });
 
-  $("a").bind("click", function(event) {
+  $("a").bind("click", function (event) {
     var $anchor = $(this);
     if (
       $anchor.attr("href").indexOf("#") === 0 &&
@@ -103,7 +103,7 @@ $(function() {
   });
 
   // Detectar qué respuesta se visualiza
-  $("#accordion").on("show.bs.collapse", function(e) {
+  $("#accordion").on("show.bs.collapse", function (e) {
     ga(
       "send",
       "event",
@@ -116,18 +116,18 @@ $(function() {
   var proximaReunionMensual = proximoPrimerLunes();
   $("span.proximaReunion").html(
     proximaReunionMensual.getUTCDate() +
-      " de " +
-      meses[proximaReunionMensual.getUTCMonth()]
+    " de " +
+    meses[proximaReunionMensual.getUTCMonth()]
   );
 
   hashChange();
 
-  $(".registro_form .enviar_info").bind("click", function() {
+  $(".registro_form .enviar_info").bind("click", function () {
     var that = $(this).parent('form');
     $.ajax({
       method: "post",
       url: "https://info.partidodigital.org.uy/form/submit?formId=2&ajax=true",
-      headers: {'X-Requested-With': 'XMLHttpRequest'},
+      headers: { 'X-Requested-With': 'XMLHttpRequest' },
       dataType: "json",
       data: $.param({
         "mauticform[nombre]": $("[name=nombre]", that).val(),
@@ -142,7 +142,7 @@ $(function() {
         "mauticform[formName]": "partidodigitalfirma",
         "mauticform[return]": ""
       }),
-      beforeSend: function() {
+      beforeSend: function () {
         if (
           $("[name=nombre]", that).val() === "" ||
           $("[name=apellido]", that).val() === "" ||
@@ -156,7 +156,7 @@ $(function() {
             .attr("disabled", true)
             .addClass("error")
             .val("Algún campo está vacío. Intentalo de nuevo.");
-          setTimeout(function() {
+          setTimeout(function () {
             $(".enviar_info", that)
               .attr("disabled", false)
               .removeClass("error")
@@ -168,24 +168,24 @@ $(function() {
           .attr("disabled", true)
           .val("Enviando...");
       },
-      success: function() {
+      success: function () {
         fbq('track', 'CompleteRegistration');
         $(".enviar_info", that)
-            .attr("disabled", true)
-            .val("Datos enviados. ¡Gracias!");
-        setTimeout(function() {
+          .attr("disabled", true)
+          .val("Datos enviados. ¡Gracias!");
+        setTimeout(function () {
           that.trigger("reset");
           $(".enviar_info", that)
             .attr("disabled", false)
             .val("Enviar información");
         }, 5000);
       },
-      error: function(jqXHR, textStatus, errorThrown) {
-        ga("send", "event", "Error", "Formulario", errorThrown);
+      error: function (jqXHR, textStatus, errorThrown) {
+        ga("send", "event", "Error", "Formulario", "Firma: " + $("[name=email]", that).val() + " | " + $("[name=nombre]", that).val() + " | " + $("[name=apellido]", that).val());
         $(".enviar_info", that)
-            .attr("disabled", true)
-            .val("Hubo un error al enviar tus datos. Prueba de nuevo.");
-        setTimeout(function() {
+          .attr("disabled", true)
+          .val("Hubo un error al enviar tus datos. Prueba de nuevo.");
+        setTimeout(function () {
           that.trigger("reset");
           $(".enviar_info", that)
             .attr("disabled", false)
@@ -196,22 +196,22 @@ $(function() {
   });
 
   var $videoSrc;
-  $(".video-btn").click(function() {
+  $(".video-btn").click(function () {
     $videoSrc = $(this).data("src");
   });
 
-  $("#myModal").on("shown.bs.modal", function(e) {
+  $("#myModal").on("shown.bs.modal", function (e) {
     $("#video").attr(
       "src",
       $videoSrc + "?rel=0&amp;showinfo=0&amp;modestbranding=1&amp;autoplay=1"
     );
   });
 
-  $("#myModal").on("hide.bs.modal", function(e) {
+  $("#myModal").on("hide.bs.modal", function (e) {
     $("#video").attr("src", $videoSrc);
   });
 
-  $(".navbar-toggleable-md ul li a").click(function() {
+  $(".navbar-toggleable-md ul li a").click(function () {
     $(".navbar-toggleable-md").collapse("hide");
   });
 
@@ -243,7 +243,7 @@ $(function() {
     });*/
 
   // Closes the Responsive Menu on Menu Item Click
-  $(".navbar-toggleable-md ul li a").click(function() {
+  $(".navbar-toggleable-md ul li a").click(function () {
     $(".navbar-toggleable-md").collapse("hide");
   });
 });
