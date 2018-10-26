@@ -283,10 +283,35 @@ a {
         margin-bottom: 4em;
         background: url(../img/portada2.jpg) center 10% no-repeat #000;
     }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: black;
+      opacity: 0.5;
+      z-index: 1;
+    }
+    video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: 0;
+      -ms-transform: translateX(-50%) translateY(-53%);
+      -moz-transform: translateX(-50%) translateY(-53%);
+      -webkit-transform: translateX(-50%) translateY(-53%);
+      transform: translateX(-50%) translateY(-53%);
+    }
     .intro-body {
         display: table-cell;
         vertical-align: middle;
-        background-color: rgba(0,0,0,0.5);
+        position: relative;
+        z-index: 2;
         svg {
             width: 100%;
             max-width: 100%;
