@@ -126,31 +126,23 @@ $(function () {
     var that = $(this).parent('form');
     $.ajax({
       method: "post",
-      url: "https://info.partidodigital.org.uy/form/submit?formId=2&ajax=true",
+      url: "https://info.partidodigital.org.uy/form/submit?formId=6&ajax=true",
       headers: { 'X-Requested-With': 'XMLHttpRequest' },
       dataType: "json",
       data: $.param({
         "mauticform[nombre]": $("[name=nombre]", that).val(),
-        "mauticform[apellido]": $("[name=apellido]", that).val(),
         "mauticform[email]": $("[name=email]", that).val(),
-        "mauticform[telefono]": $("[name=telefono]", that).val(),
-        "mauticform[horario]": $("[name=horario]", that).val(),
-        "mauticform[ciudad]": $("[name=ciudad]", that).val(),
-        "mauticform[direccion]": $("[name=direccion]", that).val(),
+        "mauticform[celular]": $("[name=celular]", that).val(),
         "mauticform[submit]": 1,
-        "mauticform[formId]": 2,
-        "mauticform[formName]": "partidodigitalfirma",
+        "mauticform[formId]": 6,
+        "mauticform[formName]": "sumate",
         "mauticform[return]": ""
       }),
       beforeSend: function () {
         if (
           $("[name=nombre]", that).val() === "" ||
-          $("[name=apellido]", that).val() === "" ||
           $("[name=email]", that).val() === "" ||
-          $("[name=telefono]", that).val() === "" ||
-          $("[name=horario]", that).val() === "" ||
-          $("[name=ciudad]", that).val() === "" ||
-          $("[name=direccion]", that).val() === ""
+          $("[name=celular]", that).val() === ""
         ) {
           $(".enviar_info", that)
             .attr("disabled", true)
@@ -172,7 +164,7 @@ $(function () {
         fbq('track', 'CompleteRegistration');
         $(".enviar_info", that)
           .attr("disabled", true)
-          .val("Datos enviados. ¡Gracias!");
+          .val("Datos enviados. ¡Gracias por sumarte!");
         setTimeout(function () {
           that.trigger("reset");
           $(".enviar_info", that)
@@ -181,7 +173,7 @@ $(function () {
         }, 5000);
       },
       error: function (jqXHR, textStatus, errorThrown) {
-        ga("send", "event", "Error", "Formulario", "Firma: " + $("[name=email]", that).val() + " | " + $("[name=nombre]", that).val() + " | " + $("[name=apellido]", that).val());
+        ga("send", "event", "Error", "Formulario", "Sumarte: " + $("[name=email]", that).val() + " | " + $("[name=nombre]", that).val() + " | " + $("[name=celular]", that).val());
         $(".enviar_info", that)
           .attr("disabled", true)
           .val("Hubo un error al enviar tus datos. Prueba de nuevo.");
