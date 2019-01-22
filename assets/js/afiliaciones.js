@@ -1,4 +1,9 @@
 $(function () {
+	document.querySelector('.styled-checkbox').onchange = function () {
+		document.querySelector('#afiliarme').disabled = !this.checked;
+		document.querySelector('#afiliarme').title = !this.checked ? "Debes marcar que te comprometes para afiliarte" : "";
+	};
+
 	$("#afiliarme").bind("click", function () {
 		$.ajax({
 			method: "post",
@@ -6,21 +11,26 @@ $(function () {
 			headers: { 'X-Requested-With': 'XMLHttpRequest' },
 			dataType: "json",
 			data: $.param({
-				"mauticform[email]": $("[name=email]").val(),
 				"mauticform[nombre]": $("[name=nombre]").val(),
 				"mauticform[apellido]": $("[name=apellido]").val(),
+				"mauticform[email]": $("[name=email]").val(),
+				"mauticform[celular]": $("[name=celular]").val(),
 				"mauticform[ciudad]": $("[name=ciudad]").val(),
-				"mauticform[telefono]": $("[name=telefono]").val(),
-				"mauticform[afiliacion]": $("[name=afiliacion]").val(),
+				"mauticform[barrio]": $("[name=barrio]").val(),
+				"mauticform[domicilio]": $("[name=domicilio]").val(),
+				"mauticform[cedula]": $("[name=cedula]").val(),
+				"mauticform[fechanacimiento]": $("[name=fechanacimiento]").val(),
 				"mauticform[submit]": 1,
 				"mauticform[formId]": 5,
 				"mauticform[formName]": "afiliaciones",
 				"mauticform[return]": ""
 			}),
 			beforeSend: function () {
-				if ($("[name=email]").val() === "" || $("[name=nombre]").val() === "" ||
-					$("[name=apellido]").val() === "" || $("[name=ciudad]").val() === "" ||
-					$("[name=telefono]").val() === "" || $("[name=afiliacion]").val() === "") {
+				if ($("[name=nombre]").val() === "" || $("[name=apellido]").val() === "" ||
+					$("[name=email]").val() === "" || $("[name=celular]").val() === "" ||
+					$("[name=ciudad]").val() === "" || $("[name=barrio]").val() === "" ||
+					$("[name=domicilio]").val() === "" || $("[name=cedula]").val() === "" ||
+					$("[name=fechanacimiento]").val() === "") {
 					$("#afiliarme").attr("disabled", true).addClass("error").val("Queda algún campo por llenar. Intentalo de nuevo.");
 					setTimeout(function () {
 						$("#afiliarme").attr("disabled", false).removeClass("error").val("Afiliarme al Partido Digital");
@@ -31,7 +41,7 @@ $(function () {
 			},
 			success: function () {
 				ga("send", "event", "Formulario", "Enviado", "Afiliación");
-				window.location.href = "/afiliacion/" + $("[name=afiliacion]").val();
+				window.location.href = "https://www.mercadopago.com/mlu/checkout/start?pref_id=252021089-64c6c1d6-fdae-4ee5-aeb8-dee83714f048";
 			},
 			error: function (jqXHR, textStatus, errorThrown) {
 				ga("send", "event", "Formulario", "Error", "Afiliación: " + $("[name=email]").val() + " | " + $("[name=nombre]").val() + " | " + $("[name=apellido]").val());

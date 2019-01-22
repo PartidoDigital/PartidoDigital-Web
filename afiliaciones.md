@@ -1,21 +1,17 @@
 ---
 layout: pagina
 title: Afiliaciones
-date: 2018-06-30
+date: 2019-01-21
 ---
 
-Completa el formulario siguiente para hacer efectiva tu afiliación al Partido Digital.
+Los afiliados son parte oficial del Partido Digital y tiene poder de decisión sobre cuestiones partidarias como establece la Carta Orgánica. Se solicita una colaboración de $200 mensuales para afiliarte al Partido Digital.
 
-Queremos que el soporte del Partido Digital sean todas las personas que creen en nuestra idea. Por eso te pedimos una colaboración por mes de $200 para poder financiar nuestras actividades de cara al 2019. Una campaña política es cara y por eso tenemos que pedirte esta colaboración.
-
-Recuerda que siempre puedes ver los gastos del Partido Digital y consultar al respecto en [https://partidodigital.org.uy/finanzas](https://partidodigital.org.uy/finanzas).
-
-Si tienes problemas para colaborar mes a mes e igualmente deseas afiliarte ¡no hay problema!, escribinos a [contacto@partidodigital.org.uy](mailto:contacto@partidodigital.org.uy)
+Completa el formulario debajo y afíliate al Partido Digital:
 
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup { background:transparent; clear:left; font-size:14px; }
-    select, input[type="text"], input[type="email"], input[type="tel"] { border: 2px solid #FFFFFF; background-color: #fff; }
+    select, input[type="text"], input[type="email"], input[type="tel"], input[type="date"],input[type="number"] { border: 2px solid #FFFFFF; background-color: #fff; }
     #mc_embed_signup form { padding: 0; }
     #mc_embed_signup .mc-field-group { width: 100%; }
     #mc_embed_signup .mc-field-group.input-group input { height: 15px; margin-right: 10px; }
@@ -26,7 +22,8 @@ Si tienes problemas para colaborar mes a mes e igualmente deseas afiliarte ¡no 
     #mc_embed_signup .indicates-required { margin-right: 0; }
     #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error { background-color: #000000; color: #f37021; }
 	#mc_embed_signup input[type="button"] { background-color: #f37021; color: #fff; } 
-	#mc_embed_signup .mc-field-group select {
+	#mc_embed_signup .mc-field-group select,
+	#mc_embed_signup .mc-field-group input[type="date"] {
 		display: block;
 		width: 100%;
 		padding: 8px 0;
@@ -44,45 +41,53 @@ Si tienes problemas para colaborar mes a mes e igualmente deseas afiliarte ¡no 
 	<form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
 		<div id="mc_embed_signup_scroll">
 			<div class="indicates-required">
-				Los campos con <span class="asterisk">*</span> son requeridos
+				Todos los campos son obligatorios.
 			</div>
 			<div class="mc-field-group">
-				<label for="mce-EMAIL">Correo electrónico <span class="asterisk">*</span></label>
+				<label for="mce-NAME">Nombre</label>
+				<input type="text" value="" name="nombre" class="required" id="mce-NAME">
+			</div>
+			<div class="mc-field-group">
+				<label for="mce-NAME">Apellido</label>
+				<input type="text" value="" name="apellido" class="required" id="mce-NAME">
+			</div>
+			<div class="mc-field-group">
+				<label for="mce-EMAIL">Correo electrónico</label>
 				<input type="email" value="" name="email" class="required email" id="mce-EMAIL">
 			</div>
-			<div class="mc-field-group">
-				<label for="mce-FNAME">Nombre  <span class="asterisk">*</span></label>
-				<input type="text" value="" name="nombre" class="required" id="mce-FNAME">
-			</div>
-			<div class="mc-field-group">
-				<label for="mce-LNAME">Apellido  <span class="asterisk">*</span></label>
-				<input type="text" value="" name="apellido" class="required" id="mce-LNAME">
-			</div>
-			<div class="mc-field-group">
-				<label for="mce-MMERGE4">Ciudad  <span class="asterisk">*</span></label>
-				<input type="text" value="" name="ciudad" class="required" id="mce-MMERGE4">
-			</div>
 			<div class="mc-field-group size1of2">
-				<label for="mce-MMERGE5">Teléfono  <span class="asterisk">*</span></label>
-				<input type="tel" name="telefono" class="required" value="" id="mce-MMERGE5">
+				<label for="mce-CELULAR">Celular</label>
+				<input type="tel" name="celular" class="required" value="" id="mce-CELULAR">
 			</div>
-			<div class="mc-field-group input-group">
-				<label for="mce-MMERGE5">¿Cómo vas a donar mensualmente?  <span class="asterisk">*</span></label>
-				<select name="afiliacion" value="" class="mauticform-selectbox">
-                    <option value="">Elige una opción</option>
-                    <option value="tarjeta-de-credito">Tarjeta de crédito</option>
-                    <option value="paypal">Paypal</option>
-                    <!--<option value="brou">BROU</option>-->
-                    <!--<option value="santander">Santander</option>-->
-                    <!--<option value="banred">Banred</option>-->
-                    <!--<option value="bbva">BBVA</option>-->
-                    <option value="abitab-red-pagos">Abitab / Red Pagos</option>
-                    <!--<option value="creditel">Creditel</option>-->
-                    <!--<option value="itau">Itaú</option>-->
-                </select>
+			<div class="mc-field-group">
+				<label for="mce-CIUDAD">Ciudad</label>
+				<input type="text" value="" name="ciudad" class="required" id="mce-CIUDAD">
+			</div>
+			<div class="mc-field-group">
+				<label for="mce-BARRIO">Barrio</label>
+				<input type="text" value="" name="barrio" class="required" id="mce-BARRIO">
+			</div>
+			<div class="mc-field-group">
+				<label for="mce-DOMICILIO">Domicilio</label>
+				<input type="text" value="" name="domicilio" class="required" id="mce-DOMICILIO">
+			</div>
+			<div class="mc-field-group">
+				<label for="mce-CEDULA">Cédula</label>
+				<input type="number" value="" name="cedula" class="required" id="mce-CEDULA">
+			</div>
+			<div class="mc-field-group">
+				<label for="mce-FECHANACIMIENTO">Fecha de Nacimiento</label>
+				<input type="date" value="" name="fechanacimiento" class="required" id="mce-FECHANACIMIENTO">
+			</div>
+			<div class="mc-field-group checkbox">
+				<input class="styled-checkbox" id="ok" type="checkbox" value="ok">
+    			<label for="ok">Me comprometo a respetar y defender la <a target="_blank" href="/documentos/carta-organica">Carta Orgánica</a> y el <a target="_blank" href="/documentos/programa-de-principios">Programa de Principios</a> como afiliado/a del Partido Digital</label>
 			</div>
 			<div class="clear">
-				<input type="button" id="afiliarme" value="Afiliarme al Partido Digital" class="action btn">
+				<input disabled="true" name="afiliarme" type="button" title="Debes marcar que te comprometes para afiliarte" id="afiliarme" value="Afiliarme al Partido Digital" class="action btn">
+			</div>
+			<div class="clear">
+				<p>A continuación se te direccionará a Mercado Pago para efectuar el pago. Para pagar la afiliación mensual selecciona 12 cuotas.</p>
 			</div>
 		</div>
 	</form>
