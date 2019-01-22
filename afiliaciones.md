@@ -73,7 +73,7 @@ Completa el formulario debajo y afíliate al Partido Digital:
 			</div>
 			<div class="mc-field-group">
 				<label for="mce-CEDULA">Cédula</label>
-				<input type="number" value="" name="cedula" class="required" id="mce-CEDULA">
+				<input type="text" value="" placeholder="1.234.567-8" name="cedula" class="required" id="mce-CEDULA">
 			</div>
 			<div class="mc-field-group">
 				<label for="mce-FECHANACIMIENTO">Fecha de Nacimiento</label>
@@ -84,10 +84,8 @@ Completa el formulario debajo y afíliate al Partido Digital:
     			<label for="ok">Me comprometo a respetar y defender la <a target="_blank" href="/documentos/carta-organica">Carta Orgánica</a> y el <a target="_blank" href="/documentos/programa-de-principios">Programa de Principios</a> como afiliado/a del Partido Digital</label>
 			</div>
 			<div class="clear">
+				<p style="text-align: center;"><b>A continuación se te direccionará a Mercado Pago para efectuar el pago. Para pagar la afiliación mensual selecciona 12 cuotas.</b></p>
 				<input disabled="true" name="afiliarme" type="button" title="Debes marcar que te comprometes para afiliarte" id="afiliarme" value="Afiliarme al Partido Digital" class="action btn">
-			</div>
-			<div class="clear">
-				<p>A continuación se te direccionará a Mercado Pago para efectuar el pago. Para pagar la afiliación mensual selecciona 12 cuotas.</p>
 			</div>
 		</div>
 	</form>

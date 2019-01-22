@@ -8,7 +8,7 @@ $(function () {
             "mauticform[ciudad]": $("[name=ciudad]").val(),
             "mauticform[fechanacimiento]": $("[name=fechanacimiento]").val(),
             "mauticform[submit]": 1,
-            "mauticform[formId]": 5,
+            "mauticform[formId]": 7,
             "mauticform[formName]": "voluntariado",
             "mauticform[return]": ""
         };

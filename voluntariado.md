@@ -123,9 +123,6 @@ Completa el formulario debajo y sumate al equipo de voluntarios del Partido Digi
 			<div class="clear">
 				<input name="sumarme" type="button" id="sumarme" value="SUMARME" class="action btn">
 			</div>
-            <div>
-                <p>¿Tienes ideas para la campaña que nos quieras compartir? <a class="action btn" href="https://digo.mivoz.uy">Hazlo aquí</a></p>
-            </div>
 		</div>
 	</form>
 </div>
