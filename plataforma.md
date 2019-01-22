@@ -31,12 +31,12 @@ MercadoPago nos habilita poder crear un pago simil a lo que sería un pago recur
 Colectate nos facilita la posibilidad de ofrecer el pago mediante los bancos de plaza, de esta forma puedes hacer una transferencia desde la comodidad de tu celular con la aplicación del banco que gustes.
 
 [Conocer las tarifas de Colectate](https://www.colectate.com.uy/generales/tarifas.php){:class="btn" target="_blank"}
-{% endcomment %}
 
 #### Paypal
 Paypal se a transformado en una vía de pago electrónico muy popular en los últimos tiempos posibilitando variados mecanismos para efectivizar un aporte.
 
 [Conoce las tarifas de Paypal](https://www.paypal.com/uy/selfhelp/article/%C2%BFcu%C3%A1les-son-las-comisiones-de-las-cuentas-paypal-faq690){:class="btn" target="_blank"}
+{% endcomment %}
 
 ### Servicio de administración de contenido y dominios
 Un servicio de administración de contenido y dominios de internet es fundamental para el manejo de un perfil online de cualquier tipo de proyecto. Sin él no se podría configurar la seguridad con la cuál las páginas web son entregadas al navegador de los usuarios, ni se podría utilizar un dominio de internet, como es partidodigital.org.uy para la página web oficial del Partido Digital.

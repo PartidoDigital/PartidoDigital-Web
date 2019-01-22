@@ -7,17 +7,13 @@
 <body id="arriba" data-spy="scroll"
 	  data-target=".nav.navbar-nav" class="{% if page.layout == 'pagina' %}pagina-layout{%endif%} {% if page.body_class != nil %}{{page.body_class}}{% endif %}">
 	<!-- Barra de navegación -->
-	{% if page.title != nil %}
 	{% include _navegacion.html %}
-	{% endif %}
 
 	<!-- Contenido principal -->
 	{{ content | replace: "á", "&#225;" | replace: "é", "&#233;" | replace: "í", "&#237;" | replace: "ó", "&#243;" | replace: "ú", "&#250;" }}
 
-	{% if page.title != nil %}
 	<!-- Footer -->
 	{% include _footer.html %}
-	{% endif %}
 
 	<!-- Scripts -->
 	{% include _scripts.html %}
