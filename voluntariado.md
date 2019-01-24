@@ -88,7 +88,7 @@ Completa el formulario debajo y sumate al equipo de voluntarios del Partido Digi
                     </div>
                     <div class="mc-field-group">
 				        <input class="styled-checkbox" id="vol5" name="mauticform[voluntario][]" type="checkbox" value="expertise">
-    			        <label for="vol5">Asesorar en tu mi área de expertise</label>
+    			        <label for="vol5">Asesorar en tu área de expertise</label>
                     </div>
                     <div class="mc-field-group">
 				        <input class="styled-checkbox" id="vol6" name="mauticform[voluntario][]" type="checkbox" value="comunicar">
