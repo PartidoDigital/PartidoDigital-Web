@@ -12,36 +12,30 @@
   
 - pregunta: "¿Cuál es el Programa de Gobierno del Partido Digital?"
   respuesta: "El contenido del Programa de Gobierno del Partido Digital será decidido colaborativamente mediante un conjunto de instancias a definir."
-  link: "/documentos/carta-organica#articulo-69"
   identificador: programa
 
 - pregunta: "En las elecciones, ¿no voy a votar ideas predefinidas, sino la promesa de que van actuar siempre según lo que diga la gente?"
   respuesta: "No, eso es incorrecto. En las próximas elecciones tendrás la opción de votar por ideas que se definieron previamente en un proceso abierto y colaborativo, que regirán el accionar del Partido Digital. Lo distinto es que puede participar activamente en la construcción de esas ideas que formará nuestro Programa de Gobierno. Para las próximas elecciones se realizará un nuevo proceso colaborativo donde se plantearán nuevos desafíos y soluciones. Siempre dices que en Uruguay se debe hacer tal cosa o la otra? Ahora tienes la oportunidades de proponerlo y que sea una de las ideas fundamentales de un partido político en Uruguay, el Partido Digital."
-  link: "/participacion"
   identificador: ideas
 
 - pregunta: "¿Cuál es la principal diferencia sobre los partidos políticos actuales?"
   respuesta: "Cada representante electo por el Partido Digital votará de acuerdo a lo que se votó previamente en una
   plataforma online."
-  link: "/documentos/carta-organica#articulo-32"
   identificador: diferencia
 
 - pregunta: "¿Quiénes pueden acceder a las herramientas online del Partido Digital?"
   respuesta: "Todos los uruguayos habilitados para votar en las elecciones nacionales."
-  link: "/documentos/carta-organica#articulo-52"
   identificador: acceso
 
 - pregunta: "¿Cuáles son las herramientas online del Partido Digital?"
   respuesta: "Actualmente disponemos de herramientas para votar leyes (propias o externas) acompañadas de un resumen en
   lenguaje no técnico y otros recursos pertinentes, y herramientas para dialogar sobre temáticas específicas."
-  link: "/documentos/carta-organica#articulo-55"
   identificador: herramientas
 
 - pregunta: "¿Sólo se va a poner a voto en la herramienta lo mismo que se vota en la cámara de representantes?"
   respuesta: "Como lo indica la pregunta anterior, las leyes a votar van a ser propias además de las externas. El
   Partido Digital va promover la creación de leyes a partir de propuestas que cualquier persona puede presentar, siempre
   y cuando las mismas sean construidas responsablemente siguiendo un conjunto de reglas preestablecidas."
-  link:
   identificador: votacion
 
 - pregunta: "¿Cualquier tipo de propuesta puede llegar a ser una ley presentada por el Partido Digital?"
@@ -51,7 +45,6 @@
   de reglas y estar debidamente fundamentada. Luego de su creación la misma debe ser presentada en la herramienta de
   votación del Partido Digital donde todos decidiremos si se presenta a la cámara de representantes o si se debe seguir
   trabajando en ella. Cuenta con los mismos pasos que la elaboración del Programa de Gobierno."
-  link: "/documentos/carta-organica#articulo-70"
   identificador: propuestas
 
 - pregunta: "¿Cuándo los voy a poder votar?"
@@ -75,5 +68,4 @@
   elecciones del 2019. Si esto no se concreta por alguna razón, y solo por tratarse de la primera vez que el Partido
   Digital se presenta a las elecciones, las personas que integran a boleta pueden ser elegidas por los fundadores del
   Partido Digital como lo estipula la Carta Orgánica."
-  link: "/documentos/carta-organica#articulo-24"
   identificador: boleta
