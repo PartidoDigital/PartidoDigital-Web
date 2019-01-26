@@ -35,12 +35,8 @@ $(function () {
 				$("#sumarme").attr("disabled", true).val("Enviando...");
 			},
 			success: function () {
-                ga("send", "event", "Formulario", "Enviado", "Voluntariado");
-                $("#sumarme").attr("disabled", true).val("Datos enviados. ¡Gracias por sumarte!");
-                setTimeout(function () {
-                    $("#volun").trigger("reset");
-                    $("#sumarme").attr("disabled", false).val("SUMARME");
-                }, 5000);
+				ga("send", "event", "Formulario", "Enviado", "Voluntariado");
+				window.location.href = "/gracias-voluntario";
 			},
 			error: function (jqXHR, textStatus, errorThrown) {
 				ga("send", "event", "Formulario", "Error", "Voluntariado: " + $("[name=email]").val() + " | " + $("[name=nombre]").val() + " | " + $("[name=apellido]").val());
