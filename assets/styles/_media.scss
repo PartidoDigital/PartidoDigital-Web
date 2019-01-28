@@ -123,8 +123,8 @@
   h1:not(.plain) {
     padding: 1rem 1.8rem !important;
     margin: 0 !important;
-    &:after {
-      margin-left: 0rem !important;
+    &:after, &:before {
+      display: none;
     }
   }
 
