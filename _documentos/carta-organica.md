@@ -1,6 +1,6 @@
 ---
 titulo: Carta orgánica
-date: 2019-01-26
+date: 2019-02-09
 ---
 
 ### Capítulo I {#capitulo-I}
@@ -43,7 +43,7 @@ Los afiliados del partido tendrán los siguientes deberes:
  - aceptar la tarea de representación política, salvo circunstancias o causas justificadas;
  - aportar sus conocimientos;
  - contribuir a la formación del tesoro partidario en la forma que establezca la Mesa Ejecutiva;
- - solidarizarse moral y con los demás afiliados al partido y respetar sus posiciones.
+ - solidarizarse con los demás afiliados al partido y respetar sus posiciones.
 
 ##### Artículo 7 {#articulo-7}
 El afiliado que incumpla las normas estatutarias, las reglamentaciones y resoluciones del Partido o en general viole las obligaciones impuestas a los afiliados por la presente Carta Orgánica podrá ser sancionado por los órganos competentes previa vista a los efectos de presentar descargos y articular su defensa.
