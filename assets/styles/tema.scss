@@ -176,9 +176,9 @@ a {
     }
 
     > .fa {
-        color: $naranja_pd;
+        color: $azul_pd;
         &:hover {
-            color: white;
+            color: $naranja_pd;
         }
     }
 }
@@ -415,9 +415,9 @@ a.btn {
     height: 8rem;
     font-size: 3.8rem;
     display: inline-block;
-    border: 2px solid white;
+    border: 2px solid $naranja_pd;
     border-radius: 100% !important;
-    color: white;
+    color: $naranja_pd;
     background: $naranja_pd;
     @include transition(background .3s ease-in-out);
     &:hover, &:focus {
@@ -505,24 +505,24 @@ a.MP-common-orange-CDl {
             border-color: $azul_pd;
         }
     }
+}
 
-    &.separador::before, &.separador::after {
-        content: '';
-        pointer-events: none;
-    }
+.separador::before, .separador::after {
+    content: '';
+    pointer-events: none;
+}
 
-    &.separador::after {
-        width: 14px;
-        height: 14px;
-        border-radius: 50%;
-        margin: 2rem auto 3rem;
-        background: $naranja_pd;
-        box-shadow: 30px 0 $naranja_pd, -30px 0 $naranja_pd;
+.separador::after {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin: 2rem auto 3rem;
+    background: $naranja_pd;
+    box-shadow: 30px 0 $naranja_pd, -30px 0 $naranja_pd;
 
-        .inverted-background & {
-            background: $azul_pd;
-            box-shadow: 30px 0 $azul_pd, -30px 0 $azul_pd;
-        }
+    .inverted-background & {
+        background: $azul_pd;
+        box-shadow: 30px 0 $azul_pd, -30px 0 $azul_pd;
     }
 }
 

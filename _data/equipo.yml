@@ -1,98 +1,229 @@
 - nombre: Justin Graside
-  gravatar: 48a343011e82797193eb899f8e87c1be
-  posicion: Coordinador general
+  img: justin_graside.png
+  posicion: Presidente del Partido Digital
+  experiencia:
+     - Chief Revenue Officer de [Bankingly](https://bankingly.com/?lang=es)
+     - Docente de Marketing Digital en Universidad Católica del Uruguay
+     - Docente de [Planificación y Estrategia Digital en Senpai Academy](https://www.senpaiacademy.com/analista-marketing-digital.php)
+     - Fundador de [TEDxDurazno](https://www.subrayado.com.uy/tedxdurazno-celebra-su-quinta-edicion-y-este-ano-sera-100-woman-n71618)
   networks:
-   - twitter: https://twitter.com/justingraside
-   - linkedin: https://linkedin.com/in/justingraside
-   - telegram: https://t.me/justingraside
+     - linkedin: https://www.linkedin.com/in/justingraside/
+     - play: https://youtu.be/C-PG06_Ozlo
+     - twitter: https://twitter.com/JustinGraside
+     - external-link-square: https://www.teledoce.com/programas/desayunos-informales/primera-manana/el-partido-digital-una-nueva-propuesta-que-buscara-promover-que-no-se-vote-solo-cada-cinco-anos-sino-ante-cada-proyecto-que-se-discuta-en-el-parlamento/
 
-- nombre: Ec. Ma. Pía Alonso
-  gravatar: e9cafc8c784a828cfa21b1ba73e0d722
-  posicion: Tesorera
+- nombre: Pía Alonso
+  img: pia_alonso.jpeg
+  posicion: |
+     Vicepresidente del Partido Digital
+     Lider del equipo Ideas y Participación
+  experiencia:
+     - Economista de Universidad Católica del Uruguay
+     - Coordinadora de [Reciclo NFU](http://www.reciclonfu.uy/)
+     - Consultora de [ONUDI Uruguay](https://www.unido.org/who-we-are/unido-worldwide/latin-america-and-caribbean/offices/uruguay)
+     - Co-Organizadora [GreenDrinks Uruguay](https://www.facebook.com/GreenDrinksMvd)
   networks:
-     - twitter: https://twitter.com/pioji85
      - linkedin: https://linkedin.com/in/piaalonsoribas
-
-- nombre: Ing. Leo Giovanetti
-  gravatar: 9b7fd436ad75a169c85874a27e9073f8
-  posicion: Líder técnico
+     - twitter: https://twitter.com/pioji85
+     - external-link-square: http://www.diarioelpueblo.com.uy/titulares/partido-digital-de-uruguay-promueve-dinamizar-democracia-con-la-tecnologia.html
+    
+- nombre: Leo Giovanetti
+  img: leo_giovanetti.png
+  posicion: |
+     Vocal
+     Líder del Equipo Técnico
+  experiencia:
+     - Ingeniero de Sistemas de Universidad Católica de Uruguay
+     - Arquitecto de Software en [Globant](https://www.globant.com)
   networks:
-     - twitter: https://twitter.com/leog
      - linkedin: https://linkedin.com/in/leogiovanetti
-     - github: https://github.com/leog
-     - telegram: https://t.me/leogiovanetti
+     - twitter: https://twitter.com/leog
+     - external-link-square: https://github.com/leog
 
-- nombre: Ariel Guevara
-  gravatar: 5f92e4a2d8fcf4272ebc9f83be3e755f
-  posicion: Programa de gobierno
+- nombre: Alejandro Ferrer
+  img: alejandro_ferrer.jpeg
+  posicion: |
+     Equipo de Transparencia y Finanzas
+     Secretario del Partido Digital
+  experiencia: 
+     - Desarrollo de Negocios en [Bankingly](https://bankingly.com/?lang=es)
+     - Master en Biotecnología Molecular de la Universidad de Barcelona
+     - Químico Farmacéutico de Universidad del País Vasco
   networks:
-     - twitter: https://twitter.com/Ariel_Guevarin
-     - linkedin: https://linkedin.com/in/ariel-guevara-456a955
-     - telegram: https://t.me/ArielGuevara
+     - linkedin: https://www.linkedin.com/in/alejandro-ferrer-05899616/
+
+- nombre: Ariel Pfeffer
+  img: ariel_pfeffer.png
+  posicion: |
+     Lider del Equipo de Comunicación
+     Consejo Consultivo
+  experiencia:
+     - Vicepresidente [Endeavor Uruguay](https://www.endeavor.org.uy/)
+     - CEO [Prospecta Marketing](https://prospectamarketing.com/)
+     - Miembro de [Club de Inversores Ángeles de IAE](https://gust.com/accelerators/club-de-business-angels-del-iae)
+     - Co-Fundador de [Punta Tech Meetup](http://www.puntameetup.com/)
+     - Regional Executive Board Member en [YPO](https://www.ypo.org/)
+  networks:
+     - linkedin: https://www.linkedin.com/in/arielpfeffer/
+     - play: https://www.youtube.com/watch?v=4zZy1lp3meo
+     - twitter: https://twitter.com/arielpfeffer
+     - external-link-square: https://www.montevideo.com.uy/Noticias/Entrevista-al-emprendedor-Ariel-Pfeffer-Por-Ana-Jerozolimski-uc345705
 
 - nombre: Daniel Goldman
-  gravatar: 242653bbf80c52668752b316e95add42
-  posicion: Equipo técnico
+  img: daniel_goldman.jpeg
+  posicion: Equipo de Ideas y Participación
+  experiencia:
+     - Fundador de [Innmentor](https://www.innmentor.com/)
+     - Docente de Universidad ORT de Desarrollo de Gestión de la Innovación
+     - Formado en Matemáticas por The Hebrew University of Jerusalem
+     - Mentor en Innovación de la [Cámara Uruguaya de Tecnología de la Información](http://www.cuti.org.uy/portada)
   networks:
+     - linkedin: https://www.linkedin.com/in/danielgoldmaninnmentor/
+     - play: https://www.youtube.com/watch?v=tFbgXHBfZ-M
      - twitter: https://twitter.com/Danielinnmentor
-     - linkedin: https://linkedin.com/in/danielgoldmaninnmentor
+     - external-link-square: https://www.innmentor.com/sobre-mi-daniel-goldman/
 
-- nombre: Diego Ventura
-  gravatar: 28ad0ef1e5f2da02dca7b6c428e2f263
-  posicion: Equipo técnico
+- nombre: Florencia Montibeller
+  img: florencia_montibeller.jpeg
+  posicion: Equipo de Comunicación
+  experiencia:
+     - Community Manager de [Da Naturaleza](https://perfil.mercadolibre.com.uy/DA+NATURALEZA)
+     - Co-Fundadora de [Bartola](https://www.facebook.com/BartolaUruguay/)
+     - Asistente de Marketing de [InoaEdu](https://inoaedu.com/)
   networks:
-     - twitter: https://twitter.com/colochef
-     - linkedin: https://linkedin.com/in/diegoventura
+     - linkedin: https://www.linkedin.com/in/florenciamontibeller/
+
+- nombre: Nicolás Lamas
+  img: nicolas_lamas.jpeg
+  posicion: Tesorero
+  experiencia:
+     - Director [Tecytal](http://www.tecytal.com/)
+     - Secretario [AJE Uruguay](https://www.aje.org.uy/)
+  networks:
+     - linkedin: https://www.linkedin.com/in/nicolas-lamas-6a559419/
+     - twitter: https://twitter.com/lamasn14
+     - external-link-square: https://www.elobservador.com.uy/nota/se-lanzo-la-convocatoria-para-el-programa-empresario---emprendedor-2016238290
+
+- nombre: Marjorie Spitalnik
+  img: majo_spitalnik.png
+  posicion: Equipo de Ideas y Participación
+  experiencia:
+     - Fundadora & CEO de [Little Rebels](https://www.facebook.com/wearelittlerebels/)
+     - Fundadora & CEO de [Tedybujo](https://www.tedybujo.com/)
+     - Alumni de [Young Leaders of America Initiative](https://ylai.state.gov/)
+  networks:
+     - linkedin: https://www.linkedin.com/in/marjoriespitalnik/
+     - play: https://youtu.be/QyAYCgV4irk
+     - twitter: https://twitter.com/MjSpitalnik
+     - external-link-square: https://www.elobservador.com.uy/nota/peluches-uruguayos-inspirados-en-mujeres-que-cambiaron-el-mundo-201881313340
+
+- nombre: Eduardo Mangarelli
+  img: eduardo_mangarelli.jpg
+  posicion: Consejo Consultivo
+  experiencia:
+     - Principal Software Engineer Lead en [Microsoft](https://www.microsoft.com/es-uy/)
+     - Miembro del Directorio de [Edeavor](https://www.endeavor.org.uy/)
+     - Miembro del Directorio de [Educación Responsable Uruguay](https://www.educacionresponsable.org/web/)
+     - Asesor e Inversor de [Monkeylearn](https://monkeylearn.com/)
+     - Docente de Gestión de la Innovación en Universidad ORT 
+     - Docente de Diseño de Software y Arquitectura de Software en Universidad ORT 
+     - Asesor e Inversor de [Tryolabs](https://tryolabs.com/)
+  networks:
+     - linkedin: https://www.linkedin.com/in/mangarelli/
+     - play: https://www.youtube.com/watch?v=unrB-fKjctU
+     - twitter: https://twitter.com/emangare
+     - external-link-square: https://www.endeavor.org.uy/?avada_portfolio=suspendisse-pharetra-urna-2
+
+- nombre: Mario Colla
+  img: mario_colla.jpeg
+  posicion: Consejo Consultivo
+  experiencia:
+     - CEO en [Tienda Mía](https://tiendamia.com/)
+     - Mentor en [Endeavor](https://www.endeavor.org.uy/)
+  networks:
+     - linkedin: https://www.linkedin.com/in/mario-colla-15866735/
+     - play: https://www.facebook.com/watch/?v=10154749155559302
+     - twitter: https://twitter.com/Mario_Colla
+     - external-link-square: https://www.endeavor.org.uy/?p=14670
+
+- nombre: Milton Rodríguez
+  img: milton_rodriguez.jpeg
+  posicion: Equipo de Ideas y Participación
+  experiencia:
+     - CEO de [MiFinanzas](https://micheque.uy/)
+     - Ingeniero de Sistemas de Universidad ORT
+     - Project Management Professional (PMP)
+  networks:
+     - linkedin: https://www.linkedin.com/in/milrodriguez/
+     - play: https://www.youtube.com/watch?v=NfS6eQca7vM
+     - twitter: https://twitter.com/rodriguezmilton
+     - external-link-square: https://www.elpais.com.uy/informacion/micheque-plataforma-descuenta-cheques-mejores-tasas-bancos.html
+
+- nombre: Pablo Oliveri
+  img: pablo_oliveri.jpeg
+  posicion: Equipo de Comunicación
+  experiencia:
+     - Director de [Inception Media](https://vimeo.com/inceptionuy)
+  networks:
+     - linkedin: https://www.linkedin.com/in/pablooliveri/
+
+- nombre: Ariel Guevara
+  img: ariel_guevara.jpg
+  posicion: Equipo de Ideas y Participación
+  experiencia:
+     - Master en Gerencia de Empresas Tecnológicas de Universidad ORT
+     - Referente Area de Desarrollo del [Fondo Nacional de Recursos](http://www.fnr.gub.uy/)
+     - Ingeniero de Computación de UDELAR
+     - (realizando tesis) Maestría en Políticas Públicas de Universidad Católica de Uruguay
+  networks:
+     - linkedin: https://www.linkedin.com/in/ariel-guevara-456a955/
+     - play: https://www.youtube.com/watch?v=Z1mUao4YC2Q
+     - twitter: https://twitter.com/Ariel_Guevarin
+
+- nombre: Emilio Velázquez
+  img: emilio_velazquez.jpg
+  posicion: Equipo de Transparencia y Finanzas
+  experiencia:
+     - Director Fundador de [EV Consultores](http://evconsultores.com.uy/)
+     - Técnico Universitario en Administración de UDELAR
+     - Presidente de [AUCOS](http://www.rendircuentas.org/rendicion/asociacion-uruguaya-de-colaboracion-social-aucos/)
+  networks:
+     - linkedin: https://www.linkedin.com/in/emilio-vel%C3%A1zquez-serr%C3%B3n-09b919127/
+     - twitter: https://twitter.com/efvelazquez
+     - external-link-square: https://www.espectador.com/espectador-negocios/velazquez-gracias-la-sinergia-que-se-trabaja-en-aje-uno-refuerza-la-idea-que-en-el-camino-empresarial-no-estas-solo
 
 - nombre: Federico Masini
-  gravatar: b32f21cf22c854d5910fee5852c063c1
-  posicion: Comunicación
+  img: federico_masini.jpeg
+  posicion: Equipo de Comunicación
+  experiencia:
+     - Co-fundador y Director Ejecutivo de [NIKO Films](https://www.nikofilms.com/2017/#/post/)
+     - Post & Films Director de [The Electric Factory](https://www.theelectricfactory.com/)
   networks:
-     - twitter: https://twitter.com/fedemt87
-     - linkedin: https://linkedin.com/in/fmasini87
+     - linkedin: https://www.linkedin.com/in/fmasini87/
+     - twitter: https://twitter.com/fedemt87 
+     - external-link-square: http://uycg.com.uy/fede-masini/
+
+- nombre: Diego Ventura
+  img: diego_ventura.jpeg
+  posicion: Equipo de Financiamiento
+  experiencia:
+     - Customer Success en [MonkeyLearn](https://monkeylearn.com/)
+  networks:
+     - linkedin: https://www.linkedin.com/in/diegoventura/
+     - play: https://www.youtube.com/watch?v=E2_6XBjxEuU
+     - twitter: https://twitter.com/colochef
+     - external-link-square: https://fcd.ort.edu.uy/19077/24/una-mirada-al-futuro-de-internet.html
 
 - nombre: Javier Villasuso
-  gravatar: 563b427cb71a1e7777cef119145c49da
-  posicion: Comunicación
+  img: javier_villasuso.jpeg
+  posicion: Equipo de Comunicación
+  experiencia:
+     - Fundador y Director de Javier Villasuso Multimedia
   networks:
-     - facebook: https://www.facebook.com/javier.villasusomultimedia
-
-- nombre: Facundo Sánchez
-  gravatar: 177fa83c3e3520d5a1a437742ef8f672
-  posicion: Afiliaciones / Prensa
-  networks:
-     - twitter: https://twitter.com/facusanbru
-     - linkedin: https://www.linkedin.com/in/facundo-s%C3%A1nchez-brufau-59b8433a
+     - external-link-square: http://jvmultimedia.uy/
      
-- nombre: Carolina Nunes
-  gravatar: bcdd3cdb982a4af11e218fb4e71bddbd
-  posicion: Finanzas
+- nombre: Lourdes Martínez
+  img: lourdes_martinez.jpeg
+  posicion: Secretaria Ejecutiva
   networks:
-     - linkedin: https://www.linkedin.com/in/carolina-nunes-18319877
-
-- nombre: Sebastián Ventura
-  gravatar: a421ba465ea846dea4026abccd902a9a
-  posicion: Equipo técnico
-  networks:
-     - github: https://github.com/lomegor
-     - telegram: https://t.me/lomegor
-     
-- nombre: Florencia Montibeller
-  gravatar: df2a50e94637c93602fff5a47c7100b3
-  posicion: Community Manager
-  networks:
-     - twitter: https://twitter.com/flomontibeller
-     - linkedin: https://www.linkedin.com/in/florenciamontibeller
-  
-- nombre: Richard Perez
-  gravatar: 51f965737a09297f5ecd9f9b50c0b101
-  posicion: Coord. Treinta y Tres
-  networks:
-     - twitter: https://twitter.com/Ixphinx
-     - linkedin: https://www.linkedin.com/in/richard-adrian-perez-pereira-17836982
-     
-- nombre: Alejandro Ferrer
-  gravatar: 22e2d332eba5a797f387eee77d5da35c
-  posicion: Plan de Gobierno
-  networks:
-    - twitter: https://twitter.com/ferrer227
+     - linkedin: https://www.linkedin.com/in/lourdes-martinez-silva-977b42b9/
