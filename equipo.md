@@ -20,7 +20,7 @@ date: 2018-03-14
             {% assign mod = forloop.index | modulo: 2 %}
             <section class="row separador">
                 <div class="row mt-3 text-center">
-                    <div class="col-lg-3 {% if mod == 0 %}float-md-right{% else %}float-md-left{% endif %}">
+                    <div class="col-lg-3 float-md-left">
                         <h4 class="pb-0">{{ persona.nombre }}</h4>
                         <ul class="list-inline m-0 p-0">
                             {% for network in persona.networks %}
@@ -31,7 +31,7 @@ date: 2018-03-14
                         </ul>
                         <h5>{{ persona.posicion | newline_to_br }}</h5>
                     </div>
-                    <div class="col-lg-3 {% if mod == 0 %}float-md-right{% else %}float-md-left{% endif %}">
+                    <div class="col-lg-3 float-md-left">
                         <img class="rounded-circle img-responsive img-center mb-1" src="/assets/img/equipo/{{ persona.img }}?" alt="">  
                     </div>
                     <div class="col-lg-6">
@@ -47,11 +47,11 @@ date: 2018-03-14
             </section>       
         {% endfor %}
         <div class="row mt-3 text-center">
-            <div class="col-lg-3 float-md-right">
+            <div class="col-lg-3 float-md-left">
                 <h4 class="pb-0">Tu nombre</h4>
                 <h5>Donde quieras aportar</h5>
             </div>
-            <div class="col-lg-3 float-md-right">
+            <div class="col-lg-3 float-md-left">
                 <span class="btn-circle p-x-3 p-y-2 mb-1" style="width: 12rem;height: 12rem;font-size: 7.5rem; background-color: transparent;">
                 <i class="fa fa-user" aria-hidden="true"></i>
             </span>  
