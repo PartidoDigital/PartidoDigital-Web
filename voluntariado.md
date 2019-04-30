@@ -60,8 +60,29 @@ Completa el formulario debajo y sumate al equipo de voluntarios del Partido Digi
 				<input type="tel" name="celular" class="required" value="" id="mce-CELULAR">
 			</div>
 			<div class="mc-field-group">
-				<label for="mce-CIUDAD">Ciudad</label>
-				<input type="text" value="" name="ciudad" class="required" id="mce-CIUDAD">
+				<label for="mce-DEPARTAMENTO">Departamento</label>
+				<select type="text" value="" name="departamento1" class="required" id="mce-DEPARTAENTO">
+					<option value="" selected>¿En dónde vives?</option>
+					<option value="Artigas">Artigas</option>
+					<option value="Canelones">Canelones</option>                    
+					<option value="Cerro Largo">Cerro Largo</option>                    
+					<option value="Colonia">Colonia</option>                    
+					<option value="Durazno">Durazno</option>                    
+					<option value="Flores">Flores</option>                    
+					<option value="Florida">Florida</option>                    
+					<option value="Lavalleja">Lavalleja</option>                    
+					<option value="Maldonado">Maldonado</option>                    
+					<option value="Montevideo">Montevideo</option>                    
+					<option value="Paysandú">Paysandú</option>                    
+					<option value="Río Negro">Río Negro</option>                    
+					<option value="Rivera">Rivera</option>                    
+					<option value="Rocha">Rocha</option>                    
+					<option value="Salto">Salto</option>                    
+					<option value="San José">San José</option>                    
+					<option value="Soriano">Soriano</option>                    
+					<option value="Tacuarembó">Tacuarembó</option>                    
+					<option value="Treinta y Tres">Treinta y Tres</option>
+				</select>
 			</div>
 			<div class="mc-field-group">
 				<label for="mce-FECHANACIMIENTO">Fecha de Nacimiento</label>

@@ -5,7 +5,7 @@ $(function () {
             "mauticform[apellido]": $("[name=apellido]").val(),
             "mauticform[email]": $("[name=email]").val(),
             "mauticform[celular]": $("[name=celular]").val(),
-            "mauticform[ciudad]": $("[name=ciudad]").val(),
+            "mauticform[departamento1]": $("[name=departamento1]").val(),
             "mauticform[fechanacimiento]": $("[name=fechanacimiento]").val(),
             "mauticform[submit]": 1,
             "mauticform[formId]": 7,
@@ -24,7 +24,7 @@ $(function () {
 			beforeSend: function () {
 				if ($("[name=nombre]").val() === "" || $("[name=apellido]").val() === "" ||
 					$("[name=email]").val() === "" || $("[name=celular]").val() === "" ||
-                    $("[name=ciudad]").val() === "" || $("[name=fechanacimiento]").val() === "" ||
+                    $("[name=departamento1]").val() === "" || $("[name=fechanacimiento]").val() === "" ||
                     $("input:checked").length === 0) {
 					$("#sumarme").attr("disabled", true).addClass("error").val("Queda algún campo por llenar. Intentalo de nuevo.");
 					setTimeout(function () {
