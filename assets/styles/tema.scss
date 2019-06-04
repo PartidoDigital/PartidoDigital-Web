@@ -181,6 +181,13 @@ a {
             color: $naranja_pd;
         }
     }
+	
+    footer & > .fa, header & > .fa {
+        color: $naranja_pd;
+        &:hover {
+            color: $azul_pd;
+        }
+    }
 }
 
 .navbar-nav {
