@@ -23,8 +23,7 @@ $(function () {
 			beforeSend: function () {
 				if ($("[name=nombre]").val() === "" || $("[name=apellido]").val() === "" ||
 					$("[name=email]").val() === "" || $("[name=celular]").val() === "" ||
-                    $("[name=departamento]").val() === "" || $("[name=direccion]").val() === "" ||
-					$("[name=credencial]").val() === "" || $("[name=cantidad]").val() === "") {
+                    $("[name=departamento]").val() === "" || $("[name=direccion]").val() === "" || $("[name=cantidad]").val() === "") {
 					$("#pedir-listas").attr("disabled", true).addClass("error").val("Queda algún campo por llenar. Intentalo de nuevo.");
 					setTimeout(function () {
 						$("#pedir-listas").attr("disabled", false).removeClass("error").val("PEDIR LISTAR");
