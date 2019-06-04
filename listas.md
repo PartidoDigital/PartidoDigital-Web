@@ -45,7 +45,7 @@ Completa el formulario siguiente y te contactamos para que puedas tener la lista
 	<form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate id="volun">
 		<div id="mc_embed_signup_scroll">
 			<div class="indicates-required">
-				Todos los campos son obligatorios.
+				Todos los campos (menos credencial) son obligatorios.
 			</div>
 			<div class="mc-field-group">
 				<label for="mce-NAME">Nombre</label>
@@ -75,7 +75,7 @@ Completa el formulario siguiente y te contactamos para que puedas tener la lista
 				<input type="text" value="" name="direccion" class="required" id="mce-DIRECCION">
 			</div>
             <div class="mc-field-group">
-				<label for="mce-NAME">Credencial</label>
+				<label for="mce-NAME">Credencial (si no te la acordas, dejalo vacío)</label>
 				<input type="text" value="" name="credencial" class="required" id="mce-CREDENCIAL">
 			</div>
             <div class="mc-field-group">
