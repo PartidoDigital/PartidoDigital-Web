@@ -20,6 +20,11 @@ function collapseNavbar() {
       $(".navbar-fixed-top").addClass("top-nav-collapse");
       $(".navbar-brand").removeClass("hidden-md-up");
       $("#popup").slideDown("slow");
+      var scrollHeight = $(document).height();
+      var scrollPosition = $(window).height() + $(window).scrollTop();
+      if ((scrollHeight - scrollPosition) / scrollHeight === 0) {
+        $("#popup").slideUp("slow");
+      }
     } else {
       $(".navbar-fixed-top").removeClass("top-nav-collapse");
       $(".navbar-brand").addClass("hidden-md-up");
