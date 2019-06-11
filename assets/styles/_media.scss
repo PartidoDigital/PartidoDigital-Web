@@ -135,6 +135,10 @@
   .intro .intro-body .extra {
     font-size: 0.7em;
   }
+
+  .badge {
+    float: none !important;
+  }
 }
 
 @media(max-width: 321px) {
