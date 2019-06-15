@@ -35,6 +35,7 @@ $(function () {
 			success: function () {
 				ga("send", "event", "Formulario", "Enviado", "Listas");
 				fbq('track', 'CompleteRegistration');
+				twq('track','SignedUp');
 				window.location.href = "/gracias-listas";
 			},
 			error: function (jqXHR, textStatus, errorThrown) {
