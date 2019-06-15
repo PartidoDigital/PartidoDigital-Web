@@ -1,4 +1,5 @@
 $(function () {
+	var gtg = false;
 	$("#pedir-listas").bind("click", function () {
         var params = {
             "mauticform[nombre]": $("[name=nombre]").val(),
@@ -30,6 +31,13 @@ $(function () {
 					}, 5000);
 					return false;
 				}
+				if(!gtg) {
+					$("#pedir-listas").attr("disabled", true).addClass("error").val("Verifica que sos humano por favor.");
+					setTimeout(function () {
+						$("#pedir-listas").attr("disabled", false).removeClass("error").val("PEDIR LISTAR");
+					}, 5000);
+					return false;
+				}
 				$("#pedir-listas").attr("disabled", true).val("Enviando...");
 			},
 			success: function () {
@@ -47,4 +55,8 @@ $(function () {
 			}
 		});
 	});
+
+	var gtgSet = function() {
+		gtg = true;
+	}
 });

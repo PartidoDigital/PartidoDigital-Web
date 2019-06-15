@@ -100,7 +100,7 @@ Completa el formulario siguiente y te contactamos para que puedas tener la lista
 			</div>
 			<div class="mc-field-group">
 				<label for="mce-RECAPTCHA">Verifica que sos humano :)</label>
-				<div class="g-recaptcha" data-sitekey="6LcgCqkUAAAAAJ6RlrDF9n3W1LwrQwBsomZJzqnU"></div>
+				<div class="g-recaptcha" data-callback="gtgSet" data-sitekey="6LcgCqkUAAAAAJ6RlrDF9n3W1LwrQwBsomZJzqnU"></div>
 			</div>
 			<div class="clear">
 				<input name="pedir-listas" type="button" id="pedir-listas" value="PEDIR LISTAS" class="action btn">
