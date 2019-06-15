@@ -75,7 +75,7 @@ Completa el formulario siguiente y te contactamos para que puedas tener la lista
 				<input type="text" value="" name="direccion" class="required" id="mce-DIRECCION">
 			</div>
             <div class="mc-field-group">
-				<label for="mce-NAME">Credencial (si no te la acordas, dejalo vacío)</label>
+				<label for="mce-NAME">Credencial (si no la recuerdas, deja el campo vacío)</label>
 				<input type="text" value="" name="credencial" class="required" id="mce-CREDENCIAL">
 			</div>
             <div class="mc-field-group">
@@ -98,6 +98,10 @@ Completa el formulario siguiente y te contactamos para que puedas tener la lista
                     <option value="2">10</option>                  
 				</select>
 			</div>
+			<div class="mc-field-group">
+				<label for="mce-RECAPTCHA">Verifica que sos humano :)</label>
+				<div class="g-recaptcha" data-sitekey="6LcgCqkUAAAAAJ6RlrDF9n3W1LwrQwBsomZJzqnU"></div>
+			</div>
 			<div class="clear">
 				<input name="pedir-listas" type="button" id="pedir-listas" value="PEDIR LISTAS" class="action btn">
 			</div>
@@ -105,4 +109,5 @@ Completa el formulario siguiente y te contactamos para que puedas tener la lista
 	</form>
 </div>
 <script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.js" crossorigin="anonymous"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script type='text/javascript' src='assets/js/listas.js'></script>
