@@ -56,7 +56,7 @@ $(function () {
 		});
 	});
 
-	var gtgSet = function() {
+	window.gtgSet = function() {
 		gtg = true;
 	}
 });
