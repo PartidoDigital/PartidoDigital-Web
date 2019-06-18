@@ -9,8 +9,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Open Sans', sans-serif;
-    color: grey;
-    background-color: #ececec;
+    color: black;
+    background-color: #fff;
 
     &.inverted-background {
         background-image: none;
@@ -99,10 +99,9 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 0 0 35px;
     font-weight: 700;
-    letter-spacing: 1px;
-    color: $naranja_pd;
+    letter-spacing: -1px;
+    color: $azul_pd;
 }
 
 h1 {
@@ -178,11 +177,11 @@ a {
     > .fa {
         color: $azul_pd;
         &:hover {
-            color: $naranja_pd;
+            color: white;
         }
     }
 	
-    footer & > .fa, header & > .fa {
+    > .fa.inverse {
         color: $naranja_pd;
         &:hover {
             color: $azul_pd;
@@ -271,7 +270,7 @@ a {
                 background-color: transparent;
             }
             &.active {
-                color: $naranja_pd;
+                color: $azul_pd;
             }
         }
     }
@@ -284,21 +283,14 @@ a {
     padding: 0;
     text-align: center;
     color: white;
-    background: url(../img/palacio_legislativo.jpg) center 10% no-repeat #000;
+    //background: url(../img/palacio_legislativo.jpg) center 10% no-repeat #000;
+    background: $naranja_pd; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $naranja_pd, #f83600); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, $naranja_pd, #f83600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     @include background-size(cover);
     &.firma {
         margin-bottom: 4em;
         background: url(../img/portada2.jpg) center 10% no-repeat #000;
-    }
-    .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      background-color: black;
-      opacity: 0.5;
-      z-index: 1;
     }
     video {
       position: absolute;
@@ -332,7 +324,7 @@ a {
         }
         .extra {
             position: absolute;
-            bottom: 0;
+            bottom: 1rem;
             width: 100%;
             color: #5d5d5d;
             list-style: none;
@@ -483,11 +475,11 @@ a.MP-common-orange-CDl {
 
 .content-section {
     position: relative;
+    margin-top: 5rem;
 
-    h2 {
-        text-transform: uppercase;
-        text-decoration: underline;
-        text-decoration-color: $naranja_pd;
+    h2, h3 {
+        text-decoration-color: $azul_pd;
+        display: inline-block;
     }
 
     &#preguntas {
@@ -514,39 +506,14 @@ a.MP-common-orange-CDl {
     }
 }
 
-.separador::before, .separador::after {
-    content: '';
-    pointer-events: none;
-}
-
-.separador::after {
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    margin: 2rem auto 3rem;
-    background: $naranja_pd;
-    box-shadow: 30px 0 $naranja_pd, -30px 0 $naranja_pd;
-
-    .inverted-background & {
-        background: $azul_pd;
-        box-shadow: 30px 0 $azul_pd, -30px 0 $azul_pd;
-    }
-}
-
 #abajo {
-    background-color: $azul_pd;
+    background: $naranja_pd;
+    background: -webkit-linear-gradient(to right, $naranja_pd, #f83600);
+    background: linear-gradient(to right, $naranja_pd, #f83600);
     color: white;
     padding-top: 1.5em;
     flex: 0 0 auto;
     -webkit-flex: 0 0 auto;
-
-    .footer-footer {
-        background-color: darken($azul_pd, 20%);
-        padding-top: 3px;
-        padding-bottom: 3px;
-        text-align: center;
-        font-size: 0.7em;
-    }
 
     .row {
         margin-bottom: 1em;
@@ -580,12 +547,12 @@ a.MP-common-orange-CDl {
         color: #fff;
     }
     a {
-        color: #d2d1d1;
+        color: #fff;
         text-decoration: none;
 
         &:hover, &:focus {
             text-decoration: none;
-            color: white;
+            color: black;
         }
     }
     .social-networks {
@@ -1030,4 +997,62 @@ textarea {
 
 .badge-default {
     background-color: #636c72;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden;
+}
+    
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 96%;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: $naranja_pd; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $naranja_pd, #f83600); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, $naranja_pd, #f83600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    //background-color: black;
+    background-image: url("/assets/img/logo_bg.png");
+    background-repeat: repeat;
+    opacity: 0.3;
+    z-index: 1;
+
+    &.no-bg {
+        background-image: none;
+    }
+}
+
+.texto-gradiente--gradiente-naranja {
+    background: $naranja_pd;
+    background: -webkit-linear-gradient(to right, $naranja_pd, #f83600);
+    background: linear-gradient(to right, $naranja_pd, #f83600);
+}
+
+.texto-gradiente {
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
 }

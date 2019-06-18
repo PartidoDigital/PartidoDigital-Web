@@ -19,16 +19,18 @@ function collapseNavbar() {
     if ($(window).scrollTop() > 50) {
       $(".navbar-fixed-top").addClass("top-nav-collapse");
       $(".navbar-brand").removeClass("hidden-md-up");
-      $("#popup").slideDown("slow");
+      $("nav .overlay").css("display", "block");
+      /*$("#popup").slideDown("slow");
       var scrollHeight = $(document).height();
       var scrollPosition = $(window).height() + $(window).scrollTop();
       if ((scrollHeight - scrollPosition) / scrollHeight === 0) {
         $("#popup").slideUp("slow");
-      }
+      }*/
     } else {
+      $("nav .overlay").css("display", "none");
       $(".navbar-fixed-top").removeClass("top-nav-collapse");
       $(".navbar-brand").addClass("hidden-md-up");
-      $("#popup").slideUp("slow");
+      //$("#popup").slideUp("slow");
     }
   }
 }
