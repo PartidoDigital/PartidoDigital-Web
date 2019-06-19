@@ -1,0 +1,49 @@
+<nav class="navbar-fixed-top navbar-custom {%if page.layout == 'pagina' %} top-nav-collapse {% endif %}">
+	<!--<div class="overlay no-bg"></div>-->
+	<div class="hidden-lg-up collapsed p-1" data-toggle="collapse"
+			 data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false"
+			 aria-label="Toggle navigation">
+		<i class="fa fa-bars"></i>
+	</div>
+	<div class="hidden-lg-up p-1" id="acceso" style="position: fixed;top: 0;right: 0;">
+		
+	</div>
+	<div class="container navbar-toggleable-md collapse" id="exCollapsingNavbar">
+		<div style="height: 40px; text-align: center;">
+			<a class="navbar-brand hidden-lg-down" href="{% if page.layout == 'pagina' %}{{/}}{%else%}#arriba{% endif %}">
+				<img style="width: 12rem;" src="https://recursos.partidodigital.org.uy/assets/img/logo_horizontal_negro.svg">
+			</a>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<ul class="nav navbar-nav" style="display: inline-block;">
+				<li class="nav-item">
+					<a class="nav-link" href="{% if page.layout == 'pagina' %}/{% endif %}#participacion">
+						Participación</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{% if page.layout == 'pagina' %}/{% endif %}#transparencia">
+						Transparencia</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{% if page.layout == 'pagina' %}/{% endif %}#ideas">
+						Ideas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{% if page.layout == 'pagina' %}/{% endif %}#equipo">Equipo</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{% if page.layout == 'pagina' %}/{% endif %}#preguntas">Preguntas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{% if page.layout == 'pagina' %}/{% endif %}#contacto">
+						Contacto</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{% if page.layout == 'pagina' %}/{% endif %}#abajo">Más</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<a class="navbar-brand hidden-lg-up" href="#arriba">
+		<img style="width: 12rem;" src="https://recursos.partidodigital.org.uy/assets/img/logo_horizontal_naranja.svg">
+	</a>
+</nav>
