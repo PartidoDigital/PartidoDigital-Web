@@ -9,7 +9,7 @@ title: Documentación
     {% for documento in sorted %}
     <li class="list-group-item">
         <a href="{{documento.url | replace: '.html', ''}}">{{ documento.titulo }}</a>
-        <span class="tag tag-default tag-pill pull-xs-right">
+        <span class="badge badge-pill badge-dark">
                 Actualizado {{ documento.date | date: "%d/%m/%Y" }}
         </span>
     </li>
