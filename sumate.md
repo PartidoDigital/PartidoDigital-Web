@@ -1,7 +1,6 @@
 ---
 layout: pagina
 title: Sumate
-date: 2017-11-14
 ---
 
 ## ¡Muchas gracias por tu interes!

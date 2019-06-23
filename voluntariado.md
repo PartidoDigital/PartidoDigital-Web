@@ -1,7 +1,6 @@
 ---
 layout: pagina
 title: Sumate como voluntario
-date: 2019-01-22
 ---
 
 Necesitamos de gente como vos para lograr los objetivos del Partido Digital. A partir de ahora la política es algo transparente y moderno que te permite participar como puedas y quieras. 

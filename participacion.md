@@ -1,7 +1,6 @@
 ---
 layout: pagina
 title: Participación
-date: 2018-06-01
 ---
 
 Como unos de los pilares del Partido Digital es la participación, esta característica se encuentra en muchos ámbitos que hacen a un partido político.

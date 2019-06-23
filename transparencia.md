@@ -1,7 +1,6 @@
 ---
 layout: pagina
 title: Transparencia
-date: 2017-09-10
 ---
 
 El Partido Digital es un partido político que quiera traer **ideas** e **innovación** al sistema político para beneficio de todos los uruguayos. Nuestros gastos e ingresos del Partido Digital se podrán visualizar en cualquier momento de manera online.
@@ -13,7 +12,7 @@ Esto pasa en Uruguay hoy respecto al tema:
 * [Los partidos y sus donantes - En la mira (VTV)]{:target="_blank"}
 * [La transparencia de los partidos políticos está en falta - El Observador]{:target="_blank"}
 
-Queremos **impulsar la transparencia** en todo el sistema político, y no lo hacemos solo diciéndolo. **Lo hacemos con el ejemplo.** Por eso es que estás en esta página, en donde mostramos todos nuestros ingresos y gastos. Queremos implementarlo desde el comienzo con nuestras finanzas, para cuando accedemos a gestionar dineros públicos, todos podamos disfrutar de los beneficios de una gestión transparente.
+Queremos **impulsar la transparencia** en todo el sistema político, y no lo hacemos solo diciéndolo. **Lo hacemos con el ejemplo.** Por eso es dejamos disponible el acceso a la planilla de ingresos y egresos bien identificables. Queremos implementarlo desde el comienzo con nuestras finanzas, para cuando accedemos a gestionar dineros públicos, todos podamos disfrutar de los beneficios de una gestión transparente.
 
 Tener transparencia es una de las bases para poder desarrollar un Uruguay moderno y al servicio de todos. Si no tenemos transparencia, damos lugar a que se desarrolle la corrupción, y si hay corrupción el dinero de todos está en el bolsillo de los corruptos y no en dónde beneficia al Uruguay.
 

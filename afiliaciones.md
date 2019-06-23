@@ -1,7 +1,6 @@
 ---
 layout: pagina
 title: Afiliaciones
-date: 2019-01-21
 ---
 
 Los afiliados son parte oficial del Partido Digital y tiene poder de decisión sobre cuestiones partidarias como establece la Carta Orgánica. Se solicita una colaboración de $200 mensuales para afiliarte al Partido Digital.

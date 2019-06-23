@@ -1,7 +1,6 @@
 ---
 layout: pagina
 title: Acciones
-date: 2017-08-04
 ---
 
 <div class="banner">

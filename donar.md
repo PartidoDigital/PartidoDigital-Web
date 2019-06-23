@@ -1,7 +1,6 @@
 ---
 layout: pagina
 title: Donar
-date: 2019-01-21
 ---
 
 La campaña del Partido Digital será financiada por todos quienes creen que es necesario aportar transparencia e innovar en la política y la gestión pública en Uruguay.  ¡Necesitamos de tu aporte para lograrlo!

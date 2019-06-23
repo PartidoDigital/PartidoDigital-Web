@@ -34,9 +34,15 @@
     @include transition(padding .5s ease-in-out);
     &.top-nav-collapse {
       padding: 10px 0;
-      background: $naranja_pd;
-      background: -webkit-linear-gradient(to right, $naranja_pd, #f83600);
-      background: linear-gradient(to right, $naranja_pd, #f83600);
+      background: $primary;
+      background: -webkit-linear-gradient(to right, $primary, #f83600);
+      background: linear-gradient(to right, $primary, #f83600);
+    }
+  }
+
+  .list-stats {
+    .col-lg-3:not(:last-child) {
+      border-right: none!important;
     }
   }
 }
@@ -59,25 +65,19 @@
       display: none;
     }
   }
-  .content-section a.btn + a.btn {
-    margin-top: 1rem;
+  .content-section a.btn + a.btn:last-child {
+    margin-top: 0.5rem;
   }
 
-  .navbar-nav {
-    float: left;
-  }
-
-  .navbar-nav .nav-item {
-    float: none;
-    display: inline-block;
+  ul.navbar-nav {
+    width: 100%!important;
+    background: $primary;
+    background: -webkit-linear-gradient(to right, $primary, #f83600);
+    background: linear-gradient(to right, $primary, #f83600);
   }
 
   .content-section {
-    padding-top: 4rem;
-
-    &.separador::after {
-      margin: 3.5rem auto 0 !important;
-    }
+    margin-top: 3rem!important;
   }
 
   #preguntas {
@@ -139,6 +139,12 @@
 
   .badge {
     float: none !important;
+  }
+
+  .list-stats {
+    .col-lg-3:not(:last-child) {
+      border-bottom: none!important;
+    }
   }
 }
 

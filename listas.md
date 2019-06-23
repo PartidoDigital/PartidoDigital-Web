@@ -2,7 +2,7 @@
 layout: pagina
 title: Listas
 ---
-## PEDÍ LA TUYA PARA EL 30 DE JUNIO
+<h2 class="pt-0">Pedí la tuya para el 30 de Junio</h2>
 
 El próximo 30 de junio son las elecciones internas en Uruguay y como Partido Digital tenemos que presentarnos y conseguir los votos necesarios para estar presentes en Octubre y seguir validando nuestra nueva forma de hacer las cosas. Son nuestras primeras elecciones y muy importantes.
  

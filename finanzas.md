@@ -1,7 +1,6 @@
 ---
 layout: pagina
 title: Finanzas
-date: 2017-09-10
 ---
 
 El Partido Digital es un partido político que quiera traer **ideas** e **innovación** al sistema político para beneficio de todos los uruguayos. Nuestros gastos e ingresos del Partido Digital se podrán visualizar en cualquier momento de manera online.

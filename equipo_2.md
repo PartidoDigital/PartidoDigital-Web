@@ -1,7 +1,6 @@
 ---
 layout: pagina
 title: Equipo
-date: 2018-03-14
 ---
 
 <section id="equipo" class="container">
@@ -18,7 +17,7 @@ date: 2018-03-14
     <div class="container">
         {% for persona in site.data.equipo %}
             {% assign mod = forloop.index | modulo: 2 %}
-            <section class="row separador">
+            <section class="row">
                 <div class="row mt-3 text-center">
                     <div class="col-lg-3 float-md-left">
                         <h4 class="pb-0">{{ persona.nombre }}</h4>

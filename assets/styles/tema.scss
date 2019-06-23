@@ -14,7 +14,7 @@ body {
 
     &.inverted-background {
         background-image: none;
-        background-color: $naranja_pd;
+        background-color: $primary;
     }
 
     &.pagina-layout {
@@ -31,8 +31,8 @@ body {
             padding: 1rem 0;
             margin: 0;
             display: inline-block;
-            @extend %texto-gradiente;
-            @extend %texto-gradiente--gradiente-naranja;
+            @extend .texto-gradiente;
+            @extend .gradiente-naranja;
         }
 
         h2, h3, h4, h5, h6 {
@@ -49,7 +49,7 @@ body {
         }
 
         .resaltar {
-            background-color: rgba($naranja_pd, 0.3);
+            background-color: rgba($primary, 0.3);
             padding-left: 1rem;
         }
     }
@@ -63,11 +63,11 @@ html {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     letter-spacing: -1px;
-    color: $azul_pd;
+    color: $secondary;
 }
 
 p {
-    margin: 25px 0 25px;
+    margin: 1rem 0 1rem;
     font-size: 18px;
     line-height: 1.5;
 }
@@ -77,11 +77,11 @@ p {
 }
 
 .text-primary {
-    color: $azul_pd!important;;
+    color: $secondary!important;;
 }
 
 .text-secondary {
-    color: $naranja_pd!important;
+    color: $primary!important;
 }
 
 table {
@@ -116,35 +116,36 @@ blockquote {
 .alert {
     &.alert-info{
         background-color: #34577c;
-        border-color: $naranja_pd;
+        border-color: $primary;
         color: #ffffff;
         a {
-            color: $naranja_pd;
+            color: $primary;
         }
     }
 }
 
 a {
-    @extend %texto-gradiente;
-    @extend %texto-gradiente--gradiente-naranja;
+    @extend .texto-gradiente;
+    @extend .gradiente-naranja;
     border-bottom: 1px solid #f1f1f1;
     text-decoration: none;
     &:hover,
     &:focus {
-        border-bottom-color: $naranja_pd;
+        border-bottom-color: $primary;
+        text-decoration: none;
     }
 
     > .fa {
-        color: $azul_pd;
+        color: $secondary;
         &:hover {
             color: white;
         }
     }
 	
     > .fa.inverse {
-        color: $naranja_pd;
+        color: $primary;
         &:hover {
-            color: $azul_pd;
+            color: $secondary;
         }
     }
 }
@@ -177,9 +178,9 @@ a {
     text-align: center;
     color: white;
     //background: url(../img/palacio_legislativo.jpg) center 10% no-repeat #000;
-    background: $naranja_pd; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, $naranja_pd, #f83600); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, $naranja_pd, #f83600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: $primary; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $primary, #f83600); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, $primary, #f83600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     @include background-size(cover);
     &.firma {
         margin-bottom: 4em;
@@ -231,10 +232,16 @@ a {
             .social {
                 font-size: 1.3rem;
                 a {
-                    color: $naranja_pd;
+                    color: $secondary;
                     &:not(:last-child) {
                         margin-right: 1.5rem;
                     }
+                    background-clip: initial;
+                    -webkit-background-clip: initial;
+                    text-fill-color: initial;
+                    -webkit-text-fill-color: initial;
+                    background: none;
+                    border: none;
                 }
             }
         }
@@ -242,10 +249,7 @@ a {
 }
 
 a.btn {
-    background: $naranja_pd;
-    background: -webkit-linear-gradient(-196deg,$naranja_pd,#f87200 50%,#f83600);
-    background: -webkit-linear-gradient(164deg,$naranja_pd,#f87200 50%,#f83600);
-    background: linear-gradient(286deg,$naranja_pd,#f87200 50%,#f83600);
+    @extend .gradiente-naranja-inverso;
     border-radius: 0;
     padding: 1rem;
     border: 0;
@@ -255,18 +259,22 @@ a.btn {
     font-weight: 600;
     color: white;
     white-space: normal;
+    background-clip: initial;
+    -webkit-background-clip: initial;
+    text-fill-color: initial;
+    -webkit-text-fill-color: initial;
 
     &:hover:after {
         opacity: 1;
-        background: $naranja_pd;
-        background: -webkit-linear-gradient(-196deg, $naranja_pd, #f87200 50%, #f83600);
-        background: -webkit-linear-gradient(164deg, $naranja_pd, #f87200 50%, #f83600);
-        background: linear-gradient(286deg, $naranja_pd, #f87200 50%, #f83600);
+        background: $primary;
+        background: -webkit-linear-gradient(-196deg, $primary, #f87200 50%, #f83600);
+        background: -webkit-linear-gradient(164deg, $primary, #f87200 50%, #f83600);
+        background: linear-gradient(286deg, $primary, #f87200 50%, #f83600);
     }
 
     &.secondary:hover:after {
         opacity: 1;
-        background: $azul_pd;
+        background: $secondary;
     }
 
     &:after {
@@ -285,9 +293,13 @@ a.btn {
     }
 
     &.secondary {
-        background: $azul_pd !important; 
-        border-color: $azul_pd !important;
-        color: white !important;
+        background: $secondary; 
+        border-color: $secondary;
+        color: white;
+
+        &:hover {
+            color: $primary;
+        }
     }
 }
 
@@ -319,51 +331,13 @@ a.btn {
         }
 
         &:hover .fa {
-            color: $naranja_pd;
+            color: $primary;
         }
-    }
-}
-
-.btn-circle {
-    width: 8rem;
-    height: 8rem;
-    font-size: 3.8rem;
-    display: inline-block;
-    border: 2px solid $naranja_pd;
-    border-radius: 100% !important;
-    color: $naranja_pd;
-    background: $naranja_pd;
-    @include transition(background .3s ease-in-out);
-    &:hover, &:focus {
-        outline: none;
-        color: white;
-    }
-    i.animated {
-        -webkit-transition-property: -webkit-transform;
-        -webkit-transition-duration: 1s;
-        -moz-transition-property: -moz-transform;
-        -moz-transition-duration: 1s;
-    }
-    &:hover {
-        i.animated {
-            -webkit-animation-name: pulse;
-            -moz-animation-name: pulse;
-            -webkit-animation-duration: 1.5s;
-            -moz-animation-duration: 1.5s;
-            -webkit-animation-iteration-count: infinite;
-            -moz-animation-iteration-count: infinite;
-            -webkit-animation-timing-function: linear;
-            -moz-animation-timing-function: linear;
-        }
-    }
-    i {
-        top: -3px;
-        position: relative;
     }
 }
 
 a.MP-common-orange-CDl {
-    background: $naranja_pd;
+    background: $primary;
     text-decoration: none !important;
     border: 2px solid transparent;
     &:hover {
@@ -388,15 +362,19 @@ a.MP-common-orange-CDl {
     }
 }
 
-.content-section {
+.default .content-section {
     position: relative;
-    margin-top: 7rem;
+    margin-top: 5rem;
+
+    h1, h2 {
+        display: inline-block;
+    }
 }
 
 footer#abajo {
-    background: $naranja_pd;
-    background: -webkit-linear-gradient(to right, $naranja_pd, #f83600);
-    background: linear-gradient(to right, $naranja_pd, #f83600);
+    background: $primary;
+    background: -webkit-linear-gradient(to right, $primary, #f83600);
+    background: linear-gradient(to right, $primary, #f83600);
     color: white;
     padding: 1.5em 0;
     margin-top: 5rem;
@@ -472,7 +450,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: $naranja_pd;
+    webkit-tap-highlight-color: $primary;
 }
 
 .list-group-item {
@@ -597,8 +575,8 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 
 		&.active, &:active, .open>&.dropdown-toggle {
 			color: #000;
-			background-color: lighten($azul_pd, 30%) !important;
-			border-color: darken($azul_pd, 20%) !important;
+			background-color: lighten($secondary, 30%) !important;
+			border-color: darken($secondary, 20%) !important;
 			background-image: none;
 		}
     }
@@ -667,7 +645,7 @@ textarea {
 .inverted-background {
 	#submit, .enviar_info  {
     		border-top: 1px solid #ffffff;
-    		background-color: $azul_pd;
+    		background-color: $secondary;
     		font-size: 1em;
 	}
 }
@@ -731,7 +709,7 @@ textarea {
   
 @-webkit-keyframes blink {
     0%, 49% {
-        background-color: $naranja_pd;
+        background-color: $primary;
     }
     50%, 100% {
         background-color: #e50000;
@@ -740,7 +718,7 @@ textarea {
 
 .recuadro {
     padding: 0.5em;
-    border: 1px dashed $naranja_pd;
+    border: 1px dashed $primary;
     display: inline-block;
 }
 
@@ -802,9 +780,9 @@ canvas {
     position: absolute;
     top: 0;
     left: 0;
-    background: $naranja_pd; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, $naranja_pd, #f83600); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, $naranja_pd, #f83600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: $primary; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, $primary, #f83600); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, $primary, #f83600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .overlay {
@@ -824,13 +802,20 @@ canvas {
     }
 }
 
-%texto-gradiente--gradiente-naranja {
-    background: $naranja_pd;
-    background: -webkit-linear-gradient(to right, $naranja_pd, #f83600);
-    background: linear-gradient(to right, $naranja_pd, #f83600);
+.gradiente-naranja {
+    background: $primary;
+    background: -webkit-linear-gradient(to right, $primary, #f83600);
+    background: linear-gradient(to right, $primary, #f83600);
 }
 
-%texto-gradiente {
+.gradiente-naranja-inverso {
+    background: #fe8c00;
+    background: -webkit-linear-gradient(-196deg, #fe8c00, #f87200 50%, #f83600);
+    background: -webkit-linear-gradient(164deg, #fe8c00, #f87200 50%, #f83600);
+    background: linear-gradient(286deg, #fe8c00, #f87200 50%, #f83600);
+}
+
+.texto-gradiente {
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -838,18 +823,11 @@ canvas {
     -webkit-text-fill-color: transparent;
 }
 
-.texto-gradiente--gradiente-naranja {
-    @extend %texto-gradiente--gradiente-naranja;
-}
-
-.texto-gradiente {
-    @extend %texto-gradiente;
-}
-
 .sps--blw, .show-nav {
-    background: $naranja_pd;
-    background: -webkit-linear-gradient(to right, $naranja_pd, #f83600);
-    background: linear-gradient(to right, $naranja_pd, #f83600);
+    background: $primary;
+    background: -webkit-linear-gradient(to right, $primary, #f83600);
+    background: linear-gradient(to right, $primary, #f83600);
+    border-bottom: 1px solid rgba(0,0,0,.3);
 }
 
 .navbar-nav {
@@ -861,7 +839,7 @@ canvas {
         -webkit-text-fill-color: initial;
 
         &.active, &:hover {
-            color: $azul_pd!important;
+            color: $secondary!important;
         }
     }
 }
@@ -879,9 +857,9 @@ canvas {
 #mc_embed_signup .indicates-required { margin-right: 0; }
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error { background-color: #000000; color: #f37021; }
 #mc_embed_signup input[type="button"] { 
-    background: $naranja_pd; 
-    background: -webkit-linear-gradient(to right, $naranja_pd, #f83600);
-    background: linear-gradient(to right, $naranja_pd, #f83600);
+    background: $primary; 
+    background: -webkit-linear-gradient(to right, $primary, #f83600);
+    background: linear-gradient(to right, $primary, #f83600);
     color: #fff; 
 } 
 #mc_embed_signup .mc-field-group select,
@@ -953,7 +931,7 @@ canvas {
 
     // Box hover
     &:hover + label:before {
-        background: $naranja_pd;
+        background: $primary;
     }
 
     // Box focus
@@ -963,7 +941,7 @@ canvas {
 
     // Box checked
     &:checked + label:before {
-        background: $naranja_pd;
+        background: $primary;
     }
 
     // Disabled state label.
@@ -1010,23 +988,41 @@ canvas {
     border: 1px solid #000;
     border-top: none;
 
-   background-color: $naranja_pd;
+   background-color: $primary;
 
    border-radius: 0 0 5px 5px;
 }
 
-.mt-neg-4,
-.my-neg-4
-{
-    margin-top: -1.5rem !important;
+.card-profile .card-avatar, .card-testimonial .card-avatar {
+    max-width: 130px;
+    max-height: 130px;
+    margin: -50px auto 0;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
-ul.lista-experiencia {
-    padding: 1rem 1rem 0 2.2rem;
-    margin: 0;
-    border-top: 1px solid rgba(0,0,0,.125);
+.card-profile {
+    margin-top: 30px;
+    text-align: center;
 }
 
-li.lista-experiencia-item {
-    margin-bottom: 1rem;
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,1);
+    border-color: rgba(0,0,0,0.7);
+}
+
+h3.loading {
+    font-size: 1.5rem;
+    animation: blinker 1s linear infinite;
+}
+  
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
 }

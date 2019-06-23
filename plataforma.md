@@ -1,7 +1,6 @@
 ---
 layout: pagina
 title: Plataforma
-date: 2017-09-23
 ---
 
 Uno de los principales valores del Partido Digital es la transparencia. Y esa transparencia no solo aplica al manejo de las [finanzas](/finanzas) o de su [accionar](/documentacion), sino que también aplica al software que se utiliza para brindar espacios de participación a los uruguayos. Ese software que llamaremos herramientas, y que constituyen la plataforma del Partido Digital son todas de código abierto.
