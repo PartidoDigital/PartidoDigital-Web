@@ -1,30 +1,13 @@
-<section id="preguntas" class="container content-section text-xs-center separador">
+<section id="preguntas" class="container content-section text-xs-center">
     <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-            <img src="assets/img/preguntas_icon.png" alt="" class="img-fluid" />
-            <h2>Preguntas</h2>
-            <div id="accordion" role="tablist" aria-multiselectable="true">
-                {% for pregunta in site.data.preguntas %}
-
-                    <div class="panel panel-default {% if forloop.last == false %} mb-3 {% endif %}">
-                        <div class="panel-heading" role="tab" id="pregunta-{{ pregunta.identificador }}">
-                            <h4 class="panel-title mt-3">
-                                <a data-toggle="collapse" data-parent="#accordion" href="" data-target="#respuesta-{{ pregunta.identificador }}" aria-expanded="true" aria-controls="{{ pregunta.identificador }}" style="text-transform: none;
-                                color: grey;">
-                                    <u>{{ pregunta.pregunta }}</u>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="respuesta-{{ pregunta.identificador }}" class="panel-collapse collapse {% if forloop.last == false %} mb-3 {% endif %}" role="tabpanel" aria-labelledby="pregunta-{{ pregunta-identificador }}">
-                            {{ pregunta.respuesta }}
-                            {% if pregunta.link != nil %}
-                            <br/><br/>
-                            <a href="{{ pregunta.link }}" style="font-size: 15px;" class="btn">Más información</a>
-                            {% endif %}
-                        </div>
-                    </div>
-                {% endfor %}
-            </div>
+        <div class="col-lg-12">
+            <img src="assets/img/preguntas.png" alt="" align="right" width="400" class="img-fluid" />
+            <h2 class="texto-gradiente gradiente-naranja">Preguntas Frecuentes</h2>
+            <h3>Sabemos que somos innovadores, y eso genera preguntas.</h3>
+            <p><b>Enterate de las preguntas que más hemos recibido y entiende mejor el Partido Digital.</b></p>
+            <p>No dudes en contactarnos mediante el correo listado en la sección <a href="#contacto">contacto</a> por si te surgen más dudas que no esten consideradas en la lista de preguntas frecuentes; utiliza también las redes sociales listadas en el pié de esta página <a href="#abajo">aquí abajo</a> para evacuar tus preguntas.</p>
+            <a href="/preguntas" class="btn">Ver las Preguntas Frecuentes</a>
         </div>
     </div>
 </section>
+    

@@ -1,7 +1,6 @@
 ---
 layout: pagina
 title: Ideas
-date: 2018-03-14
 ---
 
 ## Construcción del Programa de Gobierno
@@ -35,4 +34,4 @@ Toda la información utilizada de otras fuentes debe ser referenciada. Esto no s
 
 En muchos casos el pensar en todos los puntos definidos complejiza el planteo de ideas, a su vez, permite que colaborativamente podamos pensar propuestas realizables y efectivas. Se debe tener en cuenta que las diferentes partes de la propuestas se encuentra fuertemente interrelacionadas, por ejemplo, la institucionalidad puede implicar cierto financiamiento. A su vez diferentes personas pueden aportar en diferentes aspectos de la propuesta, permitiendo enriquecer la misma aprovechando los conocimientos y experiencia de cada uno.
 
-### Infórmate más sobre como participar [aquí](https://partidodigital.org.uy/#participacion)
+### Infórmate más sobre como participar [aquí](/participacion).

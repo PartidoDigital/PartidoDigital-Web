@@ -1,7 +1,6 @@
 ---
 layout: pagina
 title: Acciones
-date: 2017-08-04
 ---
 
 <div class="banner">
@@ -15,20 +14,6 @@ date: 2017-08-04
 </div>
 
 <!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-    #mc_embed_signup { background:transparent; clear:left; font-size:14px; }
-    #mc_embed_signup input { border: 2px solid #FFFFFF; }
-    #mc_embed_signup form { padding: 0 10px; }
-    #mc_embed_signup .mc-field-group { width: 100%; }
-    #mc_embed_signup .mc-field-group.input-group input { height: 15px; margin-right: 10px; }
-    #mc-embedded-subscribe { margin: 0; border-color: #f37021 !important; }
-    #mc-embedded-subscribe:hover { color: #f37021; }
-    #mc_embed_signup input:focus { border-color: #f37021; }
-    #mc_embed_signup .asterisk { color: #f37021; }
-    #mc_embed_signup .indicates-required { margin-right: 0; }
-    #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error { background-color: #000000; color: #f37021; }
-</style>
 <div id="mc_embed_signup">
 <form action="//partidodigital.us14.list-manage.com/subscribe/post?u=8e16f7903de2c0600985cf9e2&amp;id=f1023a95d1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">

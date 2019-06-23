@@ -1,7 +1,6 @@
 ---
 layout: pagina
 title: Entregar firma
-date: 2017-11-14
 ---
 
 ## Ubicaciones

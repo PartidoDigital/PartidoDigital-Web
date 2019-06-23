@@ -1,4 +1,4 @@
-$(function () {
+jQuery(function () {
 	document.querySelector('.styled-checkbox').onchange = function () {
 		document.querySelector('#afiliarme').disabled = !this.checked;
 		document.querySelector('#afiliarme').title = !this.checked ? "Debes marcar que te comprometes para afiliarte" : "";

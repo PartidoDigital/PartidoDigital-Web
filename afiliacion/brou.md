@@ -1,7 +1,6 @@
 ---
 layout: pagina
 title: Afiliación
-date: 2017-11-13
 ---
 
 ## Banco República

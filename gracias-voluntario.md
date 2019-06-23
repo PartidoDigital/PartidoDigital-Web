@@ -1,7 +1,6 @@
 ---
 layout: pagina
 title: Te damos la bienvenida
-date: 2019-01-26
 ---
 
 Qué bueno que seas parte del equipo de voluntarios del Partido Digital. Este 2019 es un año clave para Uruguay en el que queremos hacer historia aportando innovación y transparencia.
