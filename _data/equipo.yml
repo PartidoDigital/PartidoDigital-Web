@@ -1,6 +1,6 @@
 - nombre: Justin Graside
   img: justin_graside.png
-  posicion: Presidente del Partido Digital
+  posicion: Co-fundador del Partido Digital
   experiencia:
      - Chief Revenue Officer de [Bankingly](https://bankingly.com/?lang=es)
      - Docente de Marketing Digital en Universidad Católica del Uruguay
@@ -11,6 +11,22 @@
      - play: https://youtu.be/C-PG06_Ozlo
      - twitter: https://twitter.com/JustinGraside
      - external-link-square: https://www.teledoce.com/programas/desayunos-informales/primera-manana/el-partido-digital-una-nueva-propuesta-que-buscara-promover-que-no-se-vote-solo-cada-cinco-anos-sino-ante-cada-proyecto-que-se-discuta-en-el-parlamento/
+
+- nombre: Daniel Goldman
+  img: daniel_goldman.jpeg
+  posicion: |
+     Precandidato a Presidente del Partido Digital, Lista 78
+     Equipo de Ideas y Participación
+  experiencia:
+     - Fundador de [Innmentor](https://www.innmentor.com/)
+     - Docente de Universidad ORT de Desarrollo de Gestión de la Innovación
+     - Formado en Matemáticas por The Hebrew University of Jerusalem
+     - Mentor en Innovación de la [Cámara Uruguaya de Tecnología de la Información](http://www.cuti.org.uy/portada)
+  networks:
+     - linkedin: https://www.linkedin.com/in/danielgoldmaninnmentor/
+     - play: https://www.youtube.com/watch?v=tFbgXHBfZ-M
+     - twitter: https://twitter.com/Danielinnmentor
+     - external-link-square: https://www.innmentor.com/sobre-mi-daniel-goldman/
 
 - nombre: Pía Alonso
   img: pia_alonso.jpeg
