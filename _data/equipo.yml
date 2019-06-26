@@ -165,9 +165,11 @@
   img: pablo_oliveri.jpeg
   posicion: Equipo de Comunicación
   experiencia:
-     - Director de [Inception Media](https://vimeo.com/inceptionuy)
+     - Fundador y Director de [Inception Media](https://vimeo.com/inceptionuy)
   networks:
      - linkedin: https://www.linkedin.com/in/pablooliveri/
+     - instagram: https://www.instagram.com/inception_uy/
+     - twitter: https://twitter.com/pablooliveri
 
 - nombre: Ariel Guevara
   img: ariel_guevara.jpg
