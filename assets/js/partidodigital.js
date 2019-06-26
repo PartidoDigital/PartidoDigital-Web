@@ -74,4 +74,8 @@ $(function () {
     $("#mivoz-usuarios").html("Error :(");
     $("#mivoz-megusta").html("Error :(");
   });
+
+  $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
 });

@@ -1,3 +1,24 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+  .intro .intro-body {
+    .intro-text {
+      font-size: 0.8em !important;
+    }
+    .extra .social {
+      font-size: 1em !important;
+    }
+  }
+
+  .row {
+    text-align: center;
+  }
+
+  a.btn {
+    padding: 0.5rem !important;
+  }
+}
+
 @media(min-width:768px) {
   p {
     margin: 35px 0 35px;
@@ -21,6 +42,10 @@
   .pagina-layout .content-section {
     padding-top: 0;
     margin-top: 60px;
+  }
+
+  .content-section a.btn+a.btn:last-child {
+      margin-top: 0 !important;
   }
 }
 
@@ -122,7 +147,7 @@
   }
   
   h1:not(.plain) {
-    padding: 0.5rem 0 !important;
+    padding: 2rem 0 1rem !important;
     margin: 0 !important;
     &:after, &:before {
       display: none;
@@ -133,8 +158,13 @@
     font-size: 1rem;
   }
 
-  .intro .intro-body .extra {
-    font-size: 0.7em;
+  a:not(.btn):not(.footer-link):not(.navbar-brand):not(.nav-link) {
+    color: #f83600 !important;
+    background: inherit !important;
+    background-clip: initial !important;
+    -webkit-background-clip: initial !important;
+    text-fill-color: initial !important;
+    -webkit-text-fill-color: initial !important;
   }
 
   .badge {
