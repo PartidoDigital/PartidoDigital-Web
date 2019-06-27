@@ -165,6 +165,10 @@ and (max-device-width : 568px) {
     -webkit-background-clip: initial !important;
     text-fill-color: initial !important;
     -webkit-text-fill-color: initial !important;
+
+    &.white {
+      color: white !important;
+    }
   }
 
   .badge {

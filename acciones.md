@@ -3,7 +3,7 @@ layout: pagina
 title: Acciones
 ---
 
-<div class="banner">
+<div class="encabezado">
     <div class="col-md-9">
       <p>Hay una nueva forma de participar en política. Con el Partido Digital queremos actualizar nuestra democracia aportando participación y transparencia basándonos en tecnologias de la información y comunicación. Esta innovación se traslada también a la forma de hacer política.</p>
       <p>Ya no tendrás que adaptarte a las estructuras partidarias para hacer algo por tu país. El Partido Digital se adapta a vos, a tu tiempo disponible, tus habilidades y al punto del país en el que te encuentres.</p>

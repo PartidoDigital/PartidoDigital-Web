@@ -105,7 +105,7 @@ blockquote {
     color: lightgrey;
 }
 
-.banner {
+.encabezado {
     display: flex;
     align-items: center;
     background-color: grey;
@@ -147,6 +147,17 @@ a {
         &:hover {
             color: $secondary;
         }
+    }
+
+    &.white {
+        text-decoration: none;
+        color: white;
+        background-clip: initial;
+        -webkit-background-clip: initial;
+        text-fill-color: initial;
+        -webkit-text-fill-color: initial;
+        background: none;
+        border: none;
     }
 }
 
@@ -1030,4 +1041,38 @@ h3.loading {
 .navbar-toggler {
     color: white !important;
     border-color: rgba(255,255,255,0.5) !important;
+}
+
+.banner {
+    color: white;
+
+    h2, h3 {
+        color: white;
+        display: inline-block;
+        vertical-align: sub;
+    }
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+svg {
+    vertical-align: middle;
+}
+
+.icon--carat-right {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    padding-left: 5px;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.icon--white * {
+    fill: #fff;
 }
