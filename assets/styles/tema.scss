@@ -84,6 +84,10 @@ p {
     color: $primary!important;
 }
 
+.text-white {
+    color: white!important;
+}
+
 table {
     margin: 10px 10px 20px;
     border: 2px solid white;
@@ -182,17 +186,7 @@ a {
 }
 
 .intro {
-    display: table;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    text-align: center;
-    color: white;
-    //background: url(../img/palacio_legislativo.jpg) center 10% no-repeat #000;
-    background: $primary; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, $primary, #f83600); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, $primary, #f83600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    @include background-size(cover);
+    @extend .gradiente-naranja;
     &.firma {
         margin-bottom: 4em;
         background: url(../img/portada2.jpg) center 10% no-repeat #000;
@@ -212,48 +206,34 @@ a {
       transform: translateX(-50%) translateY(-53%);
     }
     .intro-body {
-        display: table-cell;
-        vertical-align: middle;
-        position: relative;
         z-index: 2;
         svg {
             width: 100%;
             max-width: 100%;
             height: 100%;
         }
-        .brand-heading {
-            font-size: 40px;
-        }
         .intro-text {
             font-size: 1.2rem;
         }
-        .extra {
-            position: absolute;
-            bottom: 1rem;
-            width: 100%;
-            color: #5d5d5d;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-
+        h1, h2, h3, h4, h5, h6, small {
+            color: white;
+        }
+        sup {
+            font-size: 1rem;
+        }
+        ul li {
+            font-size: 1.3rem;
             a {
-                color: #5d5d5d;
-            }
-
-            .social {
-                font-size: 1.3rem;
-                a {
-                    color: $secondary;
-                    &:not(:last-child) {
-                        margin-right: 1.5rem;
-                    }
-                    background-clip: initial;
-                    -webkit-background-clip: initial;
-                    text-fill-color: initial;
-                    -webkit-text-fill-color: initial;
-                    background: none;
-                    border: none;
+                color: $secondary;
+                &:not(:last-child) {
+                    margin-right: 1.5rem;
                 }
+                background-clip: initial;
+                -webkit-background-clip: initial;
+                text-fill-color: initial;
+                -webkit-text-fill-color: initial;
+                background: none;
+                border: none;
             }
         }
     }
