@@ -75,7 +75,7 @@ $(function () {
     $("#mivoz-megusta").html("Error :(");
   });
 
-  $('.navbar-nav>li>a').on('click', function(){
+  $('.navbar-nav>li>a:not(.dropdown-toggle)').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
 });
