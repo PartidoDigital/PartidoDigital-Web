@@ -31,7 +31,7 @@ Cuantas más postulaciones hayan, más opciones habrán para elegir y con posibi
 	<form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate id="volun">
 		<div id="mc_embed_signup_scroll">
 			<div class="indicates-required">
-				Todos los campos (menos credencial) son obligatorios.
+				Todos los campos son obligatorios.
 			</div>
 			<div class="mc-field-group">
 				<label for="mce-nombrepdo">¿A quién querés como Vicepresidente del Partido Digital?</label>
