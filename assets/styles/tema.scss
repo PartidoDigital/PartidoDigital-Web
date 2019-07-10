@@ -23,8 +23,10 @@ body {
             margin: 0;
         }
 
-        .content-section ul {
-            font-size: 18px;
+        .content-section {
+            ul, ol {
+                font-size: 1.2rem;
+            }
         }
 
         h1:not(.plain) {
@@ -68,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     margin: 1rem 0 1rem;
-    font-size: 18px;
+    font-size: 1.2rem;
     line-height: 1.5;
 }
 
