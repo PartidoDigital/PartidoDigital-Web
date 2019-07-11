@@ -24,7 +24,7 @@ $(function () {
 			beforeSend: function () {
 				if ($("[name=nombrepostulado]").val() === "" || $("[name=razonpostulado]").val() === "" ||
 					$("[name=descripcionpostulado]").val() === "" || $("[name=enlacespostulado]").val() === "" ||
-                    $("[name=contactopostulado]").val() === "" || $("[name=nombrepostulante]").val() === "" || ("[name=apellidopostulante]").val() === "" ||
+                    $("[name=contactopostulado]").val() === "" || $("[name=nombrepostulante]").val() === "" || $("[name=apellidopostulante]").val() === "" ||
                     $("[name=emailpostulante]").val() === "" || $("[name=celularpostulante]").val() === "") {
 					$("#postular-vicepresidente").attr("disabled", true).addClass("error").val("Queda algún campo por llenar. Intentalo de nuevo.");
 					setTimeout(function () {
