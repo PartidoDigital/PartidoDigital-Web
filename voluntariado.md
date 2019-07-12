@@ -8,6 +8,6 @@ Necesitamos de gente como vos para lograr los objetivos del Partido Digital. A p
 También considera:&nbsp;<a href="/afiliaciones" class="btn" itemprop="url">Afiliarte</a>&nbsp;
 <a href="/donar" class="btn secondary" itemprop="url" title="Comienza a ser parte del cambio.">Donar</a>
 
-Completa el formulario debajo y sumate al equipo de voluntarios del Partido Digital:
+Completá el formulario debajo y sumate al equipo de voluntarios del Partido Digital:
 
 {% include _voluntariado_form.html %}
