@@ -41,7 +41,7 @@ $(function () {
 				window.location.href = "/gracias-vicepresidente";
 			},
 			error: function (jqXHR, textStatus, errorThrown) {
-				ga("send", "event", "Formulario", "Error", "Vicepresidente: " + $("[name=nombrepostulante]").val() + " " + $("[name=apellidopostulante]").val() + " | " + $("[name=emailpostulante]").val() + " | " + $("[name=celularpostulante]").val());
+				Sentry.captureMessage(jqXHR.toString() + " || " + textStatus + " || " + errorThrown.toString() + " || " + $("[name=nombrepostulante]").val() + " / " + $("[name=apellidopostulante]").val() + " / " + $("[name=emailpostulante]").val() + " / " + $("[name=celularpostulante]").val());
 				$("#postular-vicepresidente").attr("disabled", true).addClass("error").val("Hubo un error al enviar tus datos. Prueba de nuevo.");
 				setTimeout(function () {
 					$("#postular-vicepresidente").attr("disabled", false).removeClass("error").val("POSTULAR VICEPRESIDENTE");

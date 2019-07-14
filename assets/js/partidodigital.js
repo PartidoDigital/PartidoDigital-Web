@@ -79,3 +79,5 @@ $(function () {
     $('.navbar-collapse').collapse('hide');
 });
 });
+
+Sentry.init({ dsn: 'https://b6fa829c530f4298869e226e12087f77@sentry.io/1504040' });

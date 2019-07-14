@@ -56,19 +56,19 @@ Cuantas más postulaciones haya, más opciones habrá para elegir en la instanci
 				<hr class="gradiente-naranja" style="height: 1px;">
 			</div>
             <div class="mc-field-group">
-				<label for="mce-nombrepte">Mi nombre</label>
+				<label for="mce-nombrepte">Mi nombre:</label>
 				<input type="text" value="" name="nombrepostulante" class="required" id="mce-nombrepte">
 			</div>
             <div class="mc-field-group">
-				<label for="mce-apellidopte">Mi apellido</label>
+				<label for="mce-apellidopte">Mi apellido:</label>
 				<input type="text" value="" name="apellidopostulante" class="required" id="mce-apellidopte">
 			</div>
             <div class="mc-field-group">
-				<label for="mce-emailpte">Mi email</label>
+				<label for="mce-emailpte">Mi email:</label>
 				<input type="text" value="" name="emailpostulante" class="required" id="mce-emailpte">
 			</div>
             <div class="mc-field-group">
-				<label for="mce-celularpte">Mi celular</label>
+				<label for="mce-celularpte">Mi celular:</label>
 				<input type="text" value="" name="celularpostulante" class="required" id="mce-celularpte">
 			</div>
 			<div class="clear">
