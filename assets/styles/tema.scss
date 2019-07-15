@@ -86,6 +86,18 @@ p {
     color: $primary!important;
 }
 
+.text-white {
+    a {
+        text-decoration: none;
+        color: $secondary;
+        background-clip: initial;
+        -webkit-background-clip: initial;
+        text-fill-color: initial;
+        -webkit-text-fill-color: initial;
+        background: none;
+    }
+}
+
 table {
     margin: 10px 10px 20px;
     border: 2px solid white;

@@ -26,7 +26,7 @@ Se tomarán como válidas solamente las postulaciones de los afiliados del Parti
 
 Cuantas más postulaciones haya, más opciones habrá para elegir en la instancia final. ¡Queremos contar con tu participación! Al Partido Digital lo hacemos entre todos.
 
-<div id="mc_embed_signup">
+<!--<div id="mc_embed_signup">
 	<form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate id="volun">
 		<div id="mc_embed_signup_scroll">
 			<div class="indicates-required">
@@ -78,4 +78,4 @@ Cuantas más postulaciones haya, más opciones habrá para elegir en la instanci
 	</form>
 </div>
 <script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.js" crossorigin="anonymous"></script>
-<script type='text/javascript' src='assets/js/vicepresidente.js'></script>
+<script type='text/javascript' src='assets/js/vicepresidente.js'></script>-->
