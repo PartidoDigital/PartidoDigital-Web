@@ -11,12 +11,12 @@ Desde el Partido Digital comenzaremos dando el ejemplo con el manejo de nuestra 
 
 Selecciona la opción debajo que más se adapta a tus posibilidades para realizar tu donación al Partido Digital:
 
-<a class="action btn" href='https://www.mercadopago.com/mlu/checkout/start?pref_id=252021089-f973a6f8-efc5-4d69-8dd1-8b63adb7638b' target="_blank" title="Dona $100 con Mercado Pago">$100</a>
-<a class="action btn" href='https://www.mercadopago.com/mlu/checkout/start?pref_id=252021089-dc1f9733-447a-46de-9210-6a2ecac1144f' target="_blank" title="Dona $500 con Mercado Pago">$500</a>
-<a class="action btn" href='https://www.mercadopago.com/mlu/checkout/start?pref_id=252021089-8b19694e-39f7-465b-87e9-e0ebc2a9bccf' target="_blank" title="Dona $1000 con Mercado Pago">$1000</a>
-<a class="action btn" href='https://www.mercadopago.com/mlu/checkout/start?pref_id=252021089-a8debda8-30ba-43b1-83b1-e591efec8d15' target="_blank" title="Dona $5000 con Mercado Pago">$5000</a>
-<a class="action btn" href='https://www.mercadopago.com/mlu/checkout/start?pref_id=252021089-53d538be-2c96-4534-b37b-916b0e0c619c' target="_blank" title="Dona $10000 con Mercado Pago">$10000</a>
-<a class="action btn" href='https://www.mercadopago.com/mlu/checkout/start?pref_id=252021089-e181c6db-6540-46c2-8814-aac75bc2f158' target="_blank" title="Dona $20000 con Mercado Pago">$20000</a>
+<a class="action btn" href='https://www.mercadopago.com/mlu/checkout/start?pref_id=441941744-1e370d5a-9908-45ba-ad6e-0c3acffa71ca' target="_blank" title="Dona $100 con Mercado Pago">$100</a>
+<a class="action btn" href='https://www.mercadopago.com/mlu/checkout/start?pref_id=441941744-3dace516-d78e-4d21-b24f-350093874e47' target="_blank" title="Dona $500 con Mercado Pago">$500</a>
+<a class="action btn" href='https://www.mercadopago.com/mlu/checkout/start?pref_id=441941744-87f0ffcd-1bc1-4766-b92b-2d36af04ec4a' target="_blank" title="Dona $1000 con Mercado Pago">$1000</a>
+<a class="action btn" href='https://www.mercadopago.com/mlu/checkout/start?pref_id=441941744-d5ca58d5-7b59-40b8-b8e2-6aa1fc7a8687' target="_blank" title="Dona $5000 con Mercado Pago">$5000</a>
+<a class="action btn" href='https://www.mercadopago.com/mlu/checkout/start?pref_id=441941744-1d3bc98f-1038-44dc-b588-301d0e90fc70' target="_blank" title="Dona $10000 con Mercado Pago">$10000</a>
+<a class="action btn" href='https://www.mercadopago.com/mlu/checkout/start?pref_id=441941744-3bcdde52-e9c9-4663-aeb5-f98744ad7d2e' target="_blank" title="Dona $20000 con Mercado Pago">$20000</a>
 
 **Ten en cuenta que:**
  - **Utilizamos el servicio de pago seguro por Mercado Pago**
