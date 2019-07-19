@@ -3,9 +3,9 @@ layout: pagina
 title: Afiliaciones
 ---
 
-Los afiliados son parte oficial del Partido Digital y tiene poder de decisión sobre cuestiones partidarias como establece la Carta Orgánica. Se solicita una colaboración de $200 mensuales para afiliarte al Partido Digital.
+Los afiliados son parte oficial del Partido Digital y tiene poder de decisión sobre cuestiones partidarias como establece la <a hred="/documentos/carta-organica">Carta Orgánica</a>. La cuota mensual de afiliación es de $200.
 
-Completa el formulario debajo y afíliate al Partido Digital:
+Completá el formulario debajo y afiliate al Partido Digital:
 
 <div id="mc_embed_signup">
 	<form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
@@ -51,10 +51,10 @@ Completa el formulario debajo y afíliate al Partido Digital:
 			</div>
 			<div class="mc-field-group checkbox">
 				<input class="styled-checkbox" id="ok" type="checkbox" value="ok">
-    			<label for="ok">Me comprometo a respetar y defender la <a target="_blank" href="/documentos/carta-organica">Carta Orgánica</a> y el <a target="_blank" href="/documentos/programa-de-principios">Programa de Principios</a> como afiliado/a del Partido Digital</label>
+    			<label for="ok">Me comprometo a respetar y defender la <a target="_blank" href="/documentos/carta-organica" title="Se abre en otra página">Carta Orgánica</a> y el <a target="_blank" title="Se abre en otra página" href="/documentos/programa-de-principios">Programa de Principios</a> como afiliado/a del Partido Digital</label>
 			</div>
 			<div class="clear">
-				<p style="text-align: center;"><b>A continuación se te direccionará a Mercado Pago para efectuar el pago.<br>Para pagar la afiliación mensual selecciona 12 cuotas.</b></p>
+				<p style="text-align: center;"><b>A continuación se te direccionará a Mercado Pago para efectuar el pago.<br>Para pagar la afiliación de manera mensual seleccioná 12 cuotas.</b></p>
 				<input disabled="true" name="afiliarme" type="button" title="Debes marcar que te comprometes para afiliarte" id="afiliarme" value="Afiliarme al Partido Digital" class="action btn">
 			</div>
 		</div>
