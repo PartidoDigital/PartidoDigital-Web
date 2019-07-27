@@ -1,0 +1,7 @@
+- codigo: afiliacion-ok
+  texto: "¡Tu afiliación ha sido realizada con éxito! <br> Te damos la bienvenida al Partido Digital."
+  titulo: "Muchas gracias"
+
+- codigo: donar-ok
+  texto: "Tu donación ha sido realizada con éxito. <br> <a href='/finanzas'>Aquí</a> puedes ver las finanzas del Partido Digital. <br> En unas horas verás el ingreso de tu afiliación reflejado en la planilla."
+  titulo: "Muchas gracias"

@@ -1,0 +1,71 @@
+- pregunta: "¿Son de derecha o de izquierda?"
+  respuesta: "En la actualidad el mundo es mucho más diverso que la simple polarización entre dos posiciones; hay opiniones diversas sobre intervención estatal, justicia social, ambientalismo, consideraciones éticas de las nuevas tecnologías, entre otras. La posición del Partido Digital y sus propuestas para cada tema se definirá de forma colaborativa, y puedes participar ahora mismo. <a href='https://partidodigital.org.uy/#participacion'>Participa aquí</a>."
+  identificador: posicion
+
+- pregunta: "Pero si las propuestas salen de la gente, ¿significa que el Partido Digital no tiene ideología?"
+  respuesta: "La ideología del Partido Digital escapa al espectro político actual que tiene más de 200 años. El Partido Digital es transparentista. Ninguna propuesta del Partido Digital puede tener componentes que no hayan sido elegidos por los ciudadanos. Además nuestro funcionamiento es totalmente transparente, de código abierto y totalmente replicable por los partidos con ideologías tradicionales. Es hora de ajustarnos a lo que la gente necesita, empoderando a todos como debe ser, y como fue previo a que sea necesario un mecanismo de representación en base a confianza. El Partido Digital establece un canal directo entre el representante y el representado, ya no es necesario un voto de confianza, solo es necesario participar."
+  identificador: ideologia
+
+- pregunta: "¿Por qué \"Digital\"?"
+  respuesta: "Hoy en día en la era digital, las tecnologías de la información y comunicación nos permiten estar más conectados que nunca. Sin embargo el ámbito político nunca se vio beneficiado de esto; estar más conectados con el electorado para poder tener la voz de la ciudadanía en su accionar es la esencia de la política. El Partido Digital es el primer partido político enfocado en traer la era digital al ámbito político de Uruguay para llevarle la voz de nuevo al ciudadano de manera que las opiniones no queden solamente siendo parte de un muro de actividades de una red social en un círculo de personas allegadas, sino que puedan construir un mejor país entre todos para todos. Vale la pena aclarar que el carácter \"digital\" del partído político no es el fin de por sí, sino el medio para conseguir nuestros objetivos: mayor participación y transparencia. Y por cierto, no nos limitamos al medio digital para lograr que todas las necesidades e ideas sean escuchadas."
+  identificador: digital
+  
+- pregunta: "¿Cuál es el Programa de Gobierno del Partido Digital?"
+  respuesta: "El contenido del Programa de Gobierno del Partido Digital será decidido colaborativamente mediante un conjunto de instancias a definir."
+  identificador: programa
+
+- pregunta: "En las elecciones, ¿no voy a votar ideas predefinidas, sino la promesa de que van actuar siempre según lo que diga la gente?"
+  respuesta: "No, eso es incorrecto. En las próximas elecciones tendrás la opción de votar por ideas que se definieron previamente en un proceso abierto y colaborativo, que regirán el accionar del Partido Digital. Lo distinto es que puede participar activamente en la construcción de esas ideas que formará nuestro Programa de Gobierno. Para las próximas elecciones se realizará un nuevo proceso colaborativo donde se plantearán nuevos desafíos y soluciones. Siempre dices que en Uruguay se debe hacer tal cosa o la otra? Ahora tienes la oportunidades de proponerlo y que sea una de las ideas fundamentales de un partido político en Uruguay, el Partido Digital."
+  identificador: ideas
+
+- pregunta: "¿Cuál es la principal diferencia sobre los partidos políticos actuales?"
+  respuesta: "Cada representante electo por el Partido Digital votará de acuerdo a lo que se votó previamente en una
+  plataforma online."
+  identificador: diferencia
+
+- pregunta: "¿Quiénes pueden acceder a las herramientas online del Partido Digital?"
+  respuesta: "Todos los uruguayos habilitados para votar en las elecciones nacionales."
+  identificador: acceso
+
+- pregunta: "¿Cuáles son las herramientas online del Partido Digital?"
+  respuesta: "Actualmente disponemos de herramientas para votar leyes (propias o externas) acompañadas de un resumen en
+  lenguaje no técnico y otros recursos pertinentes, y herramientas para dialogar sobre temáticas específicas."
+  identificador: herramientas
+
+- pregunta: "¿Sólo se va a poner a voto en la herramienta lo mismo que se vota en la cámara de representantes?"
+  respuesta: "Como lo indica la pregunta anterior, las leyes a votar van a ser propias además de las externas. El
+  Partido Digital va promover la creación de leyes a partir de propuestas que cualquier persona puede presentar, siempre
+  y cuando las mismas sean construidas responsablemente siguiendo un conjunto de reglas preestablecidas."
+  identificador: votacion
+
+- pregunta: "¿Cualquier tipo de propuesta puede llegar a ser una ley presentada por el Partido Digital?"
+  respuesta: "El proceso de creación de una ley es muy estricto para asegurar la calidad del trabajo legislativo
+  generado. El Partido Digital tiene como objetivo facilitar una vía por la cual una idea pueda transformarse en una ley
+  luego de un proceso preestablecido que incluye instancias de enriquecimiento colaborativo además de acatar un conjunto
+  de reglas y estar debidamente fundamentada. Luego de su creación la misma debe ser presentada en la herramienta de
+  votación del Partido Digital donde todos decidiremos si se presenta a la cámara de representantes o si se debe seguir
+  trabajando en ella. Cuenta con los mismos pasos que la elaboración del Programa de Gobierno."
+  identificador: propuestas
+
+- pregunta: "¿Cuándo los voy a poder votar?"
+  respuesta: "El Partido Digital se presentará en las próximas Elecciones Nacionales del 2019 y en las Elecciones
+  Departamentales del año siguiente."
+  identificador: elecciones
+
+- pregunta: "¿Qué pasaría si llegan a más de un diputado en las próximas elecciones? ¿y si llegan a la presidencia?"
+  respuesta: "Nuestro proceder va a seguir siendo el mismo: desde el punto de vista legislativo, las leyes serán puestas
+  a voto mediante nuestras herramientas para que todos puedan informarse, discutirlas y votar. Desde el punto de vista
+  ejecutivo, el Partido Digital se apoyará en el programa de gobierno que será construido colaborativamente entre todos
+  mediante nuestras herramientas tomando ideas de todos, siempre y cuando sean construidas responsablemente siguiendo un
+  proceso estipulado por el Partido Digital basado en guías oficiales."
+  identificador: proceder
+
+- pregunta: "¿Quiénes van a ser las personas que van a formar parte de la boleta del Partido Digital en las próximas
+  elecciones?"
+  respuesta: "Las personas que integrarán la boleta del Partido Digital van a ser dentro de lo posible elegidos por
+  todos mediante las herramientas del Partido Digital. La salvedad hace referencia a que  es necesario tener en marcha
+  las herramientas del Partido Digital para que sea posible la elección de esas personas previo a las próximas
+  elecciones del 2019. Si esto no se concreta por alguna razón, y solo por tratarse de la primera vez que el Partido
+  Digital se presenta a las elecciones, las personas que integran a boleta pueden ser elegidas por los fundadores del
+  Partido Digital como lo estipula la Carta Orgánica."
+  identificador: boleta

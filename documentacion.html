@@ -1,0 +1,17 @@
+---
+title: Documentación
+layout: pagina
+---
+
+<p>En esta sección se presenta toda la documentación asociada al Partido Digital.</p>
+<ul class="list-group text-xs-center">
+    {% assign sorted = site.documentos | sort: 'date' | reverse %}
+    {% for documento in sorted %}
+    <li class="list-group-item">
+        <a href="{{documento.url | replace: '.html', ''}}">{{ documento.titulo }}</a>
+        <span class="badge badge-pill badge-dark">
+                Actualizado {{ documento.date | date: "%d/%m/%Y" }}
+        </span>
+    </li>
+    {% endfor %}
+</ul>

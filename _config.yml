@@ -1,0 +1,34 @@
+---
+title: Partido Digital Web
+timezone: UTC
+collections:
+  documentos:
+    title: Documentos
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: documentos
+  values:
+    layout: pagina
+tagmanager: GTM-WPDQFCR
+ga: UA-64073239-3
+dominio: https://partidodigital.org.uy/
+acceso_url: https://partidodigital.auth0.com/login?client=3yqAXfyeQCu5RcrgSQUsb0M4ojdvif4N
+firmas: 1110
+plugins:
+- jekyll-sitemap
+exclude:
+- CNAME
+- README.md
+- Gemfile
+- Gemfile.lock
+sass:
+  style: compressed
+  sass_dir: "./assets/styles"
