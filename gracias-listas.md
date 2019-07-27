@@ -1,5 +1,5 @@
 ---
-title: Muchas gracias
+title: 'Listas: Muchas gracias'
 layout: pagina
 ---
 

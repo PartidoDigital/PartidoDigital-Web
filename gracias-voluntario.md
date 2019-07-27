@@ -1,5 +1,5 @@
 ---
-title: Te damos la bienvenida
+title: 'Voluntariado: Muchas gracias'
 layout: pagina
 ---
 

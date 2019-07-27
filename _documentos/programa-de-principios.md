@@ -1,6 +1,6 @@
 ---
 title: Programa De Principios
-date: 2016-11-29 20:54:43 Z
+date: 2016-11-29 17:54:43 -03:00
 titulo: Programa de Principios
 ---
 

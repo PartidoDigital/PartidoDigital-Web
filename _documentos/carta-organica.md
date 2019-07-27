@@ -1,6 +1,6 @@
 ---
 title: Carta Organica
-date: 2019-02-09 00:00:00 Z
+date: 2019-02-09 00:00:00 -03:00
 titulo: Carta orgánica
 ---
 

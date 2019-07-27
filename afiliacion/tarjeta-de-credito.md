@@ -1,5 +1,5 @@
 ---
-title: Afiliación
+title: 'Afiliación: Tarjeta crédito'
 layout: pagina
 ---
 

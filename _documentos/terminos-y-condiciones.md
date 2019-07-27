@@ -1,6 +1,6 @@
 ---
 title: Terminos Y Condiciones
-date: 2016-12-04 21:12:58 Z
+date: 2016-12-04 18:12:58 -03:00
 titulo: Términos y Condiciones
 ---
 

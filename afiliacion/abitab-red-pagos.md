@@ -1,5 +1,5 @@
 ---
-title: Abitab Red Pagos
+title: 'Afiliación: Abitab Red Pagos'
 layout: pagina
 ---
 

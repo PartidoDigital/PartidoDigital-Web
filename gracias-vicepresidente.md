@@ -1,5 +1,5 @@
 ---
-title: "¡Muchas gracias!"
+title: 'Vicepresidente: Muchas gracias'
 layout: pagina
 ---
 

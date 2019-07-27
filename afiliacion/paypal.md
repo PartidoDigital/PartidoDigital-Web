@@ -1,5 +1,5 @@
 ---
-title: Afiliación
+title: 'Afiliación: Paypal'
 layout: pagina
 ---
 

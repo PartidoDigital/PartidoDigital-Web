@@ -1,4 +1,5 @@
 ---
+title: 'Plataforma: Mensaje'
 layout: pagina
 ---
 
