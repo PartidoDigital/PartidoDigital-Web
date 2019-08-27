@@ -1059,10 +1059,14 @@ h3.loading {
 .banner {
     color: white;
 
-    h2, h3 {
+    h2, h3, h4 {
         color: white;
         display: inline-block;
         vertical-align: sub;
+    }
+
+    p, ul li {
+        font-size: 80%;
     }
 }
 
