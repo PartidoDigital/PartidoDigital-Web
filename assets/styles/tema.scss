@@ -95,6 +95,7 @@ p {
         text-fill-color: initial;
         -webkit-text-fill-color: initial;
         background: none;
+        border: none;
     }
 }
 
@@ -1068,6 +1069,15 @@ h3.loading {
     p, ul li {
         font-size: 80%;
     }
+
+    a:hover {
+        h1, h2, h3, h4 {
+            color: black;
+        }
+        svg path {
+            fill: black;
+        }
+    }
 }
 
 .icon {
@@ -1092,4 +1102,8 @@ svg:not(:root) {
 
 .icon--white * {
     fill: #fff;
+}
+
+#estructura-idea {
+    border: 1px dashed black;
 }
