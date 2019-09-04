@@ -1,24 +1,28 @@
 ---
 layout: pagina
 title: Impulsá la campaña del Partido Digital
+pagina_class: text-center
 ---
 
 <script src="/assets/js/jquery.stepProgressBar.js"></script>
 <script src="/assets/js/quieroapoyar.js"></script>
 
-<div class="row">
-    <div class="col-lg-8">
+<div class="col-lg-12">
+    <div class="col-lg-8 mx-auto">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vQEoXqoFccE?rel=0" allowfullscreen></iframe>
         </div>
     </div>
 </div>
+<br>
 
 ## Objetivo de recaudación
-USD 30.000:
- - USD 2.000 actividades y otros gastos
- - USD 10.000 para impresión de listas
- - USD 18.000 promoción y marketing
+<h1 class="d-block">USD 30.000</h1>
+<ul class="d-inline-block">
+  <li>USD 2.000 actividades y otros gastos</li>
+  <li>USD 10.000 para impresión de listas</li>
+  <li>USD 18.000 promoción y marketing</li>
+</ul>
 
 Dato: cada gasto estará mostrado de forma transparente en nuestra web como venimos haciendo hasta ahora. <i class="fa fa-trophy" aria-hidden="true"></i> Único partido político que transparente sus gastos e ingresos en las Elecciones Internas 2019. 
 
@@ -57,5 +61,7 @@ Venite a las actividades que tenemos de recaudación de fondos
   </tbody>
 </table>
 <br>
+<small>Se puede financiar hasta en 12 cuotas, dependiendo de la tarjeta de crédito disponible.</small>
+<br><br>
 Si querés sumarte al equipo Digital haz clic aquí: <a href="/voluntariado" class="btn">SUMATE</a>
 
