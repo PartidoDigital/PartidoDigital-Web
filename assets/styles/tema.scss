@@ -4,6 +4,7 @@
 @import "variables";
 @import "mixins";
 @import "media";
+@import "jquery.stepProgressBar";
 
 body {
     width: 100%;
@@ -1106,4 +1107,19 @@ svg:not(:root) {
 
 #estructura-idea {
     border: 1px dashed black;
+}
+ 
+.step-progressbar-rounded .step-progressbar-firststep, .step-progressbar-rounded .step-progressbar-laststep {
+    display: inline-table;
+}
+
+.step-progressbar-rounded .step-progressbar-bar:before,
+.step-progressbar-rounded .step-progressbar-bar:after {
+    display: none;
+}
+
+.alert-primary {
+    color: white;
+    border-color: $primary;
+    @extend .gradiente-naranja;
 }
