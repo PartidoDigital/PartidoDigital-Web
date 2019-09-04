@@ -50,13 +50,13 @@ Venite a las actividades que tenemos de recaudación de fondos
     <tr>
       <td width="20%" class="text-center">17 de Setiembre <br>20:30hs</td>
       <td width="50%"><b>Cena participativa con Diego Ruete</b><br>Venite a comer y cocinar con el reconocido cocinero y candidato a Vicepresidente por el Partido Digital en esta cena única.</td>
-      <td width="15%" class="text-center">Ticket: USD 250<br><a href="http://bit.ly/CenaConRuete1pers"><img width="100" src="/assets/img/logo_paypal.png" /></a></td>
-      <td width="15%" class="text-center">Parejas: USD 400<br><a href="http://bit.ly/CenaConRuete2pers"><img width="100" src="/assets/img/logo_paypal.png" /></a></td>
+      <td width="10%" class="text-center">Ticket: USD 250<br><a class="btn small" href="http://bit.ly/CenaConRuete1pers">Comprar</a></td>
+      <td width="10%" class="text-center">Promo 2 personas: USD 400<br><a class="btn small" href="http://bit.ly/CenaConRuete2pers">Comprar</a></td>
     </tr>
     <tr>
       <td width="20%" class="text-center">18 de Setiembre <br>21hs</td>
       <td width="60%"><b>Noche de Humor “¿Quién dijo que la política tenía que ser aburrida?”</b><br>Te esperamos en esta gran noche de humor con humoristas locales, ¿quién dijo que la política tenía que ser aburrida?. Venite a reirte, pasarla bien y colaborar con la campaña del Partido Digital.</td>
-      <td width="15%" colspan="2" class="text-center">Ticket: $U 300<br><a href="https://www.mercadopago.com/mlu/checkout/start?pref_id=441941744-347acaec-c1c4-44bc-b385-2d299647c135"><img width="100" src="/assets/img/logo_mercadopago.png" /></a><br><small>Puedes pagar online o en la puerta. Si pagas en la puerta, reserva tu lugar a <a href="mailto:contacto@partidodigital.org.uy">contacto@partidodigital.org.uy</a></small></td>
+      <td width="15%" colspan="2" class="text-center">Ticket: $U 300<br><a class="btn small" href="https://www.mercadopago.com/mlu/checkout/start?pref_id=441941744-347acaec-c1c4-44bc-b385-2d299647c135">Comprar</a><br><small>Puedes pagar online o en la puerta. Si pagas en la puerta, reserva tu lugar a <a href="mailto:contacto@partidodigital.org.uy">contacto@partidodigital.org.uy</a></small></td>
     </tr>
   </tbody>
 </table>
