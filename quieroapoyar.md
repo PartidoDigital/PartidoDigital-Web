@@ -50,8 +50,8 @@ Venite a las actividades que tenemos de recaudación de fondos
     <tr>
       <td width="20%" class="text-center">17 de Setiembre <br>20:30hs</td>
       <td width="50%"><b>Cena participativa con Diego Ruete</b><br>Venite a comer y cocinar con el reconocido cocinero y candidato a Vicepresidente por el Partido Digital en esta cena única.</td>
-      <td width="15%" class="text-center">Ticket: USD 250<br><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PH6E2TJCS32ZU"><img width="100" src="/assets/img/logo_paypal.png" /></a></td>
-      <td width="15%" class="text-center">Parejas: USD 400<br><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HDMSGHD3NCPWC"><img width="100" src="/assets/img/logo_paypal.png" /></a></td>
+      <td width="15%" class="text-center">Ticket: USD 250<br><a href="http://bit.ly/CenaConRuete1pers"><img width="100" src="/assets/img/logo_paypal.png" /></a></td>
+      <td width="15%" class="text-center">Parejas: USD 400<br><a href="http://bit.ly/CenaConRuete2pers"><img width="100" src="/assets/img/logo_paypal.png" /></a></td>
     </tr>
     <tr>
       <td width="20%" class="text-center">18 de Setiembre <br>21hs</td>
