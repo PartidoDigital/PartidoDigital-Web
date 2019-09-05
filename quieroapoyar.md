@@ -2,6 +2,7 @@
 layout: pagina
 title: Impulsá la campaña del Partido Digital
 pagina_class: text-center
+og_description: "Donar para que el Partido Digital pueda llegar a los usd30.000 que necesita para la campaña, ¡apoyalos!"
 ---
 
 <script src="/assets/js/jquery.stepProgressBar.js"></script>

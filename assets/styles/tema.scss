@@ -69,6 +69,18 @@ h1, h2, h3, h4, h5, h6 {
     color: $secondary;
 }
 
+.bg-twitter {
+    background-color: $color-twitter !important;
+}
+
+.bg-facebook {
+    background-color: $color-facebook !important;
+}
+
+.bg-whatsapp {
+    background-color: $color-whatsapp !important;
+}
+
 p {
     margin: 1rem 0 1rem;
     font-size: 1.2rem;
@@ -88,6 +100,7 @@ p {
 }
 
 .text-white {
+    color: white;
     a {
         text-decoration: none;
         color: $secondary;
@@ -297,6 +310,11 @@ a.btn {
         background: linear-gradient(286deg, $primary, #f87200 50%, #f83600);
     }
 
+    &.plain:hover:after {
+        opacity: 1;
+        background: inherit;
+    }
+
     &.secondary:hover:after {
         opacity: 1;
         background: $secondary;
@@ -330,6 +348,17 @@ a.btn {
     &.small {
         font-size: 10px;
         padding: 0.5rem;
+    }
+
+    &.plain {
+        text-decoration: none;
+        color: $secondary;
+        background-clip: initial;
+        -webkit-background-clip: initial;
+        text-fill-color: initial;
+        -webkit-text-fill-color: initial;
+        background: none;
+        border: none;
     }
 }
 

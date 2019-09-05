@@ -1,14 +1,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-<meta name="description" content="Somos un partido político que busca mejorar la democracia aumentando la participación y transparencia apoyándose en la tecnología.">
+<meta name="description" content="{% if page.og_description != nil %}{{page.og_description}}{% else %}Somos un partido político que busca mejorar la democracia aumentando la participación y transparencia apoyándose en la tecnología.{% endif %}">
 <meta name="author" content="Partido Digital">
 
-<meta property="og:title" content="Partido Digital del Uruguay"/>
-<meta property="og:image" content="https://recursos.partidodigital.org.uy/assets/img/presentacion.jpg"/>
-<meta property="og:site_name" content="Sitio web oficial del Partido Digital del Uruguay"/>
-<meta property="og:description" content="Somos un partido político que busca mejorar la democracia aumentando la participación y transparencia apoyándose en la tecnología."/>
-<meta property="og:url" content="https://partidodigital.org.uy" />
+<meta property="og:title" content="{% if page.og_title != nil %}{{page.og_title}}{% else %}{% if page.title %}{{page.title}}{% endif %}{% endif %} - Partido Digital del Uruguay"/>
+<meta property="og:image" content="{% if page.og_image != nil %}{{page.og_image}}{% else %}https://recursos.partidodigital.org.uy/assets/img/presentacion.jpg{% endif %}"/>
+<meta property="og:site_name" content="{% if page.og_site_name != nil %}{{page.og_site_name}}{% else %}Sitio web oficial del Partido Digital del Uruguay{% endif %}"/>
+<meta property="og:description" content="{% if page.og_description != nil %}{{page.og_description}}{% else %}Somos un partido político que busca mejorar la democracia aumentando la participación y transparencia apoyándose en la tecnología.{% endif %}"/>
+<meta property="og:url" content="{% if page.og_url != nil %}{{page.og_url}}{% else %}{{ page.url | absolute_url }}{% endif %} />
 
 <link rel="icon" type="image/png" href="https://recursos.partidodigital.org.uy/assets/img/favicon-16x16.png" sizes="16x16">
 <link rel="icon" type="image/png" href="https://recursos.partidodigital.org.uy/assets/img/favicon-32x32.png" sizes="32x32">
