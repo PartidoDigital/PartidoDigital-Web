@@ -40,7 +40,7 @@ Se puede financiar hasta en 12 cuotas, dependiendo de la tarjeta de crédito dis
 
 <img width="250" src="/assets/img/logos_pagos.png" />
 
-Si tienes otro medio de pago que no está habilitado por Mercado Pago, contactanos a [transparencia@partidodigital.org.uy](mailto:transparencia@partidodigital.org.uy) y coordinamos la realización del pago.
+Si tienes otro medio de pago que no está habilitado por Mercado Pago o quieres colaborar con otro monto, contactanos a [transparencia@partidodigital.org.uy](mailto:transparencia@partidodigital.org.uy) y coordinamos la realización del pago.
 
 ## Agenda de actividades
 
