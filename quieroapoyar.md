@@ -55,9 +55,9 @@ Venite a las actividades que tenemos de recaudación de fondos
       <td width="10%" class="text-center">Promo 2 personas: USD 400<br><a class="btn small" href="http://bit.ly/CenaConRuete2pers" onclick="fbq('trackCustom', 'Actividad', {promotion: 'Promo2Personas_17_Sept'});">Comprar</a></td>
     </tr>
     <tr>
-      <td width="20%" class="text-center">18 de Setiembre <br>21hs</td>
+      <td width="20%" class="text-center">18 de Setiembre <br>20:30hs</td>
       <td width="60%"><b>Noche de Humor “¿Quién dijo que la política tenía que ser aburrida?”</b><br>Te esperamos en esta gran noche de humor con humoristas locales, ¿quién dijo que la política tenía que ser aburrida?. Venite a reirte, pasarla bien y colaborar con la campaña del Partido Digital.</td>
-      <td width="15%" colspan="2" class="text-center">Ticket: $U 300<br><a class="btn small" href="https://www.mercadopago.com/mlu/checkout/start?pref_id=441941744-347acaec-c1c4-44bc-b385-2d299647c135" onclick="fbq('trackCustom', 'Actividad', {promotion: 'Ticket_18_Sept'});">Comprar</a><br><small>Puedes pagar online o en la puerta. Si pagas en la puerta, reserva tu lugar a <a href="mailto:contacto@partidodigital.org.uy">contacto@partidodigital.org.uy</a></small></td>
+      <td width="15%" colspan="2" class="text-center">Ticket: $U 290<br><a class="btn small" href="https://www.mercadopago.com/mlu/checkout/start?pref_id=441941744-c0a068b4-78d3-4e8b-bd49-8f6234916664" onclick="fbq('trackCustom', 'Actividad', {promotion: 'Ticket_18_Sept'});">Comprar</a><br><small>Puedes pagar online o en la puerta. Si pagas en la puerta, reserva tu lugar a <a href="mailto:contacto@partidodigital.org.uy">contacto@partidodigital.org.uy</a></small></td>
     </tr>
   </tbody>
 </table>
@@ -65,4 +65,3 @@ Venite a las actividades que tenemos de recaudación de fondos
 <small>Se puede financiar hasta en 12 cuotas, dependiendo de la tarjeta de crédito disponible.</small>
 <br><br>
 Si querés sumarte al equipo Digital haz clic aquí: <a href="/voluntariado" class="btn">SUMATE</a>
-
