@@ -1143,11 +1143,6 @@ svg:not(:root) {
     border: 1px dashed black;
 }
 
-.step-progressbar-rounded .step-progressbar-bar:before,
-.step-progressbar-rounded .step-progressbar-bar:after {
-    display: none;
-}
-
 .alert-primary {
     color: white;
     border-color: $primary;
