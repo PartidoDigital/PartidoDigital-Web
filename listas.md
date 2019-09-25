@@ -2,15 +2,11 @@
 layout: pagina
 title: Listas
 ---
-<h2 class="pt-0">Pedí la tuya para el 30 de Junio</h2>
+<h2 class="pt-0">¡Pedí tu lista del Partido Digital para Octubre!</h2>
 
-El próximo 30 de junio son las elecciones internas en Uruguay y como Partido Digital tenemos que presentarnos y conseguir los votos necesarios para estar presentes en Octubre y seguir validando nuestra nueva forma de hacer las cosas. Son nuestras primeras elecciones y muy importantes.
- 
-El Partido Digital estará presente con las listas 78 a nivel nacional y 708 a nivel departamental.
- 
-Contamos con tu voto y los que puedas conseguir en tu entorno para que el Partido Digital siga creciendo y podemos estar cada vez más cerca de nuestro objetivo de Octubre: entrar con fuerza al parlamento y habilitar una nueva forma de participación en la que vas a poder hacerte escuchar cada vez que sientas la necesidad de hacerlo.
+En las elecciones de Octubre vamos por cumplir el objetivo de entrar al parlamento y poder darle un poco más de poder a personas como vos para que hagan llegar sus ideas al parlamento.
 
-Completa el formulario siguiente y te contactamos para que puedas tener la lista del Partido Digital para votar el 30 de Junio:
+Completa el formulario siguiente y te coordinamos la entrega de las listas:
 
 <div id="mc_embed_signup">
 	<form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate id="volun">

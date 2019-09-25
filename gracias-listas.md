@@ -3,8 +3,10 @@ layout: pagina
 title: Muchas gracias
 ---
 
-Tu registro fue realizado con éxito. Nos contactaremos a la brevedad para coordinar la entrega de las listas.
- 
-Si quieres ayudar con el Partido Digital en esta camino hacia las internas y luego hacia las eleciones de Octubre, te invitamos a que te sumes a nuestro equipo de voluntarios:
+Muchas gracias por pedir listas del Partido Digital para Octubre.
 
-<a href="/voluntariado" class="btn azul" itemprop="url" title="Comienza a ser parte del cambio.">Conviertete en voluntario</a>
+Las vamos a tener en los próximos días. En cuanto las tengamos te avisamos y coordinamos la entrega.
+ 
+Si quieres ayudar con el Partido Digital en esta camino hacia las eleciones de Octubre, te invitamos a que te sumes a nuestro equipo de voluntarios:
+
+<a href="/voluntariado" class="btn" itemprop="url" title="Comienza a ser parte del cambio.">Conviertete en voluntario</a>

@@ -31,13 +31,13 @@ Que una propuesta esté completa quiere decir que tenga la información correcta
 
 Luego asesores legales del PD analizaron que no sean inconstitucionales.
 
-Se abre votación: de 1 hasta el 24 setiembre 23:59hs. Las propuestas que llegaron hasta esta etapa final superen los 50 votos de usuarios verificados en la plataforma pasaran a ser parte del programa de gobierno.
+Se abre votación: de 1 hasta el 24 de Septiembre 23:59hs. Las propuestas que llegaron hasta esta etapa final superen los 50 votos de usuarios verificados en la plataforma pasaran a ser parte del programa de gobierno.
 
 En esta proceso también van a entra las propuesta de los temas Educación, Emprendedurismo como generador de riqueza y empleo y Como mejorar la eficiencia del Gasto público, que son los tres ejes temáticos que además hicimos actividades presenciales de debate, y además las ideas que la gente propuso de otros temas y pasaron por todas estas etapas: lo que asegura que están completas, son viables, constituciones y tienen apoyo.
 
 De esta manera vamos a dar el ejemplo nuevamente, donde vamos a presentar un programa de Gobierno en donde la gente pude participar y dejar una marca con su idea. Están a tiempo! Entren ahora en MiVoz.uy.
 
-El 26 de Setiembre presentamos el Programa de Gobierno del Partido Digital
+El 26 de Septiembre presentamos el Programa de Gobierno del Partido Digital
 
 <p>
     <a href="https://digo.mivoz.uy/new-topic?category=general&title=Escribe+un+t%C3%ADtulo+aqu%C3%AD+y+selecciona+la+categor%C3%ADa+que+mejor+aplica+para+tu+idea" class="btn secondary" itemprop="url">PROPONER IDEA</a>

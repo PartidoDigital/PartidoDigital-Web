@@ -24,7 +24,7 @@ function collapseNavbar() {
 }
 
 function hashChange() {
-  if (window.location.hash) {
+  if (window.location.hash && window.location.hash.indexOf("carousel") == -1) {
     $("body .resaltar").removeClass("resaltar");
     $(window.location.hash).addClass("resaltar");
     $(window.location.hash)
@@ -34,7 +34,7 @@ function hashChange() {
   }
 }
 
-$(window).on("hashchange", hashChange);
+//$(window).on("hashchange", hashChange);
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
 
@@ -44,7 +44,7 @@ $(function () {
     $("body").scrollspy({ offset: 100 });
   }
 
-  hashChange();
+  //hashChange();
 
   // Ir a buscar información de finanzas
   $.getJSON("https://spreadsheets.google.com/feeds/list/1ECohuUeBik_2rxvppS3sBHqm_gXpuNbOOYqRoMGans0/1/public/values?alt=json", 

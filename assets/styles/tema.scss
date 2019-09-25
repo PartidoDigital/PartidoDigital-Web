@@ -5,6 +5,7 @@
 @import "mixins";
 @import "media";
 @import "jquery.stepProgressBar";
+@import "carousel";
 
 body {
     width: 100%;
@@ -217,10 +218,10 @@ a {
     padding: 0;
     text-align: center;
     color: white;
-    //background: url(../img/palacio_legislativo.jpg) center 10% no-repeat #000;
-    background: $primary; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, $primary, #f83600); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, $primary, #f83600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: url(../img/header_bg.jpg) center center no-repeat #000;
+    /*background: $primary;
+    background: -webkit-linear-gradient(to right, $primary, #f83600);
+    background: linear-gradient(to right, $primary, #f83600); */
     @include background-size(cover);
     &.firma {
         margin-bottom: 4em;
@@ -286,7 +287,7 @@ a {
     }
 }
 
-a.btn {
+a.btn, button.btn {
     @extend .gradiente-naranja-inverso;
     border-radius: 0;
     padding: 1rem;
@@ -1152,4 +1153,9 @@ svg:not(:root) {
 .step-progressbar-laststep.step-progressbar-steplabel {
     width: 100%;
     text-align: right;
+}
+
+.step-progressbar-rounded .step-progressbar-bar:before,
+.step-progressbar-bar .step-progressbar-progress {
+    background-color: $primary;
 }
