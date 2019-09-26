@@ -161,10 +161,10 @@ and (max-device-width : 568px) {
   a:not(.btn):not(.footer-link):not(.navbar-brand):not(.nav-link):not(.text-link) {
     color: #f83600 !important;
     background: inherit !important;
-    background-clip: initial !important;
-    -webkit-background-clip: initial !important;
-    text-fill-color: initial !important;
-    -webkit-text-fill-color: initial !important;
+    background-clip: inherit !important;
+    -webkit-background-clip: inherit !important;
+    text-fill-color: inherit !important;
+    -webkit-text-fill-color: inherit !important;
 
     &.white {
       color: white !important;

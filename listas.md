@@ -30,12 +30,26 @@ Completa el formulario siguiente y te coordinamos la entrega de las listas:
 				<label for="mce-DEPARTAMENTO">Departamento en el que votas</label>
 				<select type="text" value="" name="departamento" class="required" id="mce-DEPARTAENTO">
 					<option value="" selected>Elige un departamento</option>
-					<option value="Durazno">Durazno</option>                    
-					<option value="Montevideo">Montevideo</option>                    
+					<option value="Artigas">Artigas</option>
+					<option value="Canelones">Canelones</option>
+					<option value="Cerro Largo">Cerro Largo</option>
+					<option value="Colonia">Colonia</option>
+					<option value="Durazno">Durazno</option>
+					<option value="Flores">Flores</option>
+					<option value="Florida">Florida</option>
+					<option value="Lavalleja">Lavalleja</option>
+					<option value="Maldonado">Maldonado</option>
+					<option value="Montevideo">Montevideo</option>
+					<option value="Paysandú">Paysandú</option>
+					<option value="Río Negro">Río Negro</option>
+					<option value="Rivera">Rivera</option>
+					<option value="Rocha">Rocha</option>
+					<option value="Salto">Salto</option>
+					<option value="San José">San José</option>
+					<option value="Soriano">Soriano</option>
+					<option value="Tacuarembó">Tacuarembó</option>
+					<option value="Treinta y Tres">Treinta y Tres</option>                 
 				</select>
-			</div>
-			<div class="mc-field-group">
-				<p>Para las elecciones del 30 Junio llegamos a presentarnos por temas logísticos en Montevideo y Durazno, pero para las elecciones nacionales estaremos en todo el país. Si no votas en Montevideo o Durazno y quieres sumarte para apoyar para Octubre te invitamos a registrarte como voluntario <a href="/voluntariado">aquí</a>.</p>
 			</div>
             <div class="mc-field-group">
 				<label for="mce-NAME">Dirección</label>

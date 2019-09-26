@@ -105,10 +105,10 @@ p {
     a {
         text-decoration: none;
         color: $secondary;
-        background-clip: initial;
-        -webkit-background-clip: initial;
-        text-fill-color: initial;
-        -webkit-text-fill-color: initial;
+        background-clip: inherit;
+        -webkit-background-clip: inherit;
+        text-fill-color: inherit;
+        -webkit-text-fill-color: inherit;
         background: none;
         border: none;
     }
@@ -182,10 +182,10 @@ a {
     &.white {
         text-decoration: none;
         color: white;
-        background-clip: initial;
-        -webkit-background-clip: initial;
-        text-fill-color: initial;
-        -webkit-text-fill-color: initial;
+        background-clip: inherit;
+        -webkit-background-clip: inherit;
+        text-fill-color: inherit;
+        -webkit-text-fill-color: inherit;
         background: none;
         border: none;
     }
@@ -275,10 +275,10 @@ a {
                     &:not(:last-child) {
                         margin-right: 1.5rem;
                     }
-                    background-clip: initial;
-                    -webkit-background-clip: initial;
-                    text-fill-color: initial;
-                    -webkit-text-fill-color: initial;
+                    background-clip: inherit;
+                    -webkit-background-clip: inherit;
+                    text-fill-color: inherit;
+                    -webkit-text-fill-color: inherit;
                     background: none;
                     border: none;
                 }
@@ -298,10 +298,10 @@ a.btn, button.btn {
     font-weight: 600;
     color: white;
     white-space: normal;
-    background-clip: initial;
-    -webkit-background-clip: initial;
-    text-fill-color: initial;
-    -webkit-text-fill-color: initial;
+    background-clip: inherit;
+    -webkit-background-clip: inherit;
+    text-fill-color: inherit;
+    -webkit-text-fill-color: inherit;
 
     &:hover:after {
         opacity: 1;
@@ -339,7 +339,7 @@ a.btn, button.btn {
     &.secondary {
         background: $secondary; 
         border-color: $secondary;
-        color: white;
+        color: white !important;
 
         &:hover {
             color: $primary;
@@ -354,10 +354,10 @@ a.btn, button.btn {
     &.plain {
         text-decoration: none;
         color: $secondary;
-        background-clip: initial;
-        -webkit-background-clip: initial;
-        text-fill-color: initial;
-        -webkit-text-fill-color: initial;
+        background-clip: inherit;
+        -webkit-background-clip: inherit;
+        text-fill-color: inherit;
+        -webkit-text-fill-color: inherit;
         background: none;
         border: none;
     }
@@ -473,7 +473,7 @@ footer#abajo {
         text-decoration: none;
         background: none;
         border: 0;
-        -webkit-text-fill-color: initial;
+        -webkit-text-fill-color: inherit;
 
         &:hover, &:focus {
             text-decoration: none;
@@ -897,7 +897,7 @@ canvas {
         border: 0;
         font-size: 1rem;
         background: none;
-        -webkit-text-fill-color: initial;
+        -webkit-text-fill-color: inherit;
 
         &.active, &:hover {
             color: $secondary!important;
