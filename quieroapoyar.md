@@ -32,6 +32,8 @@ Dato: cada gasto estará mostrado de forma transparente en nuestra web como veni
 ### Doná ahora para que nos acerquemos al objetivo
 Se puede financiar hasta en 12 cuotas, dependiendo de la tarjeta de crédito disponible.
 
+<a class="btn" href="/donarbtc">Donar BTC</a>
+
 <a class="btn" href="https://cutt.ly/UwJqWjN" onclick="fbq('trackCustom', 'Donación', {promotion: '$U500'});">$U 500</a>
 <a class="btn" href="https://cutt.ly/FwJqEbd" onclick="fbq('trackCustom', 'Donación', {promotion: '$U1000'});">$U 1000</a>
 <a class="btn" href="https://cutt.ly/5wJqRum" onclick="fbq('trackCustom', 'Donación', {promotion: '$U1500'});">$U 1500</a>
