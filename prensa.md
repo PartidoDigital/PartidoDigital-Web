@@ -104,7 +104,7 @@ title: Kit de Prensa
     </div>
 </section>
 <section>
-    <h2 class="mb-2">Menciones en Prensa</h2>
+    <h2 class="mb-2" id="menciones-en-prensa">Menciones en Prensa</h2>
     <ul class="list-group">
     {% for articulo in site.data.prensa reversed %}
         <li class="list-group-item justify-content-between">

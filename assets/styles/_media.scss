@@ -39,7 +39,8 @@ and (max-device-width : 568px) {
     }
   }
 
-  .pagina-layout .content-section {
+  .pagina-layout .content-section,
+  .post-layout .content-section {
     padding-top: 0;
     margin-top: 60px;
   }
@@ -125,7 +126,8 @@ and (max-device-width : 568px) {
     }
   }
 
-  .pagina-layout p {
+  .pagina-layout p,
+  .post-layout p {
     padding: 0;
   }
 

@@ -1,5 +1,5 @@
-<nav class="navbar navbar-dark navbar-expand-xl justify-content-center fixed-top {%if page.layout == 'pagina' %} show-nav {% else %} sps {% endif %}" style="z-index: 99;">
-    <a class="border-0 navbar-brand position-absolute" style="left: 1rem; top: 0.5rem;" href="{% if page.layout == 'pagina' %}/{%else%}#arriba{% endif %}">
+<nav class="navbar navbar-dark navbar-expand-xl justify-content-center fixed-top {%if page.layout != 'default' %} show-nav {% else %} sps {% endif %}" style="z-index: 99;">
+    <a class="border-0 navbar-brand position-absolute" style="left: 1rem; top: 0.5rem;" href="{% if page.layout != 'default' %}/{%else%}#arriba{% endif %}">
         <img src="https://recursos.partidodigital.org.uy/assets/img/logo_horizontal_blanco.svg" width="200">
     </a>
     <button class="navbar-toggler ml-auto float-xs-right" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
@@ -8,22 +8,22 @@
     <div class="navbar-collapse collapse justify-content-between align-items-center" id="collapsingNavbar2">
         <ul class="navbar-nav mx-auto text-center">
             <li class="nav-item">
-                <a class="nav-link" href="{% if page.layout == 'pagina' %}/{% else %}#{% endif %}participacion">Participación</a>
+                <a class="nav-link" href="{% if page.layout != 'default' %}/{% else %}#{% endif %}participacion">Participación</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% if page.layout == 'pagina' %}/{% else %}#{% endif %}transparencia">Transparencia</a>
+                <a class="nav-link" href="{% if page.layout != 'default' %}/{% else %}#{% endif %}transparencia">Transparencia</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% if page.layout == 'pagina' %}/{% else %}#{% endif %}ideas">Ideas</a>
+                <a class="nav-link" href="{% if page.layout != 'default' %}/{% else %}#{% endif %}ideas">Ideas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% if page.layout == 'pagina' %}/{% else %}#{% endif %}equipo">Equipo</a>
+                <a class="nav-link" href="{% if page.layout != 'default' %}/{% else %}#{% endif %}equipo">Equipo</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% if page.layout == 'pagina' %}/{% else %}#{% endif %}preguntas">Preguntas</a>
+                <a class="nav-link" href="{% if page.layout != 'default' %}/{% else %}#{% endif %}preguntas">Preguntas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% if page.layout == 'pagina' %}/{% endif %}#contacto">Contacto</a>
+                <a class="nav-link" href="{% if page.layout != 'default' %}/{% endif %}#contacto">Contacto</a>
             </li>
             <li class="nav-item d-lg-none my-2">
                 <a class="border-0" href="https://digo.mivoz.uy">
@@ -33,6 +33,7 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Más</a>
                 <div class="dropdown-menu">
+                    <a class="dropdown-item" href="/blog">Blog</a>
                     <a class="dropdown-item" href="/afiliaciones">Afiliaciones</a>
                     <a class="dropdown-item" href="/documentacion">Documentación</a>
                     <a class="dropdown-item" href="/listas">Listas</a>

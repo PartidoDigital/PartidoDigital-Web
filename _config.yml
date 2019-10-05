@@ -3,6 +3,8 @@ ga: UA-64073239-3
 dominio: https://partidodigital.org.uy/
 acceso_url: https://partidodigital.auth0.com/login?client=3yqAXfyeQCu5RcrgSQUsb0M4ojdvif4N
 firmas: 1110
+permalink: /blog/:categories/:year/:month/:day/:title
+excerpt_separator: "<!--more-->"
 
 plugins:
   - jekyll-sitemap

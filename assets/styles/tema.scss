@@ -19,7 +19,7 @@ body {
         background-color: $primary;
     }
 
-    &.pagina-layout {
+    &.pagina-layout, &.post-layout {
         p {
             padding: 0 0 1rem;
             margin: 0;
