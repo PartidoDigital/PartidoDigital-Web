@@ -30,8 +30,7 @@ $(function () {
 			beforeSend: function () {
 				if ($("[name=nombre]").val() === "" || $("[name=apellido]").val() === "" ||
 					$("[name=email]").val() === "" || $("[name=celular]").val() === "" ||
-                    $("[name=departamento1]").val() === "" || $("[name=fechanacimiento]").val() === "" ||
-                    $("input:checked").length === 0) {
+                    $("[name=departamento1]").val() === "" || $("[name=fechanacimiento]").val() === "") {
 					$("#sumarme").attr("disabled", true).addClass("error").val("Queda algún campo por llenar. Intentalo de nuevo.");
 					setTimeout(function () {
 						$("#sumarme").attr("disabled", false).removeClass("error").val("SUMARME");
