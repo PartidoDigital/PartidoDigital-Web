@@ -40,11 +40,14 @@ $(document).ready(collapseNavbar);
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function () {
-  if($("body").scrollspy) {
-    $("body").scrollspy({ offset: 100 });
-  }
-
   //hashChange();
+
+  $('.nav-link').click(function() {
+      var sectionTo = $(this).attr('href');
+      $('html, body').animate({
+        scrollTop: $(sectionTo).offset().top - 65
+      }, 1500);
+  });
 
   // Ir a buscar información de finanzas
   $.getJSON("https://spreadsheets.google.com/feeds/list/1ECohuUeBik_2rxvppS3sBHqm_gXpuNbOOYqRoMGans0/1/public/values?alt=json", 

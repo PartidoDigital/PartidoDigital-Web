@@ -4,8 +4,7 @@
 	<!-- Cabezal de página -->
 	{% include _header.html %}
 </head>
-<body id="arriba" data-spy="scroll"
-	  data-target=".nav.navbar-nav" class="{% if page.layout != 'default' %}{{page.layout}}-layout{%else%}default{%endif%} {% if page.body_class != nil %}{{page.body_class}}{% endif %}">
+<body id="arriba" data-spy="scroll" data-target=".navbar" data-offset="70" class="{% if page.layout != 'default' %}{{page.layout}}-layout{%else%}default{%endif%} {% if page.body_class != nil %}{{page.body_class}}{% endif %}">
 	<!-- Scripts -->
 	{% include _scripts.html %}
 	
