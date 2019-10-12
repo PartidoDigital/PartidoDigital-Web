@@ -11,6 +11,8 @@ Desde el Partido Digital comenzaremos dando el ejemplo con el manejo de nuestra 
 
 Selecciona la opción debajo que más se adapta a tus posibilidades para realizar tu donación al Partido Digital:
 
+<a class="btn" href="/donarbtc">Donar BTC</a>
+
 <a class="action btn" href='https://www.mercadopago.com/mlu/checkout/start?pref_id=441941744-1e370d5a-9908-45ba-ad6e-0c3acffa71ca' target="_blank" title="Dona $100 con Mercado Pago">$100</a>
 <a class="action btn" href='https://www.mercadopago.com/mlu/checkout/start?pref_id=441941744-3dace516-d78e-4d21-b24f-350093874e47' target="_blank" title="Dona $500 con Mercado Pago">$500</a>
 <a class="action btn" href='https://www.mercadopago.com/mlu/checkout/start?pref_id=441941744-87f0ffcd-1bc1-4766-b92b-2d36af04ec4a' target="_blank" title="Dona $1000 con Mercado Pago">$1000</a>
