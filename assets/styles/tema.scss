@@ -298,10 +298,8 @@ a.btn, button.btn {
     font-weight: 600;
     color: white;
     white-space: normal;
-    background-clip: inherit;
-    -webkit-background-clip: inherit;
-    text-fill-color: inherit;
-    -webkit-text-fill-color: inherit;
+    text-fill-color: white;
+    -webkit-text-fill-color: white;
 
     &:hover:after {
         opacity: 1;
@@ -356,8 +354,8 @@ a.btn, button.btn {
         color: $secondary;
         background-clip: inherit;
         -webkit-background-clip: inherit;
-        text-fill-color: inherit;
-        -webkit-text-fill-color: inherit;
+        text-fill-color: $secondary;
+        -webkit-text-fill-color: $secondary;
         background: none;
         border: none;
     }
