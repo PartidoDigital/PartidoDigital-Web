@@ -93,7 +93,9 @@ p {
 }
 
 .text-primary {
-    color: $secondary!important;;
+    color: $secondary!important;
+    text-fill-color: $secondary;
+    -webkit-text-fill-color: $secondary;
 }
 
 .text-secondary {
@@ -102,6 +104,8 @@ p {
 
 .text-white {
     color: white;
+    text-fill-color: white;
+    -webkit-text-fill-color: white;
     a {
         text-decoration: none;
         color: $secondary;
