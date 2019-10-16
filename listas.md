@@ -6,6 +6,9 @@ title: Listas
 
 En las elecciones de Octubre vamos por cumplir el objetivo de entrar al parlamento y poder darle un poco más de poder a personas como vos para que hagan llegar sus ideas al parlamento.
 
+Puntos fijos para retirar listas:
+{% include _ubicaciones.html %}
+
 Completa el formulario siguiente y te coordinamos la entrega de las listas:
 
 <div id="mc_embed_signup">
