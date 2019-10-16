@@ -19,7 +19,9 @@ body {
         background-color: $primary;
     }
 
-    &.pagina-layout, &.post-layout {
+    &.pagina-layout, 
+    &.post-layout,
+    &.propuestas-layout {
         p {
             padding: 0 0 1rem;
             margin: 0;

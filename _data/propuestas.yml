@@ -1,0 +1,113 @@
+sociedad:
+  - categoria: Educación
+    posts:
+    - titulo: Programación desde Ciclo Básico de Secundaria
+      link: https://digo.mivoz.uy/t/programacion-desde-ciclo-basico-de-secundaria-en-votacion/1222
+    - titulo: Educación en medio ambiente
+      link: https://digo.mivoz.uy/t/educacion-en-medio-ambiente-programaentretodos/865
+    - titulo: Educación Financiera
+      link: https://digo.mivoz.uy/t/educacion-financiera-en-votacion/1120
+    - titulo: Implementar la meditación en Escuelas, Jardines de Infantes y Centros CAIF
+      link: https://digo.mivoz.uy/t/implementar-la-meditacion-en-escuelas-jardines-de-infantes-y-centros-caif-en-votacion/970
+    - titulo: Creación de plataforma online de educación pública
+      link: https://digo.mivoz.uy/t/creacion-de-plataforma-online-de-educacion-publica-en-votacion/1203
+    - titulo: Educación alimentaria
+      link: https://digo.mivoz.uy/t/educacion-alimentaria-en-votacion/1176
+    - titulo: Educación Agropecuaria Obligatoria
+      link: https://digo.mivoz.uy/t/educacion-agropecuaria-obligatoria-en-votacion/1205
+  - categoria: Derechos Humanos
+    posts:
+    - titulo: Garantizar el derecho de acceso a la información publica
+      link: https://digo.mivoz.uy/t/garantizar-el-derecho-de-acceso-a-la-informacion-publica-en-votacion/1192
+    - titulo: Responsabilidad penal por manejo de datos
+      link: https://digo.mivoz.uy/t/responsabilidad-penal-por-manejo-de-datos-en-votacion/1229
+    - titulo: Igualdad salarial entre hombre y mujeres
+      link: https://digo.mivoz.uy/t/igualdad-salarial-entre-hombre-y-mujeres-en-votacion/1204
+    - titulo: Curriculums ciegos obligatorios en llamados laborales
+      link: https://digo.mivoz.uy/t/curriculums-ciegos-obligatorios-en-llamados-laborales-en-votacion/1226
+    - titulo: Rehablitación a los presos
+      link: https://digo.mivoz.uy/t/rehablitacion-a-los-presos-en-votacion/1210
+  - categoria: Salud
+    posts:
+    - titulo: ACV, tratamiento cubierto para todos
+      link: https://digo.mivoz.uy/t/acv-tratamiento-cubierto-para-todos-en-votacion/964
+    - titulo: Salud humana y bienestar animal
+      link: https://digo.mivoz.uy/t/salud-humana-y-bienestar-animal-en-votacion/1211
+  - categoria: Desarrollo Social
+    posts:
+    - titulo: INAU + jovenes de contexto critico a OFICIO
+      link: https://digo.mivoz.uy/t/inau-jovenes-de-contexto-critico-a-oficio-en-votacion/1185
+  - categoria: Tecnología
+    posts:
+    - titulo: Portabilidad numérica y desbloqueo
+      link: https://digo.mivoz.uy/t/portabilidad-numerica-y-desbloqueo-en-votacion/1220
+  - categoria: Deporte
+    posts:
+    - titulo: Deporte como política de Inclusión 
+      link: https://digo.mivoz.uy/t/deporte-como-politica-de-inclusion-en-votacion/968
+  - categoria: General
+    posts:
+    - titulo: Recolección de firmas digital (mixta) para plebiscitos
+      link: https://digo.mivoz.uy/t/recoleccion-de-firmas-digital-mixta-para-plebiscitos-en-votacion/1128
+economia:
+  - categoria: Gestión del Dinero Público
+    posts:
+    - titulo: Dinero Público Transparente, como el Partido Digital
+      link: https://digo.mivoz.uy/t/dinero-publico-transparente-como-el-partido-digital-programaentretodos/866
+    - titulo: "Transparencia: Potestades de la JUTEP"
+      link: https://digo.mivoz.uy/t/transparencia-potestades-de-la-jutep-en-votacion/1206
+    - titulo: Control de los gastos del estado - tribunal de cuentas
+      link: https://digo.mivoz.uy/t/control-de-los-gastos-del-estado-tribunal-de-cuentas-en-votacion/1114
+    - titulo: Digitalizacion total de trámites de organismos públicos
+      link: https://digo.mivoz.uy/t/digitalizacion-total-de-tramites-de-organismos-publicos-en-votacion/1140
+    - titulo: Eficiencia y Transparencia en Partidas de prensa
+      link: https://digo.mivoz.uy/t/eficiencia-y-transparencia-en-partidas-de-prensa-en-votacion/1101
+    - titulo: Simplificar y automatizar declaración de impuestos
+      link: https://digo.mivoz.uy/t/simplificar-y-automatizar-declaracion-de-impuestos-en-votacion/1221
+    - titulo: Premio a detectives de ineficiencias del gasto publico
+      link: https://digo.mivoz.uy/t/premio-a-detectives-de-ineficiencias-del-gasto-publico-en-votacion/1172
+  - categoria: Emprendedurismo
+    posts:
+    - titulo: Exoneración de impuestos a emprendedores primerizos
+      link: https://digo.mivoz.uy/t/exoneracion-de-impuestos-a-emprendedores-primerizos-en-votacion/1209
+    - titulo: Promover la cultura emprendedora
+      link: https://digo.mivoz.uy/t/promover-la-cultura-emprendedora-en-votacion/1225
+    - titulo: El Estado como aliado de los emprendedores
+      link: https://digo.mivoz.uy/t/el-estado-como-aliado-de-los-emprendedores-en-votacion/1223
+    - titulo: Educación para fomentar actitud emprendedora
+      link: https://digo.mivoz.uy/t/educacion-para-fomentar-actitud-emprendedora-en-votacion/1224
+  - categoria: Ecnonomía
+    posts:
+    - titulo: Reducción gradual del IVA a 5% en 10 años
+      link: https://digo.mivoz.uy/t/reduccion-gradual-del-iva-a-5-en-10-anos-en-votacion/1186
+    - titulo: Mejora del Deficit Fiscal, Reestructurando Gestión de Empleados Públicos
+      link: https://digo.mivoz.uy/t/mejora-del-deficit-fiscal-reestructurando-gestion-de-empleados-publicos-en-votacion/867
+  - categoria: Ganadería, Agricultura y Pesca
+    posts:
+    - titulo: Derecho Animal. Trato ético, salud y sustentabilidad
+      link: https://digo.mivoz.uy/t/derecho-animal-trato-etico-salud-y-sustentabilidad-en-votacion/1109
+    - titulo: Control de fertilizantes
+      link: https://digo.mivoz.uy/t/control-de-fertilizantes-en-votacion/1228
+medioambiente:
+  - categoria: Medio Ambiente
+    posts:
+    - titulo: Prohibir el uso de transgénicos (OGM) y agrotoxicos (glifosato, bromuro de metilo, mirex, etc)
+      link: https://digo.mivoz.uy/t/prohibir-el-uso-de-transgenicos-ogm-y-agrotoxicos-glifosato-bromuro-de-metilo-mirex-etc-en-votacion/1193
+    - titulo: Reservas Marinas para evitar el colapso pesquero, de la biodiversidad y regular el cambio climático
+      link: https://digo.mivoz.uy/t/reservas-marinas-para-evitar-el-colapso-pesquero-de-la-biodiversidad-y-regular-el-cambio-climatico-en-votacion/966
+    - titulo: "Departamento 21: apropiarse, conservar y utilizar en forma sostenible el océano uruguayo y sus recursos marinos (ZEE 200 millas marinas)"
+      link: https://digo.mivoz.uy/t/departamento-21-apropiarse-conservar-y-utilizar-en-forma-sostenible-el-oceano-uruguayo-y-sus-recursos-marinos-zee-200-millas-marinas-en-votacion/1133
+    - titulo: Prohibir los plásticos de un solo uso
+      link: https://digo.mivoz.uy/t/prohibir-los-plasticos-de-un-solo-uso-en-votacion/1217
+    - titulo: Prohibir las botellas plásticas
+      link: https://digo.mivoz.uy/t/prohibir-las-botellas-plasticas-en-votacion/1219
+    - titulo: Quitar el plástico del medio
+      link: https://digo.mivoz.uy/t/quitar-el-plastico-del-medio-en-votacion/1153
+    - titulo: Transparentar impactos de UPM2
+      link: https://digo.mivoz.uy/t/transparentar-impactos-de-upm2-en-votacion/957
+    - titulo: Compras Públicas Sostenibles
+      link: https://digo.mivoz.uy/t/compras-publicas-sostenibles-en-votacion/1115
+  - categoria: Energía y Minería
+    posts:
+    - titulo: Cambio gasto energético país y plaza automotriz
+      link: https://digo.mivoz.uy/t/cambio-gasto-energetico-pais-y-plaza-automotriz-en-votacion/1202

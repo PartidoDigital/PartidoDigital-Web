@@ -21,7 +21,7 @@ También se lanzó la campaña “Cazador de Ideas”, para que cuando un ciudad
         <div class="col-lg-4 text-center">
             <img src="/assets/img/programa_economia.png" alt="" style="width: 15rem;" class="img-fluid" />
             <h1 class="texto-gradiente gradiente-naranja d-block">Economía</h1>
-            <a href="/programa/economía" class="btn">Ver Propuestas</a>
+            <a href="/programa/economia" class="btn">Ver Propuestas</a>
         </div>
         <div class="col-lg-4 text-center">
             <img src="/assets/img/programa_medioambiente.png" alt="" class="img-fluid" />
