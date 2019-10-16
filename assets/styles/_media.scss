@@ -40,7 +40,8 @@ and (max-device-width : 568px) {
   }
 
   .pagina-layout .content-section,
-  .post-layout .content-section {
+  .post-layout .content-section,
+  .propuestas-layout .content-section {
     padding-top: 0;
     margin-top: 60px;
   }
@@ -127,7 +128,8 @@ and (max-device-width : 568px) {
   }
 
   .pagina-layout p,
-  .post-layout p {
+  .post-layout p,
+  .propuestas-layout p {
     padding: 0;
   }
 
