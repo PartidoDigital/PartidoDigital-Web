@@ -1,11 +1,9 @@
 $(function() {
     /*
         Carousel
-    */
+        CC 2.0 License Iatek LLC 2018 - Attribution required
+    
     $('#videos-carousel').on('slide.bs.carousel', function (e) {
-        /*
-            CC 2.0 License Iatek LLC 2018 - Attribution required
-        */
         var $e = $(e.relatedTarget);
         var idx = $e.index();
         var itemsPerSlide = 5;
@@ -23,7 +21,33 @@ $(function() {
                 }
             }
         }
-    });
+    });*/
+
+    $('.video-carousel').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
 
     $('.video-btn').click(function() {
         $videoSrc = "https://www.youtube.com/embed/" + $(this).data("vid");
