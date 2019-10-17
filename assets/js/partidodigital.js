@@ -42,7 +42,7 @@ $(document).ready(collapseNavbar);
 $(function () {
   //hashChange();
 
-  $('.nav-link:not(.dropdown-toggle)').click(function() {
+  $('.nav-link:not(.dropdown-toggle):not(.tab-link)').click(function() {
       var sectionTo = $(this).attr('href');
       $('html, body').animate({
         scrollTop: $(sectionTo).offset().top - 65
