@@ -58,7 +58,7 @@ $(function() {
         ]
       });
 
-    $('.video-btn').click(function() {
+    $('.video-btn, .video-play').click(function() {
         $videoSrc = "https://www.youtube.com/embed/" + $(this).data("vid");
     });
 
@@ -71,6 +71,6 @@ $(function() {
     // stop playing the youtube video when I close the modal
     $('#myModal').on('hide.bs.modal', function (e) {
         // a poor man's stop video
-        $("#video").attr('src',$videoSrc); 
+        $("#video").attr('src',""); 
     }) 
 })

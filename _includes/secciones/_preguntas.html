@@ -8,7 +8,8 @@
             <div class="row">
                 {% for pregvid in site.data.preguntas_vid %}
                 <div class="col-lg-4">
-                    <img src="https://img.youtube.com/vi/{{pregvid.id}}/sddefault.jpg" data-toggle="modal" data-vid="{{pregvid.id}}" class="img-fluid mx-auto d-block video-btn pb-3" data-target="#myModal" alt="">
+                    <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://img.youtube.com/vi/{{pregvid.id}}/sddefault.jpg" data-toggle="modal" data-vid="{{pregvid.id}}" class="img-fluid mx-auto d-block video-btn pb-3" data-target="#myModal" alt="">
+                    <i class='fa fa-5x fa-youtube-play position-absolute video-play' data-toggle="modal" data-vid="{{pregvid.id}}" data-target="#myModal" aria-hidden='true'></i>
                     <div class="carousel-caption d-none d-md-block m-0 p-0">
                       <h5 class="gradiente-naranja m-0 p-0">{{pregvid.titulo}}</h5>
                     </div>
