@@ -1,3 +1,6 @@
+---
+---
+
 $(function() {
     /*
         Carousel
@@ -24,9 +27,15 @@ $(function() {
     });*/
 
     $('.video-carousel').slick({
+        arrows: true,
         centerMode: true,
         centerPadding: '60px',
+        prevArrow: '<a class="carousel-control carousel-control-prev ml-2" href="#videos-carousel" role="button" data-slide="prev">{% include recursos/assets/img/arrow.svg %}<span class="sr-only">Anterior</span></a>"',
+        nextArrow: '<a class="carousel-control carousel-control-next mr-2" href="#videos-carousel" role="button" data-slide="next">{% include recursos/assets/img/arrow.svg %}<span class="sr-only">Siguiente</span></a>',
+        autoplay: true,
+        autoplaySpeed: 2000,
         slidesToShow: 3,
+        lazyLoad: 'ondemand',
         responsive: [
           {
             breakpoint: 768,
