@@ -3,7 +3,7 @@
     <div class="container-fluid video-carousel p-0 m-0">
         {% for video in site.data.videos %}
         <div class="carousel-item">
-            <img class="img-fluid mx-auto d-block video-btn" data-lazy="http://i3.ytimg.com/vi/{{video.id}}/hqdefault.jpg" data-toggle="modal" data-vid="{{video.id}}" data-target="#myModal" alt="">
+            <img class="img-fluid mx-auto d-block video-btn" data-lazy="https://img.youtube.com/vi/{{video.id}}/sddefault.jpg" data-toggle="modal" data-vid="{{video.id}}" data-target="#myModal" alt="">
             <div class="carousel-caption m-0 p-0">
               <h5 class="gradiente-naranja m-0 p-0">{{video.titulo}}</h5>
             </div>
