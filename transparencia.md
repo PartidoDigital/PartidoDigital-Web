@@ -22,7 +22,7 @@ Tener transparencia es una de las bases para poder desarrollar un Uruguay modern
 <a href="/assets/docs/rendicion_cuentas_internas_PD2019.pdf" target="_blank" class="btn secondary" itemprop="url" title="Elecciones internas 2019">RENDICIÓN DE CUENTAS</a>
 
 Tesorero provisorio: Nicolás Lamas. Por cualquier consulta sobre los ingresos y gastos del Partido Digital los puedes hacer a
-[contacto@partidodigital.org.uy]{:target="_blank"}. Conozca más sobre [Mercado Pago](https://www.mercadopago.com.uy/pagar-compras-online){% comment %} y de [Colectate](https://www.colectate.com.uy/)){% endcomment %}, nuestro procesador online de donaciones.
+[contacto@partidodigital.org.uy](mailto:contacto@partidodigital.org.uy). Conozca más sobre [Mercado Pago](https://www.mercadopago.com.uy/pagar-compras-online){% comment %} y de [Colectate](https://www.colectate.com.uy/)){% endcomment %}, nuestro procesador online de donaciones.
 
 [Uruguay entre los peores en transparencia del financiamiento partidario - El Observador]: http://www.elobservador.com.uy/uruguay-los-peores-transparencia-del-financiamiento-partidario-n664255
 [La transparencia, cuando la farsa los une - 180]: http://www.180.com.uy/articulo/62858_la-transparencia-cuando-la-farsa-los-une
