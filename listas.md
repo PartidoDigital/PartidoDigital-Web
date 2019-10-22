@@ -87,7 +87,7 @@ Completa el formulario siguiente y te coordinamos la entrega de las listas:
 					<option value="15">15</option>  
 					<option value="16">16</option>  
 					<option value="17">17</option>  
-					<option value="18">17</option>  
+					<option value="18">18</option>  
 					<option value="19">19</option> 
 					<option value="20">20</option>  
 				</select>
