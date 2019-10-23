@@ -5,6 +5,8 @@ title: Afiliaciones
 
 Los afiliados son parte oficial del Partido Digital y tiene poder de decisión sobre cuestiones partidarias como establece la <a hred="/documentos/carta-organica">Carta Orgánica</a>. La cuota mensual de afiliación es de $200.
 
+**Aclaración: Para proponer ideas y votar en [MiVoz](https://mivoz.uy), la participación es totalmente gratuita.**
+
 Completá el formulario debajo y afiliate al Partido Digital:
 
 <div id="mc_embed_signup">
