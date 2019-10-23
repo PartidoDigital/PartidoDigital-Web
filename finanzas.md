@@ -18,7 +18,7 @@ Tener transparencia es una de las bases para poder desarrollar un Uruguay modern
 
 **Si quieres impulsar la transparencia también en Uruguay, hazlo con tu donación.**
 
-<a class="action btn naranja" href="/afiliaciones" target="_blank">Afiliate</a> <a class="action btn" href="https://docs.google.com/spreadsheets/d/1ECohuUeBik_2rxvppS3sBHqm_gXpuNbOOYqRoMGans0/edit?usp=sharing" target="_blank">Ver Gastos e Ingresos</a>
+<a class="action btn" href="https://docs.google.com/spreadsheets/d/1ECohuUeBik_2rxvppS3sBHqm_gXpuNbOOYqRoMGans0/edit?usp=sharing" target="_blank">Ver Gastos e Ingresos</a>
 
 Tesorera: Ec. Ma. Pía Alonso. Por cualquier consulta sobre los ingresos y gastos del Partido Digital los puedes hacer a
 [transparencia@partidodigital.org.uy]{:target="_blank"}. Conozca más sobre [Mercado Pago](https://www.mercadopago.com.uy/pagar-compras-online){% comment %} y de [Colectate](https://www.colectate.com.uy/)){% endcomment %}, nuestro procesadores online de donaciones.
