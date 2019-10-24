@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#objetivos').stepProgressBar({
-        currentValue: 11300,
+        currentValue: 30000,
         steps: [
           {
             value: 2000,
