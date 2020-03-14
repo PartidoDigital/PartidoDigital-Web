@@ -52,13 +52,13 @@ $(function () {
   // Ir a buscar información de finanzas
   $.getJSON("https://spreadsheets.google.com/feeds/list/1ECohuUeBik_2rxvppS3sBHqm_gXpuNbOOYqRoMGans0/1/public/values?alt=json", 
   function(data) {
-    var temp = data.feed.entry[1]["gsx$_cokwr"]["$t"];
+    var temp = data.feed.entry[1]["gsx$_cokwr"]["$t"].replace(/\./g, '');
     $("#finanzas-ingresos-uyu").html("$" + temp.substring(0, temp.indexOf(","))).removeClass("loading");
-    temp = data.feed.entry[1]["gsx$_cpzh4"]["$t"];
+    temp = data.feed.entry[1]["gsx$_cpzh4"]["$t"].replace(/\./g, '');
     $("#finanzas-egresos-uyu").html("$" + temp.substring(0, temp.indexOf(","))).removeClass("loading");
-    temp = data.feed.entry[2]["gsx$_cokwr"]["$t"]
+    temp = data.feed.entry[2]["gsx$_cokwr"]["$t"].replace(/\./g, '');
     $("#finanzas-ingresos-usd").html("$" + temp.substring(0, temp.indexOf(","))).removeClass("loading");
-    temp = data.feed.entry[2]["gsx$_cpzh4"]["$t"]
+    temp = data.feed.entry[2]["gsx$_cpzh4"]["$t"].replace(/\./g, '');
     $("#finanzas-egresos-usd").html("$" + temp.substring(0, temp.indexOf(","))).removeClass("loading");
   }).fail(function() {
     $("#finanzas-ingresos-uyu").html("Error :(");
