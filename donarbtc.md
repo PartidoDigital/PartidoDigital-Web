@@ -22,7 +22,7 @@ En el Partido Digital estamos comprometidos con ser ejemplo de transparencia en 
 				<input type="text" value="" name="apellido" class="required" id="mce-NAME">
 			</div>
             <div class="mc-field-group">
-				<label for="mce-EMAIL">Email</label>
+				<label for="mce-EMAIL">Correo electrónico</label>
 				<input type="email" value="" name="email" class="required" id="mce-EMAIL">
 			</div>
 			<div class="mc-field-group">
