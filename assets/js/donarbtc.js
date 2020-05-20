@@ -13,7 +13,7 @@ $(function () {
 				"mauticform[direccion]": $("[name=direccion]").val(),
 				"mauticform[cantidad]": $("[name=cantidad]").val(),
 				"mauticform[submit]": 1,
-				"mauticform[formId]": 15,
+				"mauticform[formId]": 2,
 				"mauticform[formName]": "donarbtc",
 				"mauticform[return]": ""
 			}),
