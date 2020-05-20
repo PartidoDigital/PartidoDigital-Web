@@ -3,7 +3,7 @@ layout: pagina
 title: Te damos la bienvenida
 ---
 
-Qué bueno que seas parte del equipo de voluntarios del Partido Digital. Este 2019 es un año clave para Uruguay en el que queremos hacer historia aportando innovación y transparencia.
+Qué bueno que seas parte del equipo de voluntarios del Partido Digital. 
 
 Queremos compartir contigo información y enlaces importantes para que puedas comenzar a tomar acción en este momento. Se te envió una copia de esta información por correo también para que la tengas a mano.
 
@@ -16,7 +16,7 @@ Información importante:
 
 Acciones que ya puedes tomar:
  - [Conviértete en afiliado](https://partidodigital.org.uy/afiliaciones)
- - [Subir idea para el programa de gobierno](https://digo.mivoz.uy/new-topic?category=general&title=Escribe+un+t%C3%ADtulo+aqu%C3%AD+y+selecciona+la+categor%C3%ADa+que+mejor+aplica+para+tu+idea)
+ - [Doná](https://partidodigital.org.uy/donar)
 
 ### Forma parte de los Cazadores de Ideas
 ¿Alguna vez pensaste en que tu tiempo en las redes sociales puede ser productivo? Hoy hay muchas ideas que usuarios comparten en redes sociales pero quedan en la nada. Queremos que nos ayudes a encontrar esas ideas para convertirlas en propuestas.
