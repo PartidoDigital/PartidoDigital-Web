@@ -11,7 +11,7 @@ $(function () {
 	$("#sumarme").bind("click", function () {
 		$.ajax({
 			method: "post",
-			url: "https://info.partidodigital.org.uy/form/submit?formId=7&ajax=true",
+			url: "https://info.partidodigital.org.uy/form/submit?formId=1&ajax=true",
 			headers: { 'X-Requested-With': 'XMLHttpRequest' },
 			dataType: "json",
 			data: $.param({
@@ -19,11 +19,10 @@ $(function () {
 				"mauticform[apellido]": $("[name=apellido]").val(),
 				"mauticform[email]": $("[name=email]").val(),
 				"mauticform[celular]": $("[name=celular]").val(),
-				"mauticform[departamento1]": $("[name=departamento1]").val(),
+				"mauticform[departamento]": $("[name=departamento1]").val(),
 				"mauticform[fechanacimiento]": $("[name=fechanacimiento]").val(),
-				"mauticform[voluntario][0]": "todo",
 				"mauticform[submit]": 1,
-				"mauticform[formId]": 7,
+				"mauticform[formId]": 1,
 				"mauticform[formName]": "voluntariado",
 				"mauticform[return]": ""
 			}),
