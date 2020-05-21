@@ -41,7 +41,7 @@ jQuery(function () {
 			},
 			success: function () {
 				ga("send", "event", "Formulario", "Enviado", "Afiliación");
-				window.location.href = "https://www.mercadopago.com/mlu/checkout/start?pref_id=441941744-0daa7008-66a0-40da-9f64-2584fe9a810e";
+				window.location.href = "https://www.mercadopago.com/mlu/checkout/start?pref_id=441941744-71c6a808-24e4-43e6-94b5-44bdcfcca8a5";
 			},
 			error: function (jqXHR, textStatus, errorThrown) {
 				ga("send", "event", "Formulario", "Error", "Afiliación: " + $("[name=email]").val() + " | " + $("[name=nombre]").val() + " | " + $("[name=apellido]").val());
