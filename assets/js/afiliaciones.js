@@ -7,7 +7,7 @@ jQuery(function () {
 	$("#afiliarme").bind("click", function () {
 		$.ajax({
 			method: "post",
-			url: "https://info.partidodigital.org.uy/form/submit?formId=5&ajax=true",
+			url: "https://info.partidodigital.org.uy/form/submit?ajax=true",
 			headers: { 'X-Requested-With': 'XMLHttpRequest' },
 			dataType: "json",
 			data: $.param({
@@ -21,8 +21,8 @@ jQuery(function () {
 				"mauticform[cedula]": $("[name=cedula]").val(),
 				"mauticform[fechanacimiento]": $("[name=fechanacimiento]").val(),
 				"mauticform[submit]": 1,
-				"mauticform[formId]": 5,
-				"mauticform[formName]": "afiliaciones",
+				"mauticform[formId]": 3,
+				"mauticform[formName]": "afiliacion",
 				"mauticform[return]": ""
 			}),
 			beforeSend: function () {
