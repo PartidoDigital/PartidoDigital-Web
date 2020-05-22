@@ -53,23 +53,6 @@
   networks:
      - linkedin: https://www.linkedin.com/in/alejandro-ferrer-05899616/
 
-- nombre: Ariel Pfeffer
-  img: ariel_pfeffer.png
-  posicion: |
-     Lider del Equipo de Comunicación
-     Consejo Consultivo
-  experiencia:
-     - Vicepresidente [Endeavor Uruguay](https://www.endeavor.org.uy/)
-     - CEO [Prospecta Marketing](https://prospectamarketing.com/)
-     - Miembro de [Club de Inversores Ángeles de IAE](https://gust.com/accelerators/club-de-business-angels-del-iae)
-     - Co-Fundador de [Punta Tech Meetup](http://www.puntameetup.com/)
-     - Regional Executive Board Member en [YPO](https://www.ypo.org/)
-  networks:
-     - linkedin: https://www.linkedin.com/in/arielpfeffer/
-     - play: https://www.youtube.com/embed/4zZy1lp3meo
-     - twitter: https://twitter.com/arielpfeffer
-     - external-link-square: https://www.montevideo.com.uy/Noticias/Entrevista-al-emprendedor-Ariel-Pfeffer-Por-Ana-Jerozolimski-uc345705
-
 - nombre: Florencia Montibeller
   img: florencia_montibeller.jpeg
   posicion: Equipo de Comunicación
