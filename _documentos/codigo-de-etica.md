@@ -1,5 +1,5 @@
 ---
-titulo: Código De Ética
+title: Código de Ética
 date: 2019-10-09
 ---
 
