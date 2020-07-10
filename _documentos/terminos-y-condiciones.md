@@ -63,7 +63,7 @@ Digital:
  cualquier política Partido Digital o es de ninguna manera perjudicial o censurable, o
  2. terminar o denegar el acceso y uso de la Plataforma a cualquier persona o entidad por cualquier
  razón, a la sola discreción del Partido Digital. El contenido eliminado por no cumplir con los
- términos de uso de la plataforma será publicados en: [https://digo.mivoz.uy/c/contenido-censurado/5]{:target="_blank"},
+ términos de uso de la plataforma será publicados en: [https://digo.mivoz.uy/c/contenido-censurado]{:target="_blank"},
  con el objetivo de dar transparencia al proceso de moderación de la Plataforma. Esta moderación
  tomando solamente los términos expresados en este documento para garantizar la convivencia, respeto
  entre los usuarios y buen funcionamiento de la Plataforma.
@@ -111,6 +111,6 @@ Usted manifiesta y garantiza que:
 ## Contacto {#contacto}
 Para cualquier sugerencia o propuesta de colaboración, las personas interesadas podrán dirigirse a [contacto@partidodigital.org.uy]{:target="_blank"}.
 
-[https://debate.partidodigital.org.uy/c/contenido-censurado]: https://debate.partidodigital.org.uy/c/contenido-censurado
+[https://digo.mivoz.uy/c/contenido-censurado]: https://digo.mivoz.uy/c/contenido-censurado
 [contacto@partidodigital.org.uy]: mailto:contacto@partidodigital.org.uy
 [https://partidodigital.org.uy/documentacion]: https://partidodigital.org.uy/documentacion
