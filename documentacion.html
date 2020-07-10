@@ -8,7 +8,7 @@ title: Documentación
     {% assign sorted = site.documentos | sort: 'date' | reverse %}
     {% for documento in sorted %}
     <li class="list-group-item">
-        <a href="{{documento.url | replace: '.html', ''}}">{{ documento.titulo }}</a>
+        <a href="{{documento.url | replace: '.html', ''}}">{{ documento.title }}</a>
         <span class="badge badge-pill badge-dark">
                 Actualizado {{ documento.date | date: "%d/%m/%Y" }}
         </span>
