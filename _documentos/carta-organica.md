@@ -1,5 +1,5 @@
 ---
-titulo: Carta orgánica
+title: Carta orgánica
 date: 2019-02-09
 ---
 
