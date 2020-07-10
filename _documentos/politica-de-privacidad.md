@@ -1,5 +1,5 @@
 ---
-titulo: Política de Privacidad
+title: Política de Privacidad
 date: 2016-12-04 19:03:44 -0300
 ---
 
