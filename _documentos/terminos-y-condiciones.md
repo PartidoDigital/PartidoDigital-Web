@@ -1,6 +1,6 @@
 ---
 titulo: Términos y Condiciones
-date: 2016-12-04 18:12:58 -0300
+date: 2020-07-09 21:37:00 -0300
 ---
 
 Los siguientes términos y condiciones rigen el uso de los sitios webs y herramientas bajo el
@@ -63,7 +63,7 @@ Digital:
  cualquier política Partido Digital o es de ninguna manera perjudicial o censurable, o
  2. terminar o denegar el acceso y uso de la Plataforma a cualquier persona o entidad por cualquier
  razón, a la sola discreción del Partido Digital. El contenido eliminado por no cumplir con los
- términos de uso de la plataforma será publicados en: [https://debate.partidodigital.org.uy/c/contenido-censurado]{:target="_blank"},
+ términos de uso de la plataforma será publicados en: [https://digo.mivoz.uy/c/contenido-censurado/5]{:target="_blank"},
  con el objetivo de dar transparencia al proceso de moderación de la Plataforma. Esta moderación
  tomando solamente los términos expresados en este documento para garantizar la convivencia, respeto
  entre los usuarios y buen funcionamiento de la Plataforma.
