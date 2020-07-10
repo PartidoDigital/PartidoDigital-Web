@@ -1,5 +1,5 @@
 ---
-titulo: Términos y Condiciones
+title: Términos y Condiciones
 date: 2020-07-09 21:37:00 -0300
 ---
 
