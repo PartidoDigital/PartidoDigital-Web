@@ -11,7 +11,7 @@ Los Partidos Políticos tienen influencia en la vida de toda la población. La m
 ## 2. ¿A quién aplica el Código de Ética?
 El presente Código es de aplicación obligatoria para:
 
- - Todas las autoridades del Partido: miembros del Directorio; miembros de la Mesa Ejecutiva nacional y/o departamental; Convencionales nacionales y/o departamentales.
+ - Todas las autoridades del Partido: miembros del Directorio; miembros de la Mesa Ejecutiva Nacional y/o departamental; Convencionales Nacionales y/o departamentales.
  - Integrantes de listas electorales del Partido, así como sus representantes electos.
  - Todos los afiliados del Partido.
  - Simpatizantes, cuando actúen en representación del Partido Digital.
@@ -31,7 +31,7 @@ Decir la verdad, a los demás miembros del Partido y a la población en general.
 Como partido que tiene como uno de sus pilares fundamentales la participación, debemos actuar de acuerdo a principios democráticos, la forma republicana de gobierno, respetando la participación ciudadana y el principio de la mayoría, teniendo en cuenta que la soberanía del pueblo es la fuente de nuestro poder.
 
 ### **Respeto a la ley**
-Actuar de acuerdo con las reglas del ordenamiento jurídico nacional, y la Carta Orgánica del Partido Nacional.
+Actuar de acuerdo con las reglas del ordenamiento jurídico nacional, y la Carta Orgánica del Partido Digital.
 
 ### **Responsabilidad**
 En el cumplimiento de las obligaciones asumidas y en la respuesta por los propios actos.
