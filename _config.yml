@@ -10,6 +10,7 @@ plugins:
   - jekyll-sitemap
 
 exclude: [CNAME, README.md, Gemfile, Gemfile.lock]
+include: [".well-known"]
 
 sass:
   style: compressed
